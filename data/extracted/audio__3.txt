@@ -1,0 +1,157 @@
+Agent: Thank you for calling Internet Services. This is Shalene. How may I help you today?
+Start Time: 9.72
+End Time: 13.88
+Customer: This is Linda. Our Internet stopped since 9, and I have an online class too, so I need this Internet fix right now.
+Start Time: 14.46
+End Time: 22.29
+Agent: Well, thank you for letting us know about this immediately, Linda, so I can help you get back online asap. May have the phone number associated with your Internet service.
+Start Time: 23.55
+End Time: 33.16
+Customer: The phone number is 855-3232. Thank you.
+Start Time: 33.74
+End Time: 39.0
+Agent: So that's 855-3232.
+Start Time: 39.29
+End Time: 43.45
+Customer: Correct.
+Start Time: 44.02
+End Time: 44.8
+Agent: And can you confirm the name of the account, please?
+Start Time: 45.7
+End Time: 48.48
+Customer: It's Linda Bloom. That's me.
+Start Time: 49.06
+End Time: 51.41
+Agent: Thanks so much.
+Start Time: 52.34
+End Time: 53.32
+Customer: You're welcome.
+Start Time: 53.43
+End Time: 54.41
+Agent: Linda, are you near to your modem right now?
+Start Time: 55.12
+End Time: 57.9
+Customer: Yes, I'm sitting next to it. What do you want me to do?
+Start Time: 58.31
+End Time: 61.34
+Agent: Okay, great. First we'll go ahead and check the lights on your modem. Can you please tell me which lights are on right now?
+Start Time: 64.03
+End Time: 71.09
+Customer: The lights look normal, as if the service is working.
+Start Time: 71.67
+End Time: 74.73
+Agent: Mm. Thank you. That sounds interesting. Let me run a quick line check to confirm the modem's connectivity. Okay.
+Start Time: 76.39
+End Time: 84.98
+Customer: Okay.
+Start Time: 85.44
+End Time: 86.27
+Agent: Linda, any chance that you guys experience any power fluctuation sort of thing?
+Start Time: 88.64
+End Time: 93.91
+Customer: No.
+Start Time: 94.69
+End Time: 95.42
+Agent: Any power outage just recently?
+Start Time: 96.12
+End Time: 98.5
+Customer: No.
+Start Time: 99.41
+End Time: 100.14
+Agent: All right, thank you for confirming that. I just got the results here. And the modem shows it has connection from our end going into that modem. That's why it has the normal lights, as if it's working. Now let's try to check and make sure that this modem indeed is getting the Internet service.
+Start Time: 101.72
+End Time: 122.64
+Customer: Okay, what do you want me to do, Linda?
+Start Time: 123.3
+End Time: 126.35
+Agent: Let me just confirm this. The computer that you're using to access the Internet, is it connected through WI Fi or. It's wired directly to the back of your modem or router.
+Start Time: 126.38
+End Time: 136.81
+Customer: It's a desktop computer, so it's wired.
+Start Time: 136.97
+End Time: 139.75
+Agent: I see. Thank you, Linda. I also want to know if you have other devices in your house right now that's connected to your home Internet.
+Start Time: 140.5
+End Time: 148.12
+Customer: I do. I have two phones and a laptop.
+Start Time: 148.25
+End Time: 151.19
+Agent: Are they not getting online, too?
+Start Time: 152.5
+End Time: 154.38
+Customer: Yeah, all of them can't go online. There's no Internet service.
+Start Time: 154.52
+End Time: 158.19
+Agent: I see. Have you tried to reboot your modem router earlier?
+Start Time: 159.38
+End Time: 163.0
+Customer: No. I want to give you guys a call first. I don't want to cause any trouble.
+Start Time: 163.31
+End Time: 167.22
+Agent: Okay, cool. At this time, Linda, I'll be needing your help to check the physical connection, like the cable from the back of a modem router going to the computer that you're using just to make sure that both ends are snug fit and not loose. Okay.
+Start Time: 167.56
+End Time: 182.29
+Customer: All right, hold on, let me check. Yeah, both ends are properly connected. Not loose.
+Start Time: 183.31
+End Time: 190.82
+Agent: Great. Thank you, Linda. We're almost done. Now we'll go ahead and reboot your modem router. You just need to unplug it from power. And once unplugged, we'll just need to wait for 20 or 30 seconds and then plug it back in. Okay.
+Start Time: 190.91
+End Time: 205.13
+Customer: All right, it's off now.
+Start Time: 205.51
+End Time: 209.25
+Agent: Okay, good. We'll just wait for 30 seconds.
+Start Time: 209.63
+End Time: 213.01
+Customer: Okay. It's a tough job though.
+Start Time: 213.4
+End Time: 219.38
+Agent: Yeah, sometimes it's challenging. I enjoy doing it though.
+Start Time: 220.24
+End Time: 224.41
+Customer: That's nice.
+Start Time: 224.88
+End Time: 225.94
+Agent: All right, I guess 30 seconds have passed, so you can turn it back on now. Then we'll wait until the normal lights come back, then after that we'll check if we have Internet connectivity. Okay, sure.
+Start Time: 228.79
+End Time: 241.57
+Customer: Well, the lights are coming on now and I think the Internet is back. I'm getting a bunch of emails now.
+Start Time: 245.32
+End Time: 261.06
+Agent: Great.
+Start Time: 261.64
+End Time: 262.41
+Customer: Wait, hold on. Let me check my PC.
+Start Time: 262.59
+End Time: 265.55
+Agent: Yeah, sure.
+Start Time: 266.76
+End Time: 267.87
+Customer: All right. My computer is also working great, so I think we're good. Thanks so much for your help, Julene. By the way, is it necessary to do this once in a while?
+Start Time: 269.56
+End Time: 289.8
+Agent: Yes, you can do it every once in a while anyways. Electronic devices are not built to constantly be running at all times. And power cycle really helps because when you leave your modem on for too long, it will tend to stop performing at its best after a while. So rebooting your modem can fix the Internet connection problems, improve slow moving connections, and resolve wireless issues too, which also affect your digital TV service or video streaming services like Netflix or Amazon TV or Apple TV that's being transmitted over the Internet connection. So by unplugging the power cord from the back of the modem or your router, you're giving it the breather it needs.
+Start Time: 289.94
+End Time: 336.13
+Customer: Oh, I see. Well, thanks for letting me know. I never thought of that.
+Start Time: 336.68
+End Time: 341.81
+Agent: You're most welcome. Linda. I'm so glad that I was able to help you get back online and remove this off your word list today so you can just focus on your online class later too.
+Start Time: 341.84
+End Time: 351.97
+Customer: Absolutely. Oh dear. You saved my day.
+Start Time: 352.12
+End Time: 356.74
+Agent: And you made my day, Linda. Thanks for partnering with me. Is there anything else I could further assist you with?
+Start Time: 356.79
+End Time: 363.23
+Customer: No, you've covered everything I need.
+Start Time: 363.38
+End Time: 365.46
+Agent: All right then. Thanks so much for choosing Internet services. Bye.
+Start Time: 365.52
+End Time: 3694.95
+Time: 365.46
+Speaker A: All right then. Thanks so much for choosing Internet services. Bye.
+Start Time: 365.52
+End Time: 3694.95

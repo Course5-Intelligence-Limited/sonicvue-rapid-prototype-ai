@@ -1,0 +1,108 @@
+Agent: Thank you for calling Questan. This is Candace. How may I help you?
+Start Time: 2.32
+End Time: 5.14
+Customer: I still have not received my order. You said I would receive it on the 20th. It's on the 22nd. Still nothing. I don't know what's going on, but if it's not too much of a bother to you, I would really, really now love to get what I paid for. You know what I mean?
+Start Time: 5.32
+End Time: 20.76
+Agent: Oh, if it's beyond the promised delivery date, we definitely need to look into that. May have your order number and your full name so I can check for you.
+Start Time: 20.95
+End Time: 28.18
+Customer: That's exactly what I'm thinking. Like, I don't understand what's taking so long. Anyway, the order number is 498-4977, and my name is Tabitha Ratched.
+Start Time: 28.33
+End Time: 39.81
+Agent: Thank you, Tabitha. I will now go ahead and pull up your order, and hopefully I can give you an immediate answer. One moment, please.
+Start Time: 40.0
+End Time: 47.22
+Customer: Go ahead. Thank you.
+Start Time: 47.88
+End Time: 49.45
+Agent: Okay, like what? She said the estimated delivery date is on the 20th. Now 20 seconds. So it's two days late. Normally, when a parcel is late like this, we send an email informing you of the delay. So let me visit the FedEx website and track it.
+Start Time: 53.35
+End Time: 69.06
+Customer: Thank you, Candace. That would be appreciated. I actually haven't tried tracking it on the FedEx website since you already gave me the delivery date through email. So, yes, please go ahead.
+Start Time: 69.64
+End Time: 80.03
+Agent: According to the FedEx note here, your parcel was delivered on the 20th at 10am it said that it was left on the front porch. Have you tried checking your front porch?
+Start Time: 83.81
+End Time: 92.87
+Customer: What? What? What? You're kidding, right? Okay. Okay. First of all, my apartment has no front porch. Second, the only way to deliver parcels in a residence is by leaving them to the concierge. Third, I was at home the whole day on the 20th, and no one, literally no one knocked on my door or called my number to notify me of a parcel. So whatever this FedEx guy is saying, he's lying. Okay? He's lying.
+Start Time: 92.98
+End Time: 122.38
+Agent: That's definitely odd. Have you tried checking with your building's concierge to see if they have kept a package for you?
+Start Time: 122.53
+End Time: 128.15
+Customer: I just checked this morning, and the answer is no. Otherwise, I wouldn't be calling you.
+Start Time: 128.24
+End Time: 132.06
+Agent: Yeah. Your neighbors also wouldn't happen to receive it, right? Since, as you said, all parcels go to the concierge.
+Start Time: 133.04
+End Time: 140.09
+Customer: Correct. And if the note says he left it on my doorstep, again, that's impossible. No one can access our doorsteps here except us tenants. So there's clearly a mistake here.
+Start Time: 140.23
+End Time: 150.15
+Agent: Yes, that makes sense. So here's what we're going to do, Tabitha, it is likely that FedEx delivered the order to the wrong address. So I will file a PDNR claim on your behalf. It means parcel delivered, not received. What this does is to let FedEx investigate to find your missing parcel. And after the investigation, we will either refund, replace, or find your missing parcel.
+Start Time: 150.84
+End Time: 177.61
+Customer: Okay.
+Start Time: 177.7
+End Time: 178.46
+Agent: Yeah. And for me to initiate the claim, I will send you an email right now. Please reply to that email confirming that you have not received your parcel. Your response to that email is very important because that will serve as the documentation proving to FedEx that you are requesting for us to file a claim on your behalf.
+Start Time: 178.64
+End Time: 198.46
+Customer: Okay. Whatever happens, I'm gonna get my refund though, right?
+Start Time: 198.6
+End Time: 201.14
+Agent: You're right, of course. And the sooner they find your parcel, the better. By the way, in the event that the parcel isn't recovered, would you prefer a replacement or a refund?
+Start Time: 201.2
+End Time: 212.06
+Customer: I need a replacement for that. I don't want a refund.
+Start Time: 212.15
+End Time: 214.53
+Agent: Okay, I will make note of that. And after the investigation, which usually takes five to seven business days, I will check with the supplier for its availability. Availability. And then they can process the replacement for you.
+Start Time: 215.78
+End Time: 229.5
+Customer: Okay. It's disappointing that this has to happen, but okay, whatever. At least I don't have to file a dispute. To be honest, I was. I was already thinking of calling my bank this morning and filing a dispute.
+Start Time: 230.84
+End Time: 242.84
+Agent: Yes. This is definitely not the experience that we want you to have, but we will try our best to make this as easy as possible for you, considering the situation. I will also keep this case in progress. So whatever questions you might have during the investigation, you just reply to the same email thread and I will be there to answer your questions.
+Start Time: 243.02
+End Time: 265.39
+Customer: So let me get this straight. Seven business days for the investigation, and if it isn't found, you're going to check with the team if it's available. And if it's available, another seven days to deliver the replacement?
+Start Time: 266.21
+End Time: 276.51
+Agent: Yes, Tabitha, that's correct. But, of course, if they find the parcel during the investigation, then you don't need to wait that long. That's already the maximum time frame.
+Start Time: 277.1
+End Time: 287.19
+Customer: Yeah, well, I hope they do, but I honestly don't have much hope for it.
+Start Time: 287.89
+End Time: 291.62
+Agent: But.
+Start Time: 291.72
+End Time: 292.02
+Customer: Okay. Replacement's fine, I guess.
+Start Time: 292.08
+End Time: 294.6
+Agent: Okay. Yeah. I cannot guarantee that 100% that they would find your missing parcel, but there have been cases in the past when they did find the missing parcel. And I will, of course, update you throughout the process.
+Start Time: 296.33
+End Time: 310.71
+Customer: Okay, so I guess that's my best option. What do you need me to do? Just reply to your email saying that I didn't receive the parcel.
+Start Time: 311.45
+End Time: 317.97
+Agent: That's correct. I have just sent you the email.
+Start Time: 318.15
+End Time: 320.51
+Customer: All right, I will reply in five minutes. I'm going to have my lunch break. What's your name again?
+Start Time: 320.86
+End Time: 324.94
+Agent: Candice.
+Start Time: 325.04
+End Time: 325.88
+Customer: All right, Candace, thank you so much. That's all I need for now. I have to go. Bye.
+Start Time: 326.3
+End Time: 330.77
+Agent: Enjoy your lunch. Tabitha. Thank you for calling with Sean. Bye.
+Start Time: 330.87
+End Time: 333.54
+unch. Tabitha. Thank you for calling with Sean. Bye.
+Start Time: 330.87
+End Time: 333.54

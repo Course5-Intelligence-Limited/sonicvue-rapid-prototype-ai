@@ -1,0 +1,400 @@
+Agent: Hello, this is Jonathan with Phillips. Can I have your name, please?
+Start Time: 6.20
+End Time: 9.24
+
+Customer: My name is Juliet West.
+Start Time: 10.03
+End Time: 12.40
+
+Agent: Thank you, Juliet. And in case we're disconnected, what's the best phone number?
+Start Time: 14.66
+End Time: 18.29
+
+Customer: 805-245-0028.
+Start Time: 19.07
+End Time: 23.57
+
+Agent: Thank you. And are you calling in regards to a new or an existing case?
+Start Time: 24.43
+End Time: 28.16
+
+Customer: A new case.
+Start Time: 29.23
+End Time: 30.57
+
+Agent: Do you have your device's serial number or the set ID number?
+Start Time: 31.95
+End Time: 35.45
+
+Customer: We do. One second. Okay. USO19C, my cat 2566 for an EPIC 5 ultrasound.
+Start Time: 36.10
+End Time: 59.08
+
+Agent: Coletta Valley Cottage Hospital.
+Start Time: 59.23
+End Time: 61.24
+
+Customer: Correct.
+Start Time: 62.10
+End Time: 62.92
+
+Agent: Okay, and are you calling for technical or clinical support?
+Start Time: 63.27
+End Time: 66.33
+
+Customer: Technical.
+Start Time: 68.86
+End Time: 69.81
+
+Agent: Okay, I'm showing the address for your facility at 5. I'm sorry. 351 South Patterson Avenue in Santa Barbara?
+Start Time: 70.58
+End Time: 77.69
+
+Customer: That's correct.
+Start Time: 78.22
+End Time: 79.41
+
+Agent: Okay, and are you going to be the point of contact for the case?
+Start Time: 79.59
+End Time: 83.44
+
+Customer: Yes.
+Start Time: 84.14
+End Time: 84.98
+
+Agent: Okay, let me pull you up in the system. One moment. There you are. Okay. And for the unit, would you list it as down, restricted, intermittent or operational?
+Start Time: 85.16
+End Time: 97.11
+
+Customer: It's operational.
+Start Time: 98.02
+End Time: 99.28
+
+Agent: Okay. The reported issue with the unit?
+Start Time: 99.94
+End Time: 102.39
+
+Customer: Yeah. When we end the exam, it's not sending our report pages. It sends the images, but not the report.
+Start Time: 104.14
+End Time: 114.48
+
+Agent: Okay, that's not good. Okay, so the device was in clinical use. Was any patient or user harmed?
+Start Time: 117.22
+End Time: 130.28
+
+Customer: No.
+Start Time: 131.16
+End Time: 131.97
+
+Agent: Okay, I'll provide you with the case number in just a moment and we'll get you routed to tech support to clear the issue. Email address for you j the number2westbch.org j2west.
+Start Time: 132.16
+End Time: 157.42
+
+Agent 2: Yes.
+Start Time: 157.49
+End Time: 158.15
+
+Agent: Okay. Now, is there anything else that I could assist you with before I transfer you? Well, I'm going to give you the case number. Do you have pen and paper?
+Start Time: 159.76
+End Time: 166.26
+
+Customer: I do. Go ahead.
+Start Time: 167.60
+End Time: 170.22
+
+Agent: Case number is 012-397-9956.
+Start Time: 170.41
+End Time: 178.75
+
+Customer: Okay.
+Start Time: 180.37
+End Time: 181.22
+
+Agent: Okay, thank you for calling Phillips. Hold the line. Routing you over now.
+Start Time: 181.85
+End Time: 185.96
+
+Agent 2: Hello, this is Rhonda with Ultrasound technical Support. Am I speaking with Juliet?
+Start Time: 191.06
+End Time: 194.84
+
+Customer: Yes.
+Start Time: 195.66
+End Time: 196.34
+
+Agent 2: Hi, Juliet. Pardon. Okay.
+Start Time: 196.46
+End Time: 201.40
+
+Customer: So for some reason here, I'm not hearing very well. Can you move over?
+Start Time: 204.34
+End Time: 209.99
+
+Agent 2: Hello?
+Start Time: 211.21
+End Time: 211.94
+
+Customer: I hear you sort of intermittently, so let's try.
+Start Time: 212.84
+End Time: 216.94
+
+Agent 2: Hold on just a second here. Let me switch to different headsets.
+Start Time: 217.81
+End Time: 221.04
+
+Customer: I can hear you now.
+Start Time: 221.21
+End Time: 222.75
+
+Agent 2: Oh, is this better? Yeah. Okay. Okay, so you've got it. You're sending. Did this issue all of a sudden start today? Like, had you done some work on your machine or had some work been done on your machine?
+Start Time: 223.12
+End Time: 236.38
+
+Customer: No work has been done on it, and it's been doing it for a few days.
+Start Time: 237.25
+End Time: 240.86
+
+Agent 2: Okay, and when you say it's not sending the reports, do you mean just your. What we call structured report data? Like all of your measurements in calcs are not transferring just the images.
+Start Time: 241.05
+End Time: 251.15
+
+Customer: That's the problem. So then I have to resend and I try to just select those pages and have that send, but it doesn't. It sends all the pictures again.
+Start Time: 251.88
+End Time: 261.35
+
+Agent 2: Okay, so are you near the machine right now, Juliet, that I can have you check something?
+Start Time: 261.69
+End Time: 268.75
+
+Customer: I am.
+Start Time: 269.81
+End Time: 270.76
+
+Agent 2: Okay, so let's go ahead. What screen are you currently looking at?
+Start Time: 270.93
+End Time: 274.51
+
+Customer: The patient work list.
+Start Time: 276.38
+End Time: 278.59
+
+Agent 2: Okay, let's go ahead and exit out of that. And I want to actually get into the support menu, which is that button with some gears on it over on the far right side, near your probe holders on the far right side of your user console. No, it's just to the right of your touch screen on your user console, like where all your buttons and stuff are. Do you see that?
+Start Time: 278.78
+End Time: 303.17
+
+Customer: Yeah, yeah, yeah.
+Start Time: 303.46
+End Time: 304.73
+
+Agent 2: Okay, so just go ahead and press support. It's going to actually bring up a completely new menu on your upper display and you're just going to use your trackball to navigate. So across the top there's a box that says dicom. I'm sorry, it says network dicom. Choose that. And then on the left hand side of the screen now there's a choice for DICOM settings. It's the third choice down. Okay, once you're DYCON settings, look over on the right, kind of in the middle of your screen you should see your PAC system listed. It should be a DICOM storage server. I'm not sure what it's called, but it should be listed there. But it's a DICOM storage. Okay, go ahead and click on it so that it's highlighted. And then do you have an.
+Start Time: 305.11
+End Time: 359.98
+
+Customer: It's under query and retrieve is what it says.
+Start Time: 360.00
+End Time: 365.44
+
+Agent 2: Do you have anything else listed on there?
+Start Time: 366.14
+End Time: 368.56
+
+Customer: Well, for the device name it says Query and retrieve and then it says AE title and it says the number of my catapults.
+Start Time: 369.38
+End Time: 376.64
+
+Agent 2: Do you have anything else in the list besides the query retrieve? Like do you have a modality work list?
+Start Time: 377.11
+End Time: 384.85
+
+Customer: Work list?
+Start Time: 386.02
+End Time: 387.10
+
+Agent 2: Yes. Okay. And then there's the only one that has Storage server. They actually called it query retrieve.
+Start Time: 387.28
+End Time: 395.52
+
+Customer: There's another storage. There's another one lower down that just says the name of the catapult.
+Start Time: 397.87
+End Time: 404.37
+
+Agent 2: Is that what you send to as catapult? Mm. Okay. Yeah, go ahead and click on that line so that it's highlighted.
+Start Time: 404.79
+End Time: 412.20
+
+Customer: Mm.
+Start Time: 413.26
+End Time: 414.05
+
+Agent 2: And then do you get an edit button down below? Okay, choose edit. That's going to bring up a new window. And then the bottom right corner of that new window there's an advanced button. Choose advanced. And then that's going to bring up a new window. The first section is all of your compression settings, but the next section down is your export structure report. Is that, is there a checkmark in that box or no.
+Start Time: 414.75
+End Time: 448.02
+
+Customer: When on this, this window there are three drop down categories, right.
+Start Time: 455.49
+End Time: 465.08
+
+Agent 2: For like your compression, like JPEG or still.
+Start Time: 465.17
+End Time: 469.46
+
+Customer: Okay, below there there's one that says structured reporting, correct?
+Start Time: 470.20
+End Time: 476.43
+
+Agent 2: Yes, please. If you can expand that section just by clicking on the header line, it should expand it. Do you have a check mark in the box for export structure reports? Yes, you do? Okay, so go ahead and close out of this window. You can just say cancel or save and then just say it probably told you it was going to go ahead and cancel out of the next one or save the next one and it's going to tell you it'll do a verify. Okay. What kinds of studies are you doing there with your system? Like is it, are you doing cardiac, are you doing general imaging? Pediatric?
+Start Time: 476.88
+End Time: 518.89
+
+Customer: No. Well, there's some pediatric, but it's general, it's emergency room. You know, anything that comes in arterial, abdominal, pelvic, all that.
+Start Time: 520.08
+End Time: 531.71
+
+Agent 2: Okay. And you said that sometimes you have to go into your review screen and push the study across again and then your measurements will transfer or are you having to manually do your end measurements over on your packs on catapult.
+Start Time: 532.04
+End Time: 546.50
+
+Customer: So I go to my catapult and I dycom. Well, I end my exam, then I go put it online. So I hit the icon over there and I see that it sent let's say 88 images. So I open it up expecting to. We have to write paper worksheets here. So I get to the very end and then the report pages are not there. So then I go, that's weird. I know. I saved those. So I go and I go to review and I see, I open it up again and I see yep, my report pages are there.
+Start Time: 548.97
+End Time: 582.88
+
+Agent 2: Yep.
+Start Time: 583.01
+End Time: 583.40
+
+Customer: So then I have to resend it all.
+Start Time: 583.45
+End Time: 585.81
+
+Agent 2: Okay, okay, okay. I think I know. Okay, so let's actually go ahead and close out of the support menu. So click the X in the top right corner next to the word phillips and say yes to exit the application. So this time, once we're back at your regular imaging screen, on your touch display, look for the word utility which is along the right edge on your lower display, your touch display utilities. Then make sure the system tab is selected. And then I'm looking for the setups choice. Do you see that? Okay, choose setups. And then that's going to bring, that's going to bring up a new Menu up on your upper display. Once there, I want you to choose Acquisition Capture along the left side.
+Start Time: 585.95
+End Time: 636.43
+
+Customer: And.
+Start Time: 638.77
+End Time: 639.11
+
+Agent 2: Up at the top, choose the tab that says Archive Printer. Is that the one that was selected?
+Start Time: 639.14
+End Time: 647.36
+
+Customer: I don't know if it was selected, but I selected it.
+Start Time: 650.01
+End Time: 653.67
+
+Agent 2: Okay. Okay, perfect. Because now do you see your Acquire button? Assignments like Acquire one and Acquire two. Okay. Down at the bottom you've got a grid, and one of the choices down at the bottom is Acquire Report. Can you select that for me? It should be in the bottom right corner. Once you select that, is your catapult listed there? Is it checked? It is checked.
+Start Time: 653.74
+End Time: 682.09
+
+Customer: It is, Yep.
+Start Time: 682.12
+End Time: 684.27
+
+Agent 2: Okay. All right. Well, so all of your setups are configured correctly to information over. And when you're acquiring your report, are you using the Acquire button on your touch on your touchscreen and you hear like, multiple beeps, like you hear a beep for every page that there is.
+Start Time: 684.32
+End Time: 702.99
+
+Customer: Sure do.
+Start Time: 703.73
+End Time: 704.75
+
+Agent 2: Okay. Yeah. Your system set up correctly for it. So at this point, that's pretty much all. Yeah.
+Start Time: 705.52
+End Time: 713.84
+
+Customer: Let me just ask one more thing. Looking at that same page with the Acquire report thing.
+Start Time: 713.90
+End Time: 718.74
+
+Agent 2: Yep.
+Start Time: 718.88
+End Time: 719.22
+
+Customer: On the bottom right, the box says destinations for the button, and it lists VetMed, which is our night reading service. And then my catapult plus a different one, that's our catapult backup.
+Start Time: 719.25
+End Time: 733.32
+
+Agent 2: Okay.
+Start Time: 733.45
+End Time: 734.15
+
+Customer: None of those are checked. Should one of them be checked?
+Start Time: 735.01
+End Time: 740.26
+
+Agent 2: Yeah, they need to be checked. That's why. Because basically, because you're acquiring your report page through your touchscreen button, the system needs to know where to send those images. And this is how we tell the system where to send it. So you have to put a checkmark in one of those destinations. You can put a checkmark in all three if you want. It's up to you. That's why. That's why you can send it from review. But. And that's why it's not going automatically, because it doesn't know where to send it.
+Start Time: 740.36
+End Time: 775.83
+
+Customer: Well, up above in box 2, the catapult is selected or was selected, but down in the bottom right one it wasn't.
+Start Time: 776.41
+End Time: 786.39
+
+Agent 2: Okay. That's because the top ones are your Acquire one and your Acquire two buttons that are next to your track ball. So those are what you use to acquire your actual images, you know, your 2D and color images. When you're acquiring your reports, most people will just hit the one button on the touchscreen and get all. Capture all of the report pages at one time. And that's why you hear beep, beep, beep for however many pages there are. It's Rare that someone will actually go into review and then pull up the report page and hit, you know, hit acquire the acquire button, the physical button. To acquire a report page, almost everyone uses the touchscreen button. And that's why it's. That button also has to be set up to send a catapult. And it sounds like it wasn't. So that's why you can manually send from review because at that point you are selecting catapult of where to send it by setting it up where I have you right now with your touchscreen button when you choose end exam. Now the system knows where to send those report images.
+Start Time: 786.89
+End Time: 855.45
+
+Customer: Right?
+Start Time: 855.63
+End Time: 856.00
+
+Agent 2: Does that make sense?
+Start Time: 856.05
+End Time: 857.15
+
+Customer: Yep.
+Start Time: 857.99
+End Time: 858.78
+
+Agent 2: Okay, so yeah. So then that should. Yeah, that should fix it for you.
+Start Time: 858.95
+End Time: 864.57
+
+Customer: So I wonder why it was not nothing. Because it's been sending them.
+Start Time: 864.95
+End Time: 870.86
+
+Agent 2: Yeah, it's hard to say if. I don't know if. Did you guys have to switch to your backup at one point and maybe someone forgot to put it back or. Yeah, sometimes that's bad. Or you have like a. An overnight person or a fill in person or even a doctor that come and kind of mess around and try to figure things out and then they don't put it back to where they found it.
+Start Time: 870.96
+End Time: 894.83
+
+Customer: Okay, well, hopefully that works. And if not, I'll call back.
+Start Time: 895.85
+End Time: 899.54
+
+Agent 2: Yeah, I'll keep your case open for like I'll just. I'll keep it open till tomorrow afternoon and if you call back, it's here. If I don't hear back from you, Juliet, then we'll just assume you're good to go, so.
+Start Time: 899.65
+End Time: 910.83
+
+Customer: Sounds good. I'm about to do a pelvic exam.
+Start Time: 911.21
+End Time: 914.84
+
+Agent 2: Perfect.
+Start Time: 914.94
+End Time: 915.44
+
+Customer: Use that report page. So we'll check it out.
+Start Time: 915.54
+End Time: 918.05
+
+Agent 2: Perfect. Anything else I can help you with right now, Juliet?
+Start Time: 918.18
+End Time: 920.98
+
+Customer: That'll do it. Thank you.
+Start Time: 921.63
+End Time: 923.12
+
+Agent 2: You're welcome. Have a great afternoon. Thanks for calling Phillips today.
+Start Time: 923.24
+End Time: 925.96
+
+ll do it. Thank you.
+Start Time: 921.63
+End Time: 923.12
+
+Speaker C: You're welcome. Have a great afternoon. Thanks for calling Phillips today.
+Start Time: 923.24
+End Time: 925.96
+

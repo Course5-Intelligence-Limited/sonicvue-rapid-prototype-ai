@@ -1,0 +1,138 @@
+Agent: Thank you for calling Coats and Gowns. My name is Sam, how can I help you?
+Start Time: 6.36
+End Time: 9.64
+Customer: Oh yes, I bought a coat from you guys but I need to return it because it was the wrong size and my size is not available. I haven't received any email from you and I wonder if my payment has been refunded. Seems like it does not reflect on my account yet.
+Start Time: 13.27
+End Time: 33.05
+Agent 2: I do apologize for the inconvenience, but let me go ahead and check if there are some notes in the order details. May ask, May I ask for the original online order number?
+Start Time: 33.18
+End Time: 42.83
+Customer: Okay, let me see. All right, please wait for a moment. Okay, hold on. Okay, I believe it's 0171-1425 793. Thank you.
+Start Time: 42.98
+End Time: 56.13
+Agent: Just to verify that's 0171-425-793, correct?
+Start Time: 56.41
+End Time: 63.69
+Customer: Yes, that's right.
+Start Time: 63.76
+End Time: 65.0
+Agent: I do apologize, but the one that you provided is actually not accepting towards our database. Do you actually have a number that starts with triple zero seven or seven or can I ask for your first and last name so I can manually check it in our database?
+Start Time: 65.16
+End Time: 83.42
+Customer: Yeah, I'm not sure about a triple zero something. Anyway, it's Adam Wilson.
+Start Time: 83.89
+End Time: 89.98
+Agent: All right, thank you. So Wilson is spelled as W for whiskey, I for India, L for Lima, S for Sierra, O for Oscar, N for November. Is that correct, Adam?
+Start Time: 90.28
+End Time: 103.7
+Customer: Yes.
+Start Time: 103.89
+End Time: 104.65
+Agent: Alright, thank you for that information. Okay, let me just quickly log into a portal and check any notes in your order. Do you still have the return tracking from the courier company when you return the item?
+Start Time: 104.81
+End Time: 115.8
+Customer: Not sure. Is it the 74391?
+Start Time: 118.14
+End Time: 123.11
+Agent: That's actually the return authorization from coats and gowns. When you return the item to the query your company for shipping, they should have provided you with the return tracking. Do you still have that? It's actually printed in the upper right part of the receipt.
+Start Time: 123.53
+End Time: 138.76
+Customer: Okay, I probably have to dig it up. Okay, I imagine I have it somewhere, but it might take some time to look for that.
+Start Time: 140.38
+End Time: 150.93
+Agent: Oh, I see. Anyway, I tried to search for your name and nothing is coming up. Can I ask for for the order under your name originally?
+Start Time: 151.78
+End Time: 160.0
+Customer: Yeah, yeah, it's under my name.
+Start Time: 161.15
+End Time: 162.97
+Agent: So it's not under Andy or something. It's Adam.
+Start Time: 163.14
+End Time: 166.67
+Customer: Yeah, exactly.
+Start Time: 166.85
+End Time: 168.09
+Agent: Thank you. Now what's the phone number that you put in the order before?
+Start Time: 168.66
+End Time: 172.37
+Customer: Okay, probably it's 411345037 7. Thank you.
+Start Time: 172.66
+End Time: 178.54
+Agent: Just to make sure there's 41 1, is that correct?
+Start Time: 178.69
+End Time: 185.7
+Customer: Oh, 037 7.
+Start Time: 185.84
+End Time: 187.91
+Agent: Okay. And what's the email address that you gave when you fill out the order form?
+Start Time: 188.03
+End Time: 191.78
+Customer: Okay, that should be adam_wilsonail fence.com thank you.
+Start Time: 192.16
+End Time: 199.64
+Agent: So again, it's adam_wilsonailfence.com Is that correct?
+Start Time: 199.96
+End Time: 206.96
+Customer: Yes, it is.
+Start Time: 207.06
+End Time: 208.54
+Agent: Thank you. So, Adam, Adam_wilsonailfans.com okay, thank you. Now, I just want to make sure that I have the correct details. Please hold on for a moment. We'll check on the details here in my end, okay?
+Start Time: 208.69
+End Time: 224.99
+Customer: Oh, sure. No problem. All right.
+Start Time: 225.12
+End Time: 228.22
+Agent: Okay. Thank you for patiently waiting, Adam. Now, I actually, or I can actually see here that you have called to inform us that you'd like to return the item on the 15th of November. Is that correct?
+Start Time: 231.44
+End Time: 246.96
+Customer: Yes.
+Start Time: 247.41
+End Time: 248.19
+Agent: Now, did you return the item to declare your company on the same day that you called?
+Start Time: 248.97
+End Time: 253.0
+Customer: Probably close to it. I'm not really sure if it's on the same day, though, but probably just close to that day.
+Start Time: 253.41
+End Time: 261.85
+Agent: I understand. However, upon checking the date that you actually called in for the return, it's already beyond the timeframe that we asked for refunds. So what we'll do is I'll go ahead and forward this information to our corporate office and I'll have them check and update you directly about the refund. So please expect an email within two to four business days. Is that okay with you?
+Start Time: 262.67
+End Time: 286.69
+Customer: Do it for business days?
+Start Time: 286.83
+End Time: 288.69
+Agent: Yes, no worries. I will send it to them right now.
+Start Time: 288.83
+End Time: 292.94
+Customer: Oh, really? Okay. All right.
+Start Time: 293.08
+End Time: 294.29
+Agent: All right. At first I thought that it will.
+Start Time: 294.31
+End Time: 296.17
+Customer: Probably be like three to five weeks to process.
+Start Time: 296.23
+End Time: 299.31
+Agent: Oh, no, don't worry, Adam. It's only two to four business days. So you already checked your account and nothing has been credited yet on the card ending in 753, is that right?
+Start Time: 299.98
+End Time: 311.23
+Customer: Nothing yet.
+Start Time: 311.3
+End Time: 312.28
+Agent: Okay, I understand. And I'll go ahead and forward them the details that I have here. So I'll send the email to adam underscore wilsonailfence.com correct?
+Start Time: 312.47
+End Time: 325.62
+Customer: Yes, that's right.
+Start Time: 325.68
+End Time: 326.67
+Agent: All right, thank you so much for that information, Adam. I will be forwarding this over to our corporate office now. And thank you again for calling Coats and Gowns. Is there anything else I can help you with today?
+Start Time: 326.82
+End Time: 338.62
+Customer: Oh, no, that's all.
+Start Time: 338.75
+End Time: 340.3
+Agent: Thank you. You're welcome. And my pleasure. Have a nice day. Bye.
+Start Time: 340.4
+End Time: 344.48
+Speaker A: Thank you. You're welcome. And my pleasure. Have a nice day. Bye.
+Start Time: 340.4
+End Time: 344.48

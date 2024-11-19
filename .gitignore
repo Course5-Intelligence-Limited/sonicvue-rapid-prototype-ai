@@ -1,0 +1,8 @@
+# Ignore data/raw folder (containing audio files)
+data/raw/
+
+# Ignore virtual environment directory (venv)
+venv/
+
+# Ignore env files (env)
+.env

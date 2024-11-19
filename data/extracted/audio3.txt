@@ -1,0 +1,141 @@
+Agent: Hello, this is Arjun from XYZ support. May I have your name please?
+Start Time: 0.36
+End Time: 4.58
+Customer: My name is Anjali Rao.
+Start Time: 4.75
+End Time: 6.38
+Agent: Thank you. Anjali, in case we get disconnected, what's the best number to reach you?
+Start Time: 6.52
+End Time: 11.24
+Customer: You can reach me at 981-234-5678.
+Start Time: 11.43
+End Time: 15.72
+Agent: Thank you. Are you calling about a new or existing case?
+Start Time: 16.14
+End Time: 19.32
+Customer: This is regarding a new case.
+Start Time: 19.47
+End Time: 21.35
+Agent: Do you have the device's serial number or SUD ID?
+Start Time: 21.49
+End Time: 24.31
+Customer: Yes, let me check. Its 6T031B as in Bravo 7632. Got it.
+Start Time: 24.49
+End Time: 31.36
+Agent: A Sonoscan 4 ultrasound at Krishna Hospital.
+Start Time: 31.50
+End Time: 35.44
+Customer: Yes, that's correct.
+Start Time: 35.63
+End Time: 37.27
+Agent: Thank you. Are you calling for technical or clinical support?
+Start Time: 37.41
+End Time: 40.46
+Customer: I need technical support.
+Start Time: 40.60
+End Time: 42.17
+Agent: I have the address for your facility as 45 Patel Nagar, Mumbai. Is that right?
+Start Time: 42.30
+End Time: 47.43
+Customer: Yes, that's correct.
+Start Time: 47.57
+End Time: 49.18
+Agent: Great. Will you be the point of contact for this case?
+Start Time: 49.32
+End Time: 52.24
+Customer: Yes, I'll handle the case.
+Start Time: 52.41
+End Time: 54.35
+Agent: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 54.50
+End Time: 62.40
+Customer: It's operational.
+Start Time: 62.94
+End Time: 64.20
+Agent: What seems to be the issue with the unit?
+Start Time: 64.37
+End Time: 66.38
+Customer: The problem is when we try to adjust the settings during the exam the touchscreen becomes unresponsive. It freezes and doesn't allow us to make any changes.
+Start Time: 66.52
+End Time: 75.70
+Agent: I understand. Was any patient or user harmed due to this issue?
+Start Time: 75.84
+End Time: 79.66
+Customer: No. Thankfully no one was harmed.
+Start Time: 79.84
+End Time: 82.47
+Agent: Alright, I'll generate a case number for you. Is Your email address anjali.raohospital.com?
+Start Time: 82.62
+End Time: 89.00
+Customer: Yes, that's my email.
+Start Time: 89.38
+End Time: 91.27
+Agent: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Start Time: 91.46
+End Time: 98.33
+Customer: Yes, I'm ready.
+Start Time: 98.50
+End Time: 99.82
+Agent: Your case number is 01246-58792.
+Start Time: 99.92
+End Time: 104.11
+Customer: Got it.
+Start Time: 104.61
+End Time: 105.36
+Agent: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 105.48
+End Time: 109.98
+Customer: Hello, this is Leena from Ultrasound Technical support. Am I speaking with Anjali?
+Start Time: 110.15
+End Time: 115.44
+Agent: Yes, this is Anjali.
+Start Time: 115.58
+End Time: 117.13
+Customer: Hi Anjali. I understand you're having trouble with the touchscreen freezing during an exam. Can you tell me more about the issue?
+Start Time: 117.28
+End Time: 125.11
+Agent: Yes. The touchscreen becomes unresponsive when I try to adjust settings during the exam. It freezes and I can't make any changes.
+Start Time: 125.28
+End Time: 133.13
+Customer: Got it. Let me check my connection. One moment please.
+Start Time: 133.31
+End Time: 137.28
+Agent: Okay, I can hear you clearly now.
+Start Time: 137.41
+End Time: 139.56
+Customer: Alright. Are you standing by the machine? I'll guide you through some troubleshooting steps.
+Start Time: 139.70
+End Time: 144.80
+Agent: Yes, I'm at the machine.
+Start Time: 144.94
+End Time: 146.68
+Customer: Great. Let's first check the touchscreen calibration settings. Can you go to the settings menu and look for the touchscreen calibration option?
+Start Time: 146.86
+End Time: 155.71
+Agent: Okay, I see. Touchscreen calibration. What should I do.
+Start Time: 156.04
+End Time: 159.54
+Customer: Next, try recalibrating the touchscreen. Sometimes if it's not calibrated properly, it can cause the unresponsiveness you are describing.
+Start Time: 159.57
+End Time: 168.34
+Agent: Alright, I've done that. Now what?
+Start Time: 168.76
+End Time: 171.32
+Customer: Now try adjusting the settings again during the exam to see if the touchscreen responds.
+Start Time: 171.46
+End Time: 176.59
+Agent: Alright. Yes, it's working. The touchscreen is responsive again.
+Start Time: 176.97
+End Time: 181.24
+Customer: Fantastic. I am glad we were able to resolve that. Is there anything else I can assist you with?
+Start Time: 181.42
+End Time: 187.18
+Agent: No, that's everything. Thank you for your help, Leena.
+Start Time: 187.32
+End Time: 190.50
+Customer: You're very welcome, Anjali. Thank you for calling XYZ Support. Have a wonderful day.
+Start Time: 190.62
+End Time: 196.58
+Agent: Thank you. You too.
+Start Time: 196.68
+End Time: 197.54

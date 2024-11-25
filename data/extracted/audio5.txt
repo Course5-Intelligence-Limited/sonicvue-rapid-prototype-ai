@@ -1,0 +1,156 @@
+Agent: Hello, this is Arvind from XYZ support. May I have your name please?
+Start Time: 0.36
+End Time: 4.66
+Customer: My name is Anjali Desai.
+Start Time: 4.80
+End Time: 6.58
+Agent 3: Thank you.
+Start Time: 6.75
+End Time: 7.25
+Agent: Anjali, in case we get disconnected, what's the best number to reach you?
+Start Time: 7.30
+End Time: 11.48
+Customer: You can reach me at 988-665-4321.
+Start Time: 11.67
+End Time: 15.85
+Agent 3: Thanks.
+Start Time: 16.30
+End Time: 16.73
+Agent: Anjali. Are you calling about a new or existing case?
+Start Time: 16.78
+End Time: 19.92
+Customer: This is regarding a new case.
+Start Time: 20.07
+End Time: 21.95
+Agent: Do you have the device's serial number or.
+Start Time: 22.09
+End Time: 24.45
+Customer: Yes, one moment. It's 5x034A as in Alpha 4120.
+Start Time: 25.71
+End Time: 32.49
+Agent: Got it. A Sonoview 7 ultrasound at Meduscan Imaging.
+Start Time: 32.95
+End Time: 36.58
+Customer: Yes, that's correct.
+Start Time: 36.75
+End Time: 38.36
+Agent 3: Thank you.
+Start Time: 38.50
+End Time: 39.08
+Agent: Are you calling for technical or clinical support?
+Start Time: 39.16
+End Time: 41.53
+Customer: I need technical support.
+Start Time: 41.68
+End Time: 43.26
+Agent: I have the address for your facility as £12 Road, Mumbai. Is that correct?
+Start Time: 43.39
+End Time: 48.46
+Customer: Yes, that's right.
+Start Time: 48.59
+End Time: 50.15
+Agent: Great. Will you be the point of contact for this case?
+Start Time: 50.29
+End Time: 53.19
+Customer: Yes, I'll be the primary contact.
+Start Time: 53.35
+End Time: 55.66
+Agent: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 55.84
+End Time: 63.80
+Customer: It's operational.
+Start Time: 64.34
+End Time: 65.57
+Agent: What seems to be the issue with the unit?
+Start Time: 65.74
+End Time: 67.79
+Customer: The issue is that the touchscreen of the ultrasound machine is unresponsive in certain areas. We can't select options or navigate through the settings properly.
+Start Time: 67.93
+End Time: 77.00
+Agent: I see. Was any patient or user harmed due to this issue?
+Start Time: 77.15
+End Time: 80.63
+Customer: No. Thankfully no harm. But it is affecting the efficiency of the exams.
+Start Time: 80.80
+End Time: 85.44
+Agent: Alright, I'll generate a case number for you. Is Your email address anjali. Desirediscan.in yes, that's correct.
+Start Time: 85.81
+End Time: 94.30
+Agent 3: Thank you.
+Start Time: 94.44
+End Time: 95.10
+Agent: Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Start Time: 95.20
+End Time: 101.30
+Customer: Yes, I'm ready.
+Start Time: 101.45
+End Time: 102.78
+Agent: Your case number is 01529-84630.
+Start Time: 102.88
+End Time: 107.08
+Customer: Got it.
+Start Time: 107.50
+End Time: 108.26
+Agent: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 108.36
+End Time: 112.85
+Customer: Hello, this is Neha from Ultrasound Technical support. Am I speaking with Anjali?
+Start Time: 113.02
+End Time: 118.35
+Agent: Yes, this is Anjali.
+Start Time: 118.49
+End Time: 120.04
+Customer: Hi Anjali. I understand you are experiencing issues with the touchscreen on your ultrasound machine. Can you tell me more about what's happening?
+Start Time: 120.19
+End Time: 128.96
+Agent: Yes. The touchscreen isn't responsive in some areas. It makes it difficult to select settings or navigate through options.
+Start Time: 129.11
+End Time: 135.64
+Customer: I see. Let me guide you through some troubleshooting steps. Are you near the ultrasound machine?
+Start Time: 135.82
+End Time: 141.35
+Agent: Yes, I am.
+Start Time: 141.51
+End Time: 142.76
+Customer: Great. First try rebooting the system. Turn the machine off and wait for about 10 seconds before turning it back on. Let me know what happens.
+Start Time: 142.90
+End Time: 152.21
+Agent 3: Okay.
+Start Time: 152.36
+End Time: 152.80
+Agent: I've rebooted the machine. Still no change. The touchscreen is still unresponsive.
+Start Time: 152.86
+End Time: 157.51
+Customer: Thank you for trying that. Now let's check the calibration settings. Can you go to the settings menu and look for touchscreen calibration?
+Start Time: 157.65
+End Time: 166.31
+Agent: I found it. What should I do next?
+Start Time: 166.84
+End Time: 169.25
+Customer: Select calibrate and follow the on screen instructions. This should help realign the touchscreen.
+Start Time: 169.41
+End Time: 175.30
+Agent: Alright, I'm doing that now.
+Start Time: 175.45
+End Time: 177.32
+Customer: Perfect. Once the calibration is complete, try using the touchscreen again to see if it's responsive.
+Start Time: 177.46
+End Time: 183.32
+Agent: Now it's working. Now the touchscreen is responsive again and I can select options normally.
+Start Time: 183.38
+End Time: 189.22
+Customer: That's fantastic. I'm glad we could resolve the issue for you, Anjali. Is there anything else I can help you with?
+Start Time: 189.66
+End Time: 196.49
+Agent: No, that's all. Thank you so much for your help, Neha.
+Start Time: 196.63
+End Time: 199.97
+Customer: You're very welcome, Anjali. Thank you for calling XYZ support. Have a great day.
+Start Time: 200.09
+End Time: 205.89
+Agent 3: Thank you.
+Start Time: 205.99
+End Time: 206.53
+Agent: You too.
+Start Time: 206.59
+End Time: 206.94

@@ -34,6 +34,9 @@ latest_uploaded_files = ['audio__1.wav', 'audio__2.wav', 'audio__3.wav', 'audio_
 def get_dashboard_dataframe() -> pd.DataFrame:
     """Convert JSON metadata files to a DataFrame"""
     data_list = []
+     
+    #debug
+    print(latest_uploaded_files)
     
     for filename in latest_uploaded_files:
         json_path = os.path.join(local_metadata_dir, f"{filename[:-4]}.json")
@@ -124,7 +127,7 @@ async def upload_files(files: List[UploadFile] = File(...), background_tasks: Ba
     os.makedirs(raw_dir, exist_ok=True)
     
     results = []
-    latest_uploaded_files = []
+    latest_uploaded_files.clear()
     for file in files:
         # Save to local directory
         file_path = os.path.join(raw_dir, file.filename)
@@ -139,6 +142,7 @@ async def upload_files(files: List[UploadFile] = File(...), background_tasks: Ba
         task_status[file.filename] = "queued"
 
         latest_uploaded_files.append(file.filename)
+        print(f'{file.filename} added to latest_upload_files')
 
         background_tasks.add_task(get_transcript_func, file_path, file.filename)
         # background_tasks.add_task(extract_features, file_path)

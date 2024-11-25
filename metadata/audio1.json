@@ -2,7 +2,7 @@
     "call_time": 210.75,
     "hold_time": 5.52,
     "route_time": 5.48,
-    "comprehension_time": 16.51,
+    "resolution_time": 16.51,
     "greeting": "Yes",
     "email_address": "Yes",
     "phone_number": "Yes",

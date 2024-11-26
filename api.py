@@ -65,6 +65,10 @@ def calculate_dashboard_metrics(df: pd.DataFrame) -> Dict:
         return {}
 
     total_calls = len(df)
+    total_time = 0
+    for index, rows in df.iterrows() : 
+        total_time += rows['hold_time'] + rows['route_time'] + rows['resolution_time']
+
     
     metrics = {
         "summary": {
@@ -96,9 +100,15 @@ def calculate_dashboard_metrics(df: pd.DataFrame) -> Dict:
             "parts_request": (df['part_request'] == "Yes").mean() * 100,
             "digital_service": (df['digital_service'] == "Yes").mean() * 100,
             "field_visits": (df['field_service'] == "Yes").mean() * 100
+        },
+        "root_cause_analysis": {
+            
+            "hold_time": (df['hold_time']).sum()/total_time * 100,
+            "resolution_time": (df['resolution_time']).sum()/total_time * 100,
+            "route_time": (df['route_time']).sum()/total_time * 100,
         }
     }
-    
+    # print(metrics['root_cause_analysis'], total_time)
     return metrics
 
 task_status = {}  # Store task status as {filename: status}

@@ -1,6 +1,6 @@
 {
     "call_time": 199,
-    "hold_time": 0,
+    "hold_time": 10,
     "route_time": 4.52,
     "resolution_time": 39.33,
     "greeting": "Yes",

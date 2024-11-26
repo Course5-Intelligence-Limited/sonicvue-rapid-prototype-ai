@@ -1,6 +1,6 @@
 {
     "call_time": 197,
-    "hold_time": 0,
+    "hold_time": 4,
     "route_time": 4,
     "resolution_time": 12,
     "greeting": "Yes",
@@ -11,7 +11,7 @@
     "resolution_confirmation": "Yes",
     "hold": "No",
     "hold_satisfaction": "N/A",
-    "agent_invite": "Yes",
+    "multiple_agents": "Yes",
     "escalation": "No",
     "call_tone": "Positive",
     "issue_discussed": "Touchscreen freezing",

@@ -7,7 +7,6 @@ from typing import List, Dict, Optional
 import pandas as pd
 from datetime import datetime
 from utils.create_transcripts import get_transcripts
-# from utils.notused.process_metadata import process_metadata_for_file
 from utils.feature_extraction import extract_features
 
 router = APIRouter()
@@ -29,15 +28,19 @@ chatbot = Chatbot()
 # processing_status: Dict[str, Dict[str, str]] = {}
 latest_uploaded_files: List[str] = []
 
-latest_uploaded_files = ['audio__1.wav', 'audio__2.wav', 'audio__3.wav', 'audio__5.wav']
+latest_uploaded_files = ['audio__1.wav', 'audio__2.wav', 'audio__3.wav']
 
-def get_dashboard_dataframe() -> pd.DataFrame:
-    """Convert JSON metadata files to a DataFrame"""
+from fastapi import APIRouter, Query
+import pandas as pd
+from typing import Dict
+
+router = APIRouter()
+
+def get_dashboard_dataframe(complexity: str = 'All', event_type: str = 'All') -> pd.DataFrame:
+    """Convert JSON metadata files to a DataFrame and filter by complexity and event type"""
     data_list = []
-     
-    #debug
-    print(latest_uploaded_files)
     
+    # Assuming latest_uploaded_files is a list of filenames and local_metadata_dir is your metadata path
     for filename in latest_uploaded_files:
         json_path = os.path.join(local_metadata_dir, f"{filename[:-4]}.json")
         if os.path.exists(json_path):
@@ -55,9 +58,15 @@ def get_dashboard_dataframe() -> pd.DataFrame:
     time_columns = ['call_time', 'hold_time', 'route_time', 'resolution_time']
     for col in time_columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
-    
-    return df
 
+    # Apply filters if not 'All'
+    if complexity != 'All':
+        df = df[df['complexity'] == complexity]
+    
+    if event_type != 'All':
+        df = df[df['call_type'] == event_type]
+    print('no issues in gen df')
+    return df
 
 def calculate_dashboard_metrics(df: pd.DataFrame) -> Dict:
     """Calculate metrics for dashboard"""
@@ -66,10 +75,9 @@ def calculate_dashboard_metrics(df: pd.DataFrame) -> Dict:
 
     total_calls = len(df)
     total_time = 0
-    for index, rows in df.iterrows() : 
+    for index, rows in df.iterrows():
         total_time += rows['hold_time'] + rows['route_time'] + rows['resolution_time']
 
-    
     metrics = {
         "summary": {
             "total_calls": total_calls,
@@ -80,9 +88,9 @@ def calculate_dashboard_metrics(df: pd.DataFrame) -> Dict:
             "resolution_confirmation": (df['resolution_confirmation'] == "Yes").mean() * 100,
             "cs_portal_recommended": (df['digital_service'] == "Yes").mean() * 100
         },
-        "calls_complexity": {
+        "complexity": {
             "easy": len(df[df['complexity'] == "Easy"]),
-            "medium": len(df[df['complexity'] == "Medium"]),
+            "intermediate": len(df[df['complexity'] == "Intermediate"]),
             "difficult": len(df[df['complexity'] == "Difficult"])
         },
         "call_hygiene": {
@@ -102,14 +110,58 @@ def calculate_dashboard_metrics(df: pd.DataFrame) -> Dict:
             "field_visits": (df['field_service'] == "Yes").mean() * 100
         },
         "root_cause_analysis": {
-            
             "hold_time": (df['hold_time']).sum()/total_time * 100,
             "resolution_time": (df['resolution_time']).sum()/total_time * 100,
             "route_time": (df['route_time']).sum()/total_time * 100,
         }
     }
-    # print(metrics['root_cause_analysis'], total_time)
+    print('no issues here')
     return metrics
+
+@router.get("/dashboard-data")
+async def get_dashboard_data(complexity: str = Query('All', alias='complexity', description="Filter by complexity (All, Easy, Intermediate, Difficult)"),
+                             event_type: str = Query('All', alias='eventType', description="Filter by event type (All, installation, proactive, etc.)")):
+    """Endpoint to get dashboard data with optional filters for complexity and event type"""
+    df = get_dashboard_dataframe(complexity, event_type)
+    metrics = calculate_dashboard_metrics(df)
+    return metrics
+
+def get_table_dataframe() -> pd.DataFrame:
+    """Convert metadata JSON files to a DataFrame for table view with specific KPIs"""
+    data_list = []
+    
+    kpi_columns = [
+        'call_time', 'hold_time', 'route_time', 'resolution_time', 
+        'greeting', 'phone_number', 'email_address', 'call_quality',
+        'case_type', 'resolution_confirmation', 'hold', 'hold_satisfaction',
+        'multiple_agents', 'escalation', 'call_tone', 'issue_discussed',
+        'complexity', 'issue_type', 'status_query', 'call_type',
+        'replacement_required', 'part_request', 'parts_dispatch',
+        'refund_required', 'field_service', 'digital_service'
+    ]
+    
+    for filename in latest_uploaded_files:
+        json_path = os.path.join(local_metadata_dir, f"{filename[:-4]}.json")
+        if os.path.exists(json_path):
+            with open(json_path, 'r') as f:
+                data = json.load(f)
+                # Only include specified KPI columns
+                filtered_data = {k: data.get(k, '') for k in kpi_columns}
+                filtered_data['filename'] = filename
+                data_list.append(filtered_data)
+    
+    if not data_list:
+        return pd.DataFrame()
+        
+    df = pd.DataFrame(data_list)
+    
+    # Convert time columns to numeric
+    time_columns = ['call_time', 'hold_time', 'route_time', 'resolution_time']
+    for col in time_columns:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    # print(df)
+    return df
 
 task_status = {}  # Store task status as {filename: status}
 
@@ -238,15 +290,14 @@ async def chat(chat_input: ChatInput):
 async def get_latest_uploads():
     return {"files": latest_uploaded_files}
 
-@router.get("/dashboard-data")
-async def get_dashboard_data():
-    df = get_dashboard_dataframe()
-    metrics = calculate_dashboard_metrics(df)
-    return metrics
-
 @router.get("/raw-data")
 async def get_raw_data():
     df = get_dashboard_dataframe()
+    return df.to_dict(orient='records')
+
+@router.get("/table-data")
+async def get_table_data():
+    df = get_table_dataframe()
     return df.to_dict(orient='records')
 
 class TranscriptRequest(BaseModel):

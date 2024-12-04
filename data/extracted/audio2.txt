@@ -43,11 +43,11 @@ End Time: 47.72
 Agent: Great. Will you be the point of contact for this case?
 Start Time: 47.86
 End Time: 50.77
-Customer: Yes, I'll be handling the case.
+Customer: Yes, I'll be handling the case. Alright, let me pull up your information. Hold for a moment. 
 Start Time: 50.92
-End Time: 53.09
-Agent: Alright, let me pull up your information. One moment. There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
-Start Time: 53.26
+End Time: 60.2
+Agent : There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
+Start Time: 60.22
 End Time: 62.35
 Customer: It's operational.
 Start Time: 62.90
@@ -85,57 +85,57 @@ End Time: 108.12
 Agent: Thank you for calling XYZ Corporation. I'll now transfer you to technical support.
 Start Time: 108.22
 End Time: 112.95
-Customer: Hello, this is Meena from Ultrasound Technical support. Am I speaking with Ritu?
+Agent 2: Hello, this is Meena from Ultrasound Technical support. Am I speaking with Ritu?
 Start Time: 113.12
 End Time: 118.32
-Agent: Yes, this is Ritu.
+Customer : Yes, this is Ritu.
 Start Time: 118.46
 End Time: 120.00
-Customer: Hi Ritu. I understand you're having an issue with saving patient data. Could you explain the problem in more detail?
+Agent 2: Hi Ritu. I understand you're having an issue with saving patient data. Could you explain the problem in more detail?
 Start Time: 120.17
 End Time: 127.31
-Agent: Yes. When we try to save the exam, it only saves the images, not the entire exam data. The measurements, notes and other data are not getting saved.
+Customer : Yes. When we try to save the exam, it only saves the images, not the entire exam data. The measurements, notes and other data are not getting saved.
 Start Time: 127.48
 End Time: 136.53
-Customer: Got it. Let me adjust my microphone. One moment please.
+Agent 2: Got it. Let me adjust my microphone. One moment please.
 Start Time: 136.99
 End Time: 141.31
-Agent: I can hear you clearly now.
+Customer : I can hear you clearly now.
 Start Time: 141.43
 End Time: 143.06
-Customer: Alright. Are you at the machine right now? I can walk you through a few steps to resolve the issue.
+Agent 2: Alright. Are you at the machine right now? I can walk you through a few steps to resolve the issue.
 Start Time: 143.20
 End Time: 148.84
-Agent: Yes, I'm standing by the machine.
+Customer : Yes, I'm standing by the machine.
 Start Time: 149.26
 End Time: 151.43
-Customer: Perfect. Let's start by checking the data storage settings. Can you go to the settings menu and look for storage configuration?
+Agent 2: Perfect. Let's start by checking the data storage settings. Can you go to the settings menu and look for storage configuration?
 Start Time: 151.61
 End Time: 159.60
-Agent: Okay, I see. Storage configuration. What should I do next?
+Customer : Okay, I see. Storage configuration. What should I do next?
 Start Time: 160.10
 End Time: 164.12
-Customer: Check if local storage is selected as the destination for saving the exam data. If it's not selected, the data won't save properly.
+Agent 2: Check if local storage is selected as the destination for saving the exam data. If it's not selected, the data won't save properly.
 Start Time: 164.27
 End Time: 172.91
-Agent: It wasn't selected. I've changed it now.
+Customer : It wasn't selected. I've changed it now.
 Start Time: 173.05
 End Time: 175.63
-Customer: Great. Now try saving the exam data again and let me know if it saves everything.
+Agent 2: Great. Now try saving the exam data again and let me know if it saves everything.
 Start Time: 175.77
 End Time: 180.76
-Agent: Alright? Yes. It's saving both the images and the full exam data now.
+Customer : Alright? Yes. It's saving both the images and the full exam data now.
 Start Time: 181.31
 End Time: 185.69
-Customer: Wonderful. I'm glad we could resolve that. Is there anything else I can assist you with?
+Agent 2: Wonderful. I'm glad we could resolve that. Is there anything else I can assist you with?
 Start Time: 186.09
 End Time: 191.38
-Agent: No, that's everything. Thank you so much, Meena.
+Customer : No, that's everything. Thank you so much, Meena.
 Start Time: 191.53
 End Time: 194.60
-Customer: You're welcome, Ritu. Thank you for calling XYZ Corporation. Have a great day.
+Agent 2: You're welcome, Ritu. Thank you for calling XYZ Corporation. Have a great day.
 Start Time: 194.72
 End Time: 200.23
-Agent: You too. Thanks.
+Customer : You too. Thanks.
 Start Time: 200.32
 End Time: 201.12

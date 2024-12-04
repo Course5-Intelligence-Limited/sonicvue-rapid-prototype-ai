@@ -50,7 +50,7 @@ filterwarnings('ignore')
 
 class Chatbot:
     def __init__(self):
-        self.llm = llm = ChatGroq(model = 'llama3-8b-8192')
+        self.llm = llm = ChatGroq(model = 'llama-3.1-8b-instant')
         self.vectordb = self.load_vector_base()
         self.retriever = self.vectordb.as_retriever(search_kwargs={"k": 5})
         self.qa_chain = self.load_qa_chain()

@@ -202,6 +202,11 @@ def generate_response_call_center(llm, transcript_text):
     chain = prompt | llm | output_parser
     out = chain.invoke({"context": transcript_text})
     print(out)
+    no_agents = 0
+    for x in ['Agent', 'Agent 2', 'Agent 3', 'Agent 4', 'Agent 5'] : 
+        if x in transcript_text : 
+            no_agents += 1
+    out['multiple_agents'] = "Yes" if no_agents > 2 else "No"
     return out
     # Convert the result to JSON format and return it
     # result_json = json.loads(out)  # Assuming the model returns a valid JSON string
@@ -218,6 +223,8 @@ def extract_features(file_path) :
       with open(json_file_path, 'w') as json_file:
          json.dump(json_response, json_file, indent=4)
       print(f"Features saved to {json_file_path}")
+   else : 
+    print("this metadata is extracted don't worry") 
 
 input_folder = './data/extracted'
 for file in os.listdir(input_folder) : 

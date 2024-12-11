@@ -1,11 +1,11 @@
 {
-    "call_time": "259",
+    "call_time": "258",
     "hold": "No",
     "hold_satisfaction": "Yes",
     "hold_time": "0",
     "multiple_agents": "No",
-    "route_time": "14",
-    "resolution_time": "69",
+    "route_time": "10.78",
+    "resolution_time": "104",
     "resolution_time_start": "161",
     "greeting": "Yes",
     "phone_number": "Yes",
@@ -15,14 +15,15 @@
     "resolution_confirmation": "Yes",
     "escalation": "No",
     "call_tone": "Positive",
-    "issue_discussed": "Touch screen",
+    "issue_discussed": "Touchscreen freezing",
     "complexity": "Intermediate",
     "issue_type": "Assistance",
     "status_query": "No",
-    "call_type": "Reactive",
+    "call_type": "Incident",
     "replacement_required": "No",
     "part_request": "No",
     "parts_dispatch": "No",
     "field_service": "No",
-    "digital_service": "No"
+    "digital_service": "No",
+    "csat": 3
 }

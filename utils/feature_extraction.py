@@ -1,4 +1,4 @@
-import os, ast, json
+import os, ast, json, re
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
@@ -88,6 +88,26 @@ def calculate_hold_time(transcript, average_wps):
                     excess_time = duration - (words / average_wps)
                     hold_time += excess_time
     return hold_time
+
+def calculate_route_time(transcript):
+    route_time = 0
+    prev_agent_end_time = None
+    prev_agent_speaker = None  # To track the previous speaker
+
+    for entry in transcript:
+        if "Agent" in entry["speaker"]:
+            # If this is a transition from one agent to a different agent
+            if prev_agent_end_time is not None and prev_agent_speaker != entry["speaker"]:
+                # Calculate the gap between the previous agent's end time and the current agent's start time
+                gap = entry["start_time"] - prev_agent_end_time
+                if gap > 0:
+                    route_time += gap  # Add the gap to route time
+
+            # Update the previous agent's end time and speaker
+            prev_agent_end_time = entry["end_time"]
+            prev_agent_speaker = entry["speaker"]
+
+    return route_time
 
 def format_instructions_creator():
     """
@@ -271,9 +291,13 @@ def generate_response_call_center(llm, transcript_text):
     transcript = read_transcript_from_text(transcript_text)
     average_wps = calculate_average_wps(transcript)
     hold_time = calculate_hold_time(transcript, average_wps)
-    out['hold_time'] = str(round(hold_time))
-
+    out['hold_time'] = str(round(hold_time, 2))
+    print('hold_time : ', hold_time)
+    
     ## code for route time
+    route_time = calculate_route_time(transcript)
+    out['route_time'] = str(round(route_time, 2))
+    print('route_time : ', route_time)
 
     return out
     # Convert the result to JSON format and return it

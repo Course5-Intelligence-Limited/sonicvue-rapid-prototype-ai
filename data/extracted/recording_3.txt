@@ -1,133 +1,133 @@
-Agent: This is Arjun from XYZ Support. May I have your name please?
+Agent 1: This is Arjun from XYZ Support. May I have your name please?
 Start Time: 0.08
 End Time: 4.00
 Customer: My name is Anjali Rao.
 Start Time: 4.95
 End Time: 6.84
-Agent: Thank you. Anjali, in case we get disconnected, what's the best number to reach you?
+Agent 1: Thank you. Anjali, in case we get disconnected, what's the best number to reach you?
 Start Time: 7.22
 End Time: 11.61
 Customer: You can reach me at 981-234-5678.
 Start Time: 12.62
 End Time: 18.64
-Agent: Thank you. Are you calling about a new or existing case?
+Agent 1: Thank you. Are you calling about a new or existing case?
 Start Time: 19.34
 End Time: 22.52
 Customer: This is regarding a new case.
 Start Time: 23.14
 End Time: 25.09
-Agent: Do you have the device serial number or SUD ID?
+Agent 1: Do you have the device serial number or SUD ID?
 Start Time: 25.48
 End Time: 29.98
 Customer: Yeah, let me check. It's 6T031 and B as in Bravo 7632.
 Start Time: 31.48
 End Time: 42.73
-Agent: Got it. A zone scan four ultrasound at Krishna Hospital.
+Agent 1: Got it. A zone scan four ultrasound at Krishna Hospital.
 Start Time: 43.31
 End Time: 47.30
 Customer: Yes, that's correct.
 Start Time: 48.03
 End Time: 49.30
-Agent: Thank you. Are you calling for technical or clinical support?
+Agent 1: Thank you. Are you calling for technical or clinical support?
 Start Time: 49.72
 End Time: 52.77
 Customer: I need technical support.
 Start Time: 54.27
 End Time: 55.81
-Agent: Okay. I have the address for your facility as 45 Patel Nagar, Mumbai. Is that right?
+Agent 1: Okay. I have the address for your facility as 45 Patel Nagar, Mumbai. Is that right?
 Start Time: 56.52
 End Time: 61.98
 Customer: Yes, that's correct.
 Start Time: 62.67
 End Time: 63.94
-Agent: Great. Will you be the point of contact for this case?
+Agent 1: Great. Will you be the point of contact for this case?
 Start Time: 64.47
 End Time: 67.73
 Customer: Yes, I'll handle this case.
 Start Time: 68.64
 End Time: 70.38
-Agent: All right. Let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Agent 1: All right. Let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
 Start Time: 71.16
 End Time: 83.23
 Customer: It's operational.
 Start Time: 84.09
 End Time: 85.52
-Agent: What seems to be the issue with the unit?
+Agent 1: What seems to be the issue with the unit?
 Start Time: 86.45
 End Time: 89.03
 Customer: The problem is when we are trying to adjust the settings during the exam that touch screen becomes unresponsive. It freezes and it doesn't allow us to make any changes.
 Start Time: 90.14
 End Time: 101.28
-Agent: I understand. Was any patient or user harmed due to this issue?
+Agent 1: I understand. Was any patient or user harmed due to this issue?
 Start Time: 102.09
 End Time: 106.56
 Customer: No. Thankfully no one was harmed.
 Start Time: 107.34
 End Time: 109.44
-Agent: All right. I'll generate a case number for you. Is Your email address anjali.raohospital.com?
+Agent 1: All right. I'll generate a case number for you. Is Your email address anjali.raohospital.com?
 Start Time: 110.11
 End Time: 117.25
 Customer: Yes, that's my email.
 Start Time: 117.94
 End Time: 119.28
-Agent: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
 Start Time: 120.03
 End Time: 126.56
 Customer: Yes, I'm ready.
 Start Time: 127.27
 End Time: 128.53
-Agent: Your case number is 012 465. 8792.
+Agent 1: Your case number is 012 465. 8792.
 Start Time: 129.15
 End Time: 134.37
 Customer: Got it.
 Start Time: 135.75
 End Time: 136.72
-Agent: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
 Start Time: 137.22
 End Time: 142.00
-Agent 3: Hello, this is Lana from Ultrasound Technical support. Am I speaking with Anjali?
+Agent 2: Hello, this is Lana from Ultrasound Technical support. Am I speaking with Anjali?
 Start Time: 152.78
 End Time: 158.12
 Customer: Yes, this is Anjali.
 Start Time: 158.90
 End Time: 160.44
-Agent 3: Hi, Anjali. I understand you're having trouble with the touchscreen freezing during an exam. Can you tell me more about the issue?
+Agent 2: Hi, Anjali. I understand you're having trouble with the touchscreen freezing during an exam. Can you tell me more about the issue?
 Start Time: 161.46
 End Time: 168.56
 Customer: Yes. The touch screen becomes unresponsive when I try to adjust the settings during the exam. It freezes and I can't make any changes.
 Start Time: 169.69
 End Time: 178.63
-Agent 3: Got it. Let me check my connection one by one, please. All right. Are you standing by the machine? I'll guide you through some troubleshooting steps.
+Agent 2: Got it. Let me check my connection one by one, please. All right. Are you standing by the machine? I'll guide you through some troubleshooting steps.
 Start Time: 180.13
 End Time: 192.34
 Customer: Yes, I am at the machine.
 Start Time: 193.09
 End Time: 194.66
-Agent 3: Great. Let's first check the touchscreen calibration settings. Can you go to the settings menu and look for touchscreen calibration option?
+Agent 2: Great. Let's first check the touchscreen calibration settings. Can you go to the settings menu and look for touchscreen calibration option?
 Start Time: 195.88
 End Time: 204.62
 Customer: Okay. Yeah, I see the touchscreen calibration what should I do next?
 Start Time: 206.09
 End Time: 211.82
-Agent 3: Try recalibrating the touchscreen. Sometimes it's not calibrated properly. It can cause the unresponsiveness you are describing.
+Agent 2: Try recalibrating the touchscreen. Sometimes it's not calibrated properly. It can cause the unresponsiveness you are describing.
 Start Time: 212.79
 End Time: 220.41
 Customer: All right, I have done that. Now what?
 Start Time: 222.03
 End Time: 224.90
-Agent 3: Now try adjusting the settings again during the exam to see if the touchscreen responds.
+Agent 2: Now try adjusting the settings again during the exam to see if the touchscreen responds.
 Start Time: 226.68
 End Time: 232.74
 Customer: All right. Yes, it's working. That touchscreen is responsive again.
 Start Time: 233.84
 End Time: 241.71
-Agent 3: Fantastic. I'm glad we were able to resolve that. Is there anything else I can assist you with?
+Agent 2: Fantastic. I'm glad we were able to resolve that. Is there anything else I can assist you with?
 Start Time: 242.44
 End Time: 247.94
 Customer: No, that's everything. Thank you for your help, Leena.
 Start Time: 248.53
 End Time: 251.62
-Agent 3: You're welcome, Anjali. Thank you for calling XYZ Support. Have a wonderful day.
+Agent 2: You're welcome, Anjali. Thank you for calling XYZ Support. Have a wonderful day.
 Start Time: 252.44
 End Time: 257.11
 Customer: Thank you. You too.

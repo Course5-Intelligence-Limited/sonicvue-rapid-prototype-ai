@@ -75,7 +75,7 @@ def get_dashboard_dataframe(complexity: str = 'All', event_type: str = 'All') ->
     
     if event_type != 'All':
         df = df[df['call_type'] == event_type]
-    # print(df)
+    
     return df
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=40))

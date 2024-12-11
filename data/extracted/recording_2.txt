@@ -1,94 +1,88 @@
-Agent: Hello, this is Arvind from XYZ Corporation. May I have your name please?
+Agent 1: Hello, this is Arvind from XYZ Corporation. May I have your name please?
 Start Time: 0.36
 End Time: 4.21
 Customer: My. Hi, my name is Ritu Desai.
 Start Time: 5.03
 End Time: 8.16
-Agent: Thank you, Ritu. And in case we get disconnected, what's the best number to reach you?
+Agent 1: Thank you, Ritu. And in case we get disconnected, what's the best number to reach you?
 Start Time: 10.19
 End Time: 14.77
 Customer: Oh, you can reach me at 987-654-1234.
 Start Time: 15.51
 End Time: 21.84
-Agent: Thank you. Are you calling about a new or existing case?
+Agent 1: Thank you. Are you calling about a new or existing case?
 Start Time: 25.11
 End Time: 29.25
 Customer: A new case.
 Start Time: 30.39
 End Time: 31.64
-Agent: Do you have the device's serial number or SUD ID?
+Agent 1: Do you have the device's serial number or SUD ID?
 Start Time: 33.55
 End Time: 37.45
 Customer: Yes, give me a moment. It's 4D042J as in Juliet 1882.
 Start Time: 39.02
 End Time: 50.12
-Agent: Got it. Sonic 7 ultrasound at Lotus Hospital.
+Agent 1: Got it. Sonic 7 ultrasound at Lotus Hospital.
 Start Time: 54.91
 End Time: 59.17
 Customer: Correct.
 Start Time: 59.84
 End Time: 60.62
-Agent: Thank you. Are you requesting technical or clinical support?
+Agent 1: Thank you. Are you requesting technical or clinical support?
 Start Time: 62.27
 End Time: 66.33
 Customer: Any technical support.
 Start Time: 67.59
 End Time: 69.22
-Agent: I have the address for your facility as 78 Green Avenue, Ahmedabad, Gujarat. Is that correct?
+Agent 1: I have the address for your facility as 78 Green Avenue, Ahmedabad, Gujarat. Is that correct?
 Start Time: 71.08
 End Time: 78.55
 Customer: Yes, that's right.
 Start Time: 79.33
 End Time: 80.58
-Agent: Great. Will you be with a point of contact for this case?
+Agent 1: Great. Will you be with a point of contact for this case?
 Start Time: 82.33
 End Time: 85.58
 Customer: Yeah, I'll be handling the case.
 Start Time: 86.61
 End Time: 88.83
-Agent: All right. Let me pull up your information. 
-Start Time: 90.33
-End Time: 93.52
-Agent : One moment. 
-Start Time: 93.63
-End Time: 94.52
-Agent : There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
-Start Time: 115.33
+Agent 1: All right. Let me pull up your information. One moment. There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
+Start Time: 89.02
 End Time: 117.52
 Customer: It's operational.
 Start Time: 118.25
 End Time: 119.75
-Agent: What issues are you expect experiencing with this unit?
+Agent 1: What issues are you expect experiencing with this unit?
 Start Time: 121.02
 End Time: 124.59
 Customer: The issue is that when I try to save the patient's data after an exam it's not saving to the local storage. It's only saving the images but not the full exam data.
 Start Time: 125.89
 End Time: 136.09
-Agent: I see. Was there any harm to the patient or user due to this issue?
+Agent 1: I see. Was there any harm to the patient or user due to this issue?
 Start Time: 137.75
 End Time: 142.77
 Customer: No. No harm at all.
 Start Time: 143.47
 End Time: 145.21
-Agent: All right. Generator case number for you. Is your email address ritu.there@lotus hospital.com?
+Agent 1: All right. Generator case number for you. Is your email address ritu.there@lotus hospital.com?
 Start Time: 146.83
 End Time: 155.05
 Customer: Yes, that's correct.
 Start Time: 155.47
 End Time: 156.85
-Agent: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen, paper to note down the case number?
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen, paper to note down the case number?
 Start Time: 158.88
 End Time: 166.97
 Customer: Yeah, I do. Please go ahead.
 Start Time: 167.59
 End Time: 169.41
-Agent: Your case number is 03-455-71123.
+Agent 1: Your case number is 03-455-71123.
 Start Time: 170.68
 End Time: 176.94
 Customer: Got it.
 Start Time: 178.12
 End Time: 179.09
-Agent: Thank you for calling XYZ Corporation. I will now transfer your call to technical support. 
+Agent 1: Thank you for calling XYZ Corporation. I will now transfer your call to technical support. 
 Start Time: 180.56
 End Time: 192.49
 Agent 2 : Hi, this is Meena from Ultrasound Technical support. Am I speaking with Ritu?

@@ -30,6 +30,65 @@ def load_text_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
+def read_transcript_from_text(transcript_text):
+    transcript = []
+    lines = transcript_text.split("\n")
+    
+    # Process the transcript in groups of 3 lines: speaker, start time, end time
+    for i in range(0, len(lines), 3):
+        if i+2 < len(lines):  # Check if there are at least 3 lines to process
+            speaker_line = lines[i].strip()
+            start_time_line = lines[i+1].strip()
+            end_time_line = lines[i+2].strip()
+            
+            # Modify regex to capture Agent, Agent X, and Customer
+            speaker_match = re.match(r"(?P<speaker>Agent \d*|Customer):\s(.+)", speaker_line)
+            if speaker_match:
+                speaker = speaker_match.group("speaker")
+                start_time = float(re.search(r"Start Time: (\d+\.\d{2})", start_time_line).group(1))
+                end_time = float(re.search(r"End Time: (\d+\.\d{2})", end_time_line).group(1))
+
+                # Only store the agent's lines
+                if speaker.startswith("Agent"):
+                    text = speaker_line.split(":")[1].strip()  # Get the agent's text
+                    transcript.append({
+                        "speaker": speaker,
+                        "text": text,
+                        "start_time": start_time,
+                        "end_time": end_time
+                    })
+    return transcript
+
+# Function to calculate words per second (WPS) for the agent
+def calculate_average_wps(transcript):
+    total_words = 0
+    total_duration = 0
+    for entry in transcript:
+        if "Agent" in entry["speaker"]:
+            duration = entry["end_time"] - entry["start_time"]
+            if duration <= 10:  # Only include agent statements with duration <= 10 seconds
+                words = len(entry["text"].split())
+                total_words += words
+                total_duration += duration
+    if total_duration == 0:
+        return 0  # Avoid division by zero
+    return total_words / total_duration
+
+# Function to calculate hold time
+def calculate_hold_time(transcript, average_wps):
+    hold_time = 0
+    for entry in transcript:
+        if "Agent" in entry["speaker"]:
+            duration = entry["end_time"] - entry["start_time"]
+            if duration > 10:  # Only consider agent statements where duration > 10 seconds
+                words = len(entry["text"].split())
+                expected_words = average_wps * duration
+                if words * 2 < expected_words:  # If actual words are more than twice the expected words
+                    # Calculate excess time and add it to the hold time
+                    excess_time = duration - (words / average_wps)
+                    hold_time += excess_time
+    return hold_time
+
 def format_instructions_creator():
     """
     Creates formatting instructions for the output parser based on the call center analysis schema.
@@ -41,29 +100,16 @@ def format_instructions_creator():
         name="call_time",
         description="This column contains the total time of the call, calculated based on the difference between the start and end times. Return only time in secs."
     )
-    # hold = ResponseSchema(
-    #     name="Hold",
-    #     description="Indicates whether the customer was placed on hold during the call ('Yes' or 'No')."
-    # )
+
     hold = ResponseSchema(
     name="hold",
     description="Indicates whether the customer was placed on hold (i.e., temporarily paused from speaking with an agent) during the call. Respond 'Yes' if they were on hold, 'No' if they were not."
     )
 
-    # hold_satisfaction = ResponseSchema(
-    #     name="Hold Satisfaction",
-    #     description="If the customer was placed on hold, this column indicates their satisfaction with the hold time, default is yes unless they complain ('Yes' or 'No')."
-    # )
-
     hold_satisfaction = ResponseSchema(
     name="hold_satisfaction",
     description="If the customer was placed on hold, indicates their satisfaction with the hold time. Default is 'Yes' unless they complain about the hold, in which case respond 'No'."
     )
-
-    # hold_time = ResponseSchema(
-    #     name="Hold Time",
-    #     description="Contains the total duration of time for holding, can be to check details, issue history etc. and does not include time for routing the call to another agent, calculated from the start and end times. Return only time in secs."
-    # )
 
     hold_time = ResponseSchema(
     name="hold_time",
@@ -110,6 +156,10 @@ def format_instructions_creator():
     resolution_confirmation = ResponseSchema(
         name="resolution_confirmation",
         description="Indicates whether the customer confirmed the resolution ('Yes' or 'No')."
+    )
+    routing_accuracy = ResponseSchema(
+        name="routing_accuracy",
+        description="Indicates whether the call was routed accurately ('Yes' or 'No'). If call was not routed to any other agent, the value is yes."
     )
     escalation = ResponseSchema(
         name="escalation",
@@ -201,12 +251,30 @@ def generate_response_call_center(llm, transcript_text):
 
     chain = prompt | llm | output_parser
     out = chain.invoke({"context": transcript_text})
-    print(out)
+    
+    ## code for multi agents
     no_agents = 0
-    for x in ['Agent', 'Agent 2', 'Agent 3', 'Agent 4', 'Agent 5'] : 
+    for x in ['Agent 1', 'Agent 2', 'Agent 3', 'Agent 4', 'Agent 5'] : 
         if x in transcript_text : 
             no_agents += 1
     out['multiple_agents'] = "Yes" if no_agents > 2 else "No"
+
+    ## code for csat score
+    csat_points = 0
+    for val in ['greeting', 'phone_number', 'email_address', 'digital_service'] : 
+        if out[val].lower() == "yes" : 
+            csat_points += 1
+        
+    out['csat'] = csat_points
+
+    ## code for hold time 
+    transcript = read_transcript_from_text(transcript_text)
+    average_wps = calculate_average_wps(transcript)
+    hold_time = calculate_hold_time(transcript, average_wps)
+    out['hold_time'] = str(round(hold_time))
+
+    ## code for route time
+
     return out
     # Convert the result to JSON format and return it
     # result_json = json.loads(out)  # Assuming the model returns a valid JSON string
@@ -226,10 +294,10 @@ def extract_features(file_path) :
    else : 
     print("this metadata is extracted don't worry") 
 
-input_folder = './data/extracted'
-for file in os.listdir(input_folder) : 
-    file_path = os.path.join(input_folder, file)
-    extract_features(file_path)
+# input_folder = './data/extracted'
+# for file in os.listdir(input_folder) : 
+#     file_path = os.path.join(input_folder, file)
+#     extract_features(file_path)
     
 
 #       while True:

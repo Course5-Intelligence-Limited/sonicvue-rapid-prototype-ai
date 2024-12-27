@@ -9,7 +9,22 @@ from datetime import datetime
 from utils.create_transcripts import get_transcripts
 from utils.feature_extraction import extract_features
 from tenacity import retry, stop_after_attempt, wait_exponential
+from dotenv import load_dotenv
+from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+import json
+from langchain_community.vectorstores import FAISS
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain
+from langchain_groq import ChatGroq
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.prompts import PromptTemplate
+from langchain_core.messages import HumanMessage,AIMessage
+from azure.storage.blob import BlobServiceClient
+from langchain_community.document_loaders import AzureBlobStorageFileLoader
 
+load_dotenv()
+groq_api_key = os.getenv('GROQ_API_KEY')
+llm = ChatGroq(model='llama-3.1-8b-instant', api_key=groq_api_key, temperature=0, seed=42)
 router = APIRouter()
 
 # Azure Blob Storage configuration
@@ -24,9 +39,10 @@ local_metadata_dir = "metadata"
 for dir_path in [local_data_dir, local_metadata_dir, local_transcripts_dir] : 
     os.makedirs(dir_path, exist_ok=True)
 
-chatbot = Chatbot()
+# chatbot = Chatbot()
 
 latest_uploaded_files: List[str] = ['audio__1.wav', 'audio__2.wav', 'audio__3.wav']
+call_type_analysis = []
 
 from fastapi import APIRouter, Query
 import pandas as pd
@@ -254,11 +270,22 @@ def get_table_dataframe() -> pd.DataFrame:
                 filtered_data = {k: data.get(k, '') for k in kpi_columns}
                 filtered_data['filename'] = filename
                 data_list.append(filtered_data)
+                data_list.append({
+                    'call_type': data.get('call_type', 'Other'),
+                    'issue_discussed': data.get('issue_discussed', '')
+                })
     
     if not data_list:
         return pd.DataFrame()
         
     df = pd.DataFrame(data_list)
+
+    for call_type, group in df.groupby('call_type'):
+        call_type_analysis.append({
+            'call_type': call_type,
+            'total_calls': len(group),
+            'issues': group['issue_discussed'].tolist()
+        })
     
     time_columns = ['call_time', 'hold_time', 'route_time', 'resolution_time']
     for col in time_columns:
@@ -416,6 +443,23 @@ async def get_table_data():
     df = get_table_dataframe()
     return df.to_dict(orient='records')
 
+@router.get("/call-type-analysis")
+async def get_call_analysis():
+    """
+    Endpoint to get call type analysis data for the dashboard table.
+    
+    Returns:
+        Dict: Call type statistics and associated issues
+        
+    Raises:
+        HTTPException: If there are errors processing the request
+    """
+    try:
+        analysis_data = {'call_types' : call_type_analysis}
+        return analysis_data
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 class TranscriptRequest(BaseModel):
     files: List[str]
 
@@ -425,7 +469,7 @@ class ChatInput(BaseModel):
 def load_vector():
     embedding_model = HuggingFaceBgeEmbeddings(
     model_name="BAAI/bge-small-en-v1.5",
-    model_kwargs={"device": DEVICE},
+    model_kwargs={"device": 'cpu'},
     encode_kwargs={"normalize_embeddings": True}
 )
 #loading embeddings from local
@@ -435,6 +479,7 @@ def load_vector():
 vectorstore = load_vector()
 
 def chatbot_response(input_prompt):
+    chat_history = []
     retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 18})
     retriever_prompt = ChatPromptTemplate.from_messages([
         MessagesPlaceholder(variable_name="chat_history"),

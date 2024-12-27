@@ -330,11 +330,11 @@ def extract_features(file_path) :
       print("this metadata is extracted don't worry") 
     
 
-input_folder = './data/extracted'
-for file in os.listdir(input_folder) : 
-    print(file)
-    file_path = os.path.join(input_folder, file)
-    extract_features(file_path)
+# input_folder = './data/extracted'
+# for file in os.listdir(input_folder) : 
+#     print(file)
+#     file_path = os.path.join(input_folder, file)
+#     extract_features(file_path)
     
 
 #       while True:

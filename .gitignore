@@ -11,6 +11,8 @@ __pycache__/
 # Ignore Notebooks files 
 *.ipynb_checkpoints
 
+*.env
+
 # Ignore Excel Files
 *.xlxs
 *.odt

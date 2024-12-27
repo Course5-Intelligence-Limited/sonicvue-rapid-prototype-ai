@@ -1,0 +1,141 @@
+Agent 1: Hello, this is Ravi from XYZ Support. May I have your name please?
+Start Time: 0.52
+End Time: 4.80
+Customer: Hi, my name is Deepika Meenan. Thank you.
+Start Time: 5.99
+End Time: 9.51
+Agent 1: Deepika. In case we get disconnected, what's the best number to reach you?
+Start Time: 9.53
+End Time: 13.77
+Customer: You can reach me at 9956012 345.
+Start Time: 14.43
+End Time: 20.52
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 21.50
+End Time: 25.32
+Customer: This is regarding a new case.
+Start Time: 26.20
+End Time: 28.02
+Agent 1: Okay. Do you have the device serial number or SUD ID?
+Start Time: 28.84
+End Time: 33.62
+Customer: Yes, one moment. It's 3x045D as in Delta 4891.
+Start Time: 34.63
+End Time: 46.49
+Agent 1: Got it. Sonview 6 ultrasound at SRI Diagnostics.
+Start Time: 47.67
+End Time: 53.66
+Customer: Yes, that's correct.
+Start Time: 54.17
+End Time: 55.44
+Agent 1: Thank you. Are you calling for technical or clinical support?
+Start Time: 55.90
+End Time: 59.44
+Customer: I need technical support.
+Start Time: 60.26
+End Time: 61.84
+Agent 1: Okay. I have the address for your facility as 25 MG Road, Chennai. Is that right?
+Start Time: 62.81
+End Time: 68.92
+Customer: Yes, that's correct.
+Start Time: 69.61
+End Time: 70.92
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 71.42
+End Time: 75.23
+Customer: Yes, I'll be handling the case.
+Start Time: 77.02
+End Time: 78.92
+Agent 1: All right. Let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 79.50
+End Time: 90.61
+Customer: It's operational.
+Start Time: 91.86
+End Time: 93.05
+Agent 1: What seems to be the issue with the unit?
+Start Time: 93.86
+End Time: 96.25
+Customer: The problem is that when we try to print the images from the ultrasound the printer shows an error message saying no paper in the tray even though the paper tray is full.
+Start Time: 97.70
+End Time: 108.67
+Agent 1: I see. Was any patient or user harmed due to this issue?
+Start Time: 109.50
+End Time: 114.00
+Customer: No, no. No one was harmed. But it's delaying the workflow.
+Start Time: 115.14
+End Time: 119.88
+Agent 1: All right. I'll generate a case number for you. Is Your email address deepika.munnonridiagnostic.com?
+Start Time: 120.53
+End Time: 129.03
+Customer: Yes, that's correct.
+Start Time: 129.62
+End Time: 130.96
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for this case number?
+Start Time: 131.74
+End Time: 138.88
+Customer: Yes, I'm ready.
+Start Time: 139.57
+End Time: 140.84
+Agent 1: Your case number is 01278-53490.
+Start Time: 141.38
+End Time: 147.19
+Customer: Got it.
+Start Time: 148.34
+End Time: 149.24
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 149.78
+End Time: 154.07
+Agent 3: Hello, this is Aarti from Ultrasound Technical Support. Am I speaking with Deepika?
+Start Time: 176.47
+End Time: 181.84
+Customer: Yes, this is Deepika.
+Start Time: 182.43
+End Time: 184.09
+Agent 3: Hi, Deepika. I understand that you are having trouble with the printer Showing no paper in tray error even though your tray is full. Can you tell me more about the issue?
+Start Time: 184.99
+End Time: 195.18
+Customer: Yeah. When we try to print the ultrasound images, the printer shows an error message saying there is no paper in the tray. But the tray is completely full.
+Start Time: 196.12
+End Time: 205.81
+Agent 3: All right. Let me check something on my hand. One moment please.
+Start Time: 208.12
+End Time: 212.01
+Customer: Okay, I'm waiting.
+Start Time: 212.84
+End Time: 214.25
+Agent 3: All right. Are you near the printer right now? Let's check a few things.
+Start Time: 225.21
+End Time: 230.06
+Customer: Yes, I'm by the printer.
+Start Time: 230.49
+End Time: 232.19
+Agent 3: Great. First, let's make sure the paper is loaded properly. Can you remove the paper and reinsert it. Make sure it's aligned correctly.
+Start Time: 233.32
+End Time: 240.66
+Customer: All right. I removed and reinserted the paper.
+Start Time: 243.97
+End Time: 248.51
+Agent 3: Now check if the printer's paper sensor is clean. Sometimes dust or paper residue can cause the sensor to malfunction. Try wiping it gently with a soft cloth.
+Start Time: 249.74
+End Time: 259.71
+Customer: Okay. I have cleaned the sensor.
+Start Time: 263.50
+End Time: 266.19
+Agent 3: Perfect. Now try printing again and see if the error message still appears.
+Start Time: 267.35
+End Time: 272.12
+Customer: Yes, it's working. Now the printer is printing the images without any errors.
+Start Time: 279.19
+End Time: 284.32
+Agent 3: Fantastic. I'm glad we were able to resolve that issue for you. Is there anything else I can assist you with?
+Start Time: 285.06
+End Time: 291.64
+Customer: No, that was the only issue. Thanks for your help, Aarti.
+Start Time: 292.71
+End Time: 296.01
+Agent 3: You're very welcome, Deepika. Thank you for calling XYZ Support. Have a great day.
+Start Time: 296.71
+End Time: 300.94
+Customer: Thank you. You too.
+Start Time: 301.44
+End Time: 302.31

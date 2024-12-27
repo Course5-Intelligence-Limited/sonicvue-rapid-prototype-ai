@@ -1,0 +1,147 @@
+Agent 1: Hello, this is Arvind from XYZ Corporation. May I have your name please?
+Start Time: 1.80
+End Time: 5.64
+Customer: My name is Ritu. Desk.
+Start Time: 6.95
+End Time: 8.72
+Agent 1: Thank you. Ritu. In case we disconnected, what's the best number to reach you?
+Start Time: 10.30
+End Time: 15.01
+Customer: You can reach me at 987-65-41234.
+Start Time: 16.43
+End Time: 23.00
+Agent 1: God. Thank you. Are you calling about a new or existing case?
+Start Time: 24.70
+End Time: 28.80
+Customer: A new case.
+Start Time: 29.55
+End Time: 30.77
+Agent 1: Okay. Do you have the device serial number or SCY ID?
+Start Time: 31.86
+End Time: 35.28
+Customer: Yes. Give me a moment. Yeah, got it. It's 4D042Z as in Zulieth 1882.
+Start Time: 36.95
+End Time: 54.47
+Agent 1: Got it. A Sonic 7 ultrasound at Lotus Osmotic. Correct?
+Start Time: 55.65
+End Time: 60.10
+Customer: Yes, correct.
+Start Time: 60.97
+End Time: 61.98
+Agent 1: Thank you. Are you requesting technical or clinical support?
+Start Time: 63.77
+End Time: 67.14
+Customer: Any technical support.
+Start Time: 68.25
+End Time: 69.67
+Agent 1: Okay. I have the address for your facility as 78 Green Avenue, Ahmedabad, Gujarat. Is that correct?
+Start Time: 71.36
+End Time: 79.39
+Customer: Yes, that's right.
+Start Time: 80.42
+End Time: 81.64
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 82.66
+End Time: 86.00
+Customer: Yeah, I'll be handling the case.
+Start Time: 87.42
+End Time: 89.39
+Agent 1: All right. Let me pull up your information. One moment. There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
+Start Time: 90.66
+End Time: 132.16
+Customer: It's operational.
+Start Time: 133.06
+End Time: 134.37
+Agent 1: What is the issue you are facing with the unit?
+Start Time: 136.31
+End Time: 139.65
+Customer: Issue is that when I try to save the patient's data after an exam it's not saving or to the local storage. It's only saving the images but not the full exam data.
+Start Time: 141.87
+End Time: 151.72
+Agent 1: Hello. Hello.
+Start Time: 166.96
+End Time: 174.53
+Agent 3: Go ahead. Go ahead.
+Start Time: 174.96
+End Time: 176.25
+Agent 1: Okay, I see. Was there any harm to the patient or you said due to this issue?
+Start Time: 176.75
+End Time: 185.78
+Customer: No. No harm at all.
+Start Time: 186.84
+End Time: 188.53
+Agent 1: All right. I'll generate a case number for you. Is Your email address ritu.desai.com?
+Start Time: 190.00
+End Time: 198.22
+Customer: Yes, that's correct.
+Start Time: 199.31
+End Time: 200.66
+Agent 1: Okay, thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper to note down the case number?
+Start Time: 201.79
+End Time: 213.87
+Customer: Yeah, I do. Please go ahead.
+Start Time: 215.00
+End Time: 216.94
+Agent 1: Okay. Your case number is 034-557-1123.
+Start Time: 219.12
+End Time: 225.71
+Customer: Yeah, got it.
+Start Time: 227.16
+End Time: 228.34
+Agent 1: Thank you for calling XYZ Corporation and transfer you to technical support.
+Start Time: 229.37
+End Time: 233.62
+Agent 3: Hello, this is Meena from Ultrasound Technical support. Am I speaking with Ritu?
+Start Time: 255.06
+End Time: 259.15
+Customer: Yeah, this is Ritu.
+Start Time: 260.13
+End Time: 261.56
+Agent 3: Hi, Ritu. I understand you're having an issue with saving patient data. Could you explain the problem in more detail?
+Start Time: 262.25
+End Time: 270.04
+Customer: Yeah. When we try to save the exam, it only saves the images. Not the entire exam data. The measurements, notes and other data are not getting saved.
+Start Time: 271.13
+End Time: 283.19
+Agent 3: Got it. Did you try checking with for the solution on our web port?
+Start Time: 285.10
+End Time: 290.75
+Customer: Yes. I did not find anything helpful there.
+Start Time: 292.58
+End Time: 296.20
+Agent 3: All right, we will refuse. So, are you at the machine right now?
+Start Time: 297.70
+End Time: 302.69
+Customer: Yes, I'm standing by the machine.
+Start Time: 304.50
+End Time: 306.56
+Agent 3: Perfect. Get started. Can I go to the things menu and look for storage configuration?
+Start Time: 307.90
+End Time: 317.17
+Customer: Just. Okay, I see. Storage configuration. What should I do next?
+Start Time: 319.29
+End Time: 327.23
+Agent 3: If it's not selected, the data won't save properly.
+Start Time: 333.61
+End Time: 336.11
+Customer: It wasn't selected. I have changed it now.
+Start Time: 341.96
+End Time: 345.33
+Agent 3: Great. Now try saving the exam data again and let me know if it saves everything.
+Start Time: 346.68
+End Time: 350.98
+Customer: All right? Yeah. It's saving both the images and full exam data now.
+Start Time: 353.19
+End Time: 363.65
+Agent 3: Wonderful. I'm glad we could resolve that. Is there anything else I can assist you with?
+Start Time: 364.80
+End Time: 369.33
+Customer: No, that's everything. Thank you so much, Meena.
+Start Time: 370.73
+End Time: 373.23
+Agent 3: You're welcome, Ritu. Thank you for calling XYZ Corporation. Have a great day.
+Start Time: 374.00
+End Time: 379.62
+Customer: You too. Thanks.
+Start Time: 380.29
+End Time: 381.05

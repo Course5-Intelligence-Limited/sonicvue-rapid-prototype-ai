@@ -1,12 +1,12 @@
 {
-    "call_time": "200.76",
-    "hold": "No",
+    "call_time": "201.12",
+    "hold": "Yes",
     "hold_satisfaction": "Yes",
-    "hold_time": "0",
+    "hold_time": "9.28",
     "multiple_agents": "No",
-    "route_time": "112.95-113.12",
-    "resolution_time": "73.11",
-    "resolution_time_start": "127.31",
+    "route_time": "4.73",
+    "resolution_time": "61.69",
+    "resolution_time_start": "102.51",
     "greeting": "Yes",
     "phone_number": "Yes",
     "email_address": "Yes",
@@ -15,7 +15,7 @@
     "resolution_confirmation": "Yes",
     "escalation": "No",
     "call_tone": "Positive",
-    "issue_discussed": "Data Not Saving",
+    "issue_discussed": "Patient data saving issue",
     "complexity": "Intermediate",
     "issue_type": "Assistance",
     "status_query": "No",
@@ -24,5 +24,6 @@
     "part_request": "No",
     "parts_dispatch": "No",
     "field_service": "No",
-    "digital_service": "No"
+    "digital_service": "No",
+    "csat": 3
 }

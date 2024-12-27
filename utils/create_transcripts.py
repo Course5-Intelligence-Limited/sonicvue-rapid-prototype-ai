@@ -60,7 +60,7 @@ def edit_in_place(file_path, labels):
         text = file.read()
 
         # Replace specific labels like Speaker A -> Agent, Speaker B -> Customer
-        text = text.replace('Speaker A', labels.get('Speaker A', 'Agent'))
+        text = text.replace('Speaker A', labels.get('Speaker A', 'Agent 1'))
         text = text.replace('Speaker B', labels.get('Speaker B', 'Customer'))
 
         # Handle remaining speakers (e.g., 'Speaker C', 'Speaker D' etc.)
@@ -69,7 +69,7 @@ def edit_in_place(file_path, labels):
         def replace_speaker(match):
             speaker_letter = match.group(1)
             count = ord(speaker_letter) - ord('A')  # Map to agent number
-            return f'Agent {count + 1}'  # Start numbering agents from 1
+            return f'Agent {count}'  # Start numbering agents from 1
 
         text = re.sub(pattern, replace_speaker, text)
 
@@ -91,10 +91,10 @@ def process_transcript_in_place(file_path):
     for line in lines:
         if any(phrase in line.lower() for phrase in ['how may i help you', 'how can i help you', 'may i have your name', 'can i have your name']):
             if "Speaker A" in line:
-                labels['Speaker A'] = "Agent"
+                labels['Speaker A'] = "Agent 1"
                 labels['Speaker B'] = "Customer"
             else:
-                labels['Speaker B'] = "Agent"
+                labels['Speaker B'] = "Agent 1"
                 labels['Speaker A'] = "Customer"
             break
 

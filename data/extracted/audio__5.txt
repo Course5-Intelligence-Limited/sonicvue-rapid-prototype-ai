@@ -1,4 +1,4 @@
-Agent: Hello, this is Jonathan with Phillips. Can I have your name, please?
+Agent 1: Hello, this is Jonathan with Phillips. Can I have your name, please?
 Start Time: 6.20
 End Time: 9.24
 
@@ -6,7 +6,7 @@ Customer: My name is Juliet West.
 Start Time: 10.03
 End Time: 12.40
 
-Agent: Thank you, Juliet. And in case we're disconnected, what's the best phone number?
+Agent 1: Thank you, Juliet. And in case we're disconnected, what's the best phone number?
 Start Time: 14.66
 End Time: 18.29
 
@@ -14,7 +14,7 @@ Customer: 805-245-0028.
 Start Time: 19.07
 End Time: 23.57
 
-Agent: Thank you. And are you calling in regards to a new or an existing case?
+Agent 1: Thank you. And are you calling in regards to a new or an existing case?
 Start Time: 24.43
 End Time: 28.16
 
@@ -22,7 +22,7 @@ Customer: A new case.
 Start Time: 29.23
 End Time: 30.57
 
-Agent: Do you have your device's serial number or the set ID number?
+Agent 1: Do you have your device's serial number or the set ID number?
 Start Time: 31.95
 End Time: 35.45
 
@@ -30,7 +30,7 @@ Customer: We do. One second. Okay. USO19C, my cat 2566 for an EPIC 5 ultrasound.
 Start Time: 36.10
 End Time: 59.08
 
-Agent: Coletta Valley Cottage Hospital.
+Agent 1: Coletta Valley Cottage Hospital.
 Start Time: 59.23
 End Time: 61.24
 
@@ -38,7 +38,7 @@ Customer: Correct.
 Start Time: 62.10
 End Time: 62.92
 
-Agent: Okay, and are you calling for technical or clinical support?
+Agent 1: Okay, and are you calling for technical or clinical support?
 Start Time: 63.27
 End Time: 66.33
 
@@ -46,7 +46,7 @@ Customer: Technical.
 Start Time: 68.86
 End Time: 69.81
 
-Agent: Okay, I'm showing the address for your facility at 5. I'm sorry. 351 South Patterson Avenue in Santa Barbara?
+Agent 1: Okay, I'm showing the address for your facility at 5. I'm sorry. 351 South Patterson Avenue in Santa Barbara?
 Start Time: 70.58
 End Time: 77.69
 
@@ -54,7 +54,7 @@ Customer: That's correct.
 Start Time: 78.22
 End Time: 79.41
 
-Agent: Okay, and are you going to be the point of contact for the case?
+Agent 1: Okay, and are you going to be the point of contact for the case?
 Start Time: 79.59
 End Time: 83.44
 
@@ -62,7 +62,7 @@ Customer: Yes.
 Start Time: 84.14
 End Time: 84.98
 
-Agent: Okay, let me pull you up in the system. One moment. There you are. Okay. And for the unit, would you list it as down, restricted, intermittent or operational?
+Agent 1: Okay, let me pull you up in the system. One moment. There you are. Okay. And for the unit, would you list it as down, restricted, intermittent or operational?
 Start Time: 85.16
 End Time: 97.11
 
@@ -70,7 +70,7 @@ Customer: It's operational.
 Start Time: 98.02
 End Time: 99.28
 
-Agent: Okay. The reported issue with the unit?
+Agent 1: Okay. The reported issue with the unit?
 Start Time: 99.94
 End Time: 102.39
 
@@ -78,7 +78,7 @@ Customer: Yeah. When we end the exam, it's not sending our report pages. It send
 Start Time: 104.14
 End Time: 114.48
 
-Agent: Okay, that's not good. Okay, so the device was in clinical use. Was any patient or user harmed?
+Agent 1: Okay, that's not good. Okay, so the device was in clinical use. Was any patient or user harmed?
 Start Time: 117.22
 End Time: 130.28
 
@@ -86,15 +86,15 @@ Customer: No.
 Start Time: 131.16
 End Time: 131.97
 
-Agent: Okay, I'll provide you with the case number in just a moment and we'll get you routed to tech support to clear the issue. Email address for you j the number2westbch.org j2west.
+Agent 1: Okay, I'll provide you with the case number in just a moment and we'll get you routed to tech support to clear the issue. Email address for you j the number2westbch.org j2west.
 Start Time: 132.16
 End Time: 157.42
 
-Agent 2: Yes.
+Customer: Yes.
 Start Time: 157.49
 End Time: 158.15
 
-Agent: Okay. Now, is there anything else that I could assist you with before I transfer you? Well, I'm going to give you the case number. Do you have pen and paper?
+Agent 1: Okay. Now, is there anything else that I could assist you with before I transfer you? Well, I'm going to give you the case number. Do you have pen and paper?
 Start Time: 159.76
 End Time: 166.26
 
@@ -102,7 +102,7 @@ Customer: I do. Go ahead.
 Start Time: 167.60
 End Time: 170.22
 
-Agent: Case number is 012-397-9956.
+Agent 1: Case number is 012-397-9956.
 Start Time: 170.41
 End Time: 178.75
 
@@ -110,7 +110,7 @@ Customer: Okay.
 Start Time: 180.37
 End Time: 181.22
 
-Agent: Okay, thank you for calling Phillips. Hold the line. Routing you over now.
+Agent 1: Okay, thank you for calling Phillips. Hold the line. Routing you over now.
 Start Time: 181.85
 End Time: 185.96
 
@@ -389,12 +389,3 @@ End Time: 923.12
 Agent 2: You're welcome. Have a great afternoon. Thanks for calling Phillips today.
 Start Time: 923.24
 End Time: 925.96
-
-ll do it. Thank you.
-Start Time: 921.63
-End Time: 923.12
-
-Speaker C: You're welcome. Have a great afternoon. Thanks for calling Phillips today.
-Start Time: 923.24
-End Time: 925.96
-

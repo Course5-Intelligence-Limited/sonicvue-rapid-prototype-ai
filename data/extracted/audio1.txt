@@ -1,34 +1,34 @@
-Agent: Hello, this is Rajesh with xyz. Can I have your name please?
+Agent 1: Hello, this is Rajesh with xyz. Can I have your name please?
 Start Time: 0.36
 End Time: 4.08
 Customer: My name is Priya Sharma.
 Start Time: 4.46
 End Time: 6.22
-Agent: Thank you, Priya. And in case we are disconnected, what's the best phone number?
+Agent 1: Thank you, Priya. And in case we are disconnected, what's the best phone number?
 Start Time: 6.38
 End Time: 10.56
 Customer: 987-654-3210.
 Start Time: 11.03
 End Time: 14.19
-Agent: Thank you. And are you calling in regards to a new or an existing case?
+Agent 1: Thank you. And are you calling in regards to a new or an existing case?
 Start Time: 14.33
 End Time: 18.00
 Customer: A new case.
 Start Time: 18.34
 End Time: 19.46
-Agent: Do you have your device's serial number or the SUD ID number?
+Agent 1: Do you have your device's serial number or the SUD ID number?
 Start Time: 19.59
 End Time: 22.84
 Customer: Yes, one moment. It's 2S019C as in cat 2566. Got it.
 Start Time: 23.23
 End Time: 30.64
-Agent: An EPIC5 ultrasound. ABC Hospital.
+Agent 1: An EPIC5 ultrasound. ABC Hospital.
 Start Time: 30.80
 End Time: 34.33
 Customer: Correct.
 Start Time: 34.95
 End Time: 35.62
-Agent: Okay. And are you calling for technical or clinical support?
+Agent 1: Okay. And are you calling for technical or clinical support?
 Start Time: 35.74
 End Time: 38.97
 Customer: Technical.
@@ -37,55 +37,55 @@ End Time: 39.86
 Customer : Yes, technical support.
 Start Time: 40.00
 End Time: 41.47
-Agent: I am showing the address for your facility at 123 MG Road, Bengaluru, Karnataka.
+Agent 1: I am showing the address for your facility at 123 MG Road, Bengaluru, Karnataka.
 Start Time: 41.57
 End Time: 47.20
 Customer: That's correct.
 Start Time: 47.55
 End Time: 48.44
-Agent : Okay. And are you going to be the point of contact for the case?
+Agent 1 : Okay. And are you going to be the point of contact for the case?
 Start Time: 48.55
 End Time: 52.09
 Customer: Yes.
 Start Time: 52.55
 End Time: 53.24
-Agent: Alright, let me pull you up in the system. One moment. Therehere you are. OK. And for the unit which you listed, is it down, restricted, intermittent or operational?
+Agent 1: Alright, let me pull you up in the system. One moment. Therehere you are. OK. And for the unit which you listed, is it down, restricted, intermittent or operational?
 Start Time: 53.38
 End Time: 63.81
 Customer: It's operational.
 Start Time: 64.39
 End Time: 65.54
-Agent: And the reported issue with the unit?
+Agent 1: And the reported issue with the unit?
 Start Time: 65.71
 End Time: 67.76
 Customer: When we end the exam, it's not sending our report pages. It sends the images but not the report.
 Start Time: 67.90
 End Time: 73.02
-Agent: Ok, so the device was in clinical use. Was any patient or user harmed?
+Agent 1: Ok, so the device was in clinical use. Was any patient or user harmed?
 Start Time: 73.44
 End Time: 78.67
 Customer: No.
 Start Time: 78.83
 End Time: 79.34
-Agent: I'll provide you with the case number in just a moment. And we'll get you routed to tech support to resolve the issue. Email address for you psharmabc.org Is that correct?
+Agent 1: I'll provide you with the case number in just a moment. And we'll get you routed to tech support to resolve the issue. Email address for you psharmabc.org Is that correct?
 Start Time: 79.44
 End Time: 91.71
 Customer: Yes. Psharmabc.org?
 Start Time: 91.93
 End Time: 94.04
-Agent: Alright Priya. Was there anything else that I could assist you with before I transfer you? Let me give you the case number. Do you have a pen and paper?
+Agent 1: Alright Priya. Was there anything else that I could assist you with before I transfer you? Let me give you the case number. Do you have a pen and paper?
 Start Time: 94.07
 End Time: 102.97
 Customer: I do. Go ahead.
 Start Time: 103.10
 End Time: 104.71
-Agent: Case number is 01233-97-9956.
+Agent 1: Case number is 01233-97-9956.
 Start Time: 104.85
 End Time: 109.44
 Customer: Got it.
 Start Time: 109.86
 End Time: 110.59
-Agent: Okay. Thank you for calling XYZ. Hold the line. I'm rooting you over now.
+Agent 1: Okay. Thank you for calling XYZ. Hold the line. I'm rooting you over now.
 Start Time: 110.70
 End Time: 116.22
 Agent 2: Hello, this is Kavita from Ultrasound Technical support. Am I speaking with Priya?

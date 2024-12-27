@@ -1,0 +1,135 @@
+Agent 1: Hello, this is Arjun from XYZ support. May have your name please.
+Start Time: 0.68
+End Time: 4.61
+Customer 1: My name is Anjali Rao.
+Start Time: 5.87
+End Time: 7.57
+Agent 1: Thank you. Anjali, in case we disconnected, what's the best number to reach you?
+Start Time: 8.54
+End Time: 13.12
+Customer 1: You can reach me at 981-234-5678.
+Start Time: 14.06
+End Time: 20.12
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 21.62
+End Time: 25.16
+Customer 1: This is an existing case.
+Start Time: 26.23
+End Time: 27.98
+Agent 1: Okay. Do you have the case ID or device SUD ID?
+Start Time: 29.07
+End Time: 32.70
+Customer 1: Yeah, let me check. It's 6T031B as in Bravo 763 2.
+Start Time: 33.76
+End Time: 51.53
+Agent 1: Got it. Asonoscan for ultrasound at Krishna Hospital.
+Start Time: 52.49
+End Time: 55.84
+Customer 1: Yes, that's correct.
+Start Time: 56.53
+End Time: 57.80
+Agent 1: Thank you. It seems it's a technical issue, right?
+Start Time: 58.45
+End Time: 61.99
+Customer 1: Yes. I need technical support.
+Start Time: 62.70
+End Time: 64.92
+Agent 1: Okay. I have the address for your facility as 45 Patel Nagar, Mumbai. Is that right?
+Start Time: 66.61
+End Time: 72.56
+Customer 1: Yes, that's correct.
+Start Time: 73.53
+End Time: 74.88
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 75.86
+End Time: 79.75
+Customer 1: Yes, I'll handle the case.
+Start Time: 80.84
+End Time: 82.58
+Agent 1: All right. Let me pull up the details. Yeah. It says here an engineering visit was already scheduled for last Monday.
+Start Time: 83.69
+End Time: 93.31
+Customer 1: Yes. And the person never showed up. Neither was his cell reachable.
+Start Time: 94.97
+End Time: 99.86
+Agent 1: Let me check. Madam, it says. It says here he did visit.
+Start Time: 101.44
+End Time: 108.38
+Customer 1: What time did he visit? He should have called ahead and explained that what time he will be coming.
+Start Time: 110.00
+End Time: 115.61
+Agent 1: Yeah, I understand, madam. I'm really sorry. We would like to help you however we can. I understand, madam. I'm really sorry. We would like to help you however we can. Was there anyone else present at the site who. Who could have made contact with the engineer?
+Start Time: 117.23
+End Time: 136.88
+Customer 1: No, it was my shift.
+Start Time: 137.71
+End Time: 139.28
+Agent 1: All right. Let me check. Is Your email address anjali.rawrishna hospital.com?
+Start Time: 140.82
+End Time: 147.32
+Customer 1: Yes, that's my email.
+Start Time: 148.15
+End Time: 149.56
+Agent 1: Thank you. I'll now transfer Transfer you to our engineer department. If that. That's all right. We can request for another field visit here.
+Start Time: 150.54
+End Time: 159.25
+Customer 1: Why should I be the one doing that? It's your responsibility. And I do not wish to be routed or kept on hold again. Just schedule another field service right now.
+Start Time: 161.38
+End Time: 170.81
+Agent 1: Ma'am, as much as I would like to help you we are following some protocols here. Let me connect with your. Oh, sorry. That's light.
+Start Time: 172.59
+End Time: 183.93
+Agent 3: Yeah.
+Start Time: 184.04
+End Time: 184.49
+Agent 1: Okay. Sorry.
+Start Time: 184.56
+End Time: 185.62
+Customer 1: Let me connect with your supervisor. I do not wish to waste any more time here.
+Start Time: 187.00
+End Time: 191.15
+Agent 1: All right. Before I transfer you, is there anything else I can assist you with? Do you have pen and paper in for the case number?
+Start Time: 194.16
+End Time: 202.38
+Customer 1: Yes, I'm ready.
+Start Time: 202.81
+End Time: 204.06
+Agent 1: Your case number is 01246-58792.
+Start Time: 206.93
+End Time: 213.16
+Customer 1: Got it.
+Start Time: 214.18
+End Time: 215.12
+Agent 1: Thank you for calling XYZ Support. I'll transfer your call.
+Start Time: 218.41
+End Time: 221.47
+Agent 3: Hello, this is Leena. I'm the manager. Am I speaking with Anjali?
+Start Time: 236.94
+End Time: 241.76
+Customer 1: Yes, this is Anjali.
+Start Time: 242.38
+End Time: 243.93
+Agent 3: Hi, Anjali. I understand you're having trouble with the touch screen freezing during an exam. Can you tell me more about the issue?
+Start Time: 244.71
+End Time: 251.53
+Customer 1: Yes, the touchscreen becomes unresponsive when I try to adjust settings during the exam. An engineer was supposed to visit and fix the issue.
+Start Time: 252.94
+End Time: 260.61
+Agent 3: I understand, ma'am. You're frustrated. We'll schedule another engineer to the case right away. Since we have already a ton of requests. It might take two days. But I'll prioritize your case. And if some another engineer is free, we'll redirect him to your case. I know you guys are facing issues and I'm extremely sorry for that. But you will have to be patient with us on this. Will that be fine?
+Start Time: 261.76
+End Time: 288.60
+Customer 1: Yeah, I assume that will be fine. But please, you have to fix it as soon as possible.
+Start Time: 289.98
+End Time: 294.92
+Agent 3: I understand, ma'am. And we give you our word that will help you out. Is there anything else I can assist you with?
+Start Time: 295.77
+End Time: 301.31
+Customer 1: No, that's everything. Thank you for your help, Leena.
+Start Time: 302.06
+End Time: 305.24
+Agent 3: You're very welcome, Anjali. Thank you for calling XYZ support. Have a great day.
+Start Time: 305.62
+End Time: 310.19
+Customer 1: Thank you. You too.
+Start Time: 311.06
+End Time: 311.98

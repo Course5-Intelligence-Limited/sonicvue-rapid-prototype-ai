@@ -1,141 +1,141 @@
-Agent: Hello, this is Ravi from XYZ support. May I have your name please?
+Agent 1: Hello, this is Ravi from XYZ support. May I have your name please?
 Start Time: 0.36
 End Time: 4.56
 Customer: My name is Deepika Menon.
 Start Time: 4.71
 End Time: 6.57
-Agent: Thank you. Deepika. In case we get disconnected, what's the best number to reach you?
+Agent 1: Thank you. Deepika. In case we get disconnected, what's the best number to reach you?
 Start Time: 6.74
 End Time: 11.52
 Customer: You can reach me at 995-601-2345.
 Start Time: 11.71
 End Time: 15.93
-Agent: Thank you. Are you calling about a new or existing case?
+Agent 1: Thank you. Are you calling about a new or existing case?
 Start Time: 16.39
 End Time: 19.56
 Customer: This is regarding a new case.
 Start Time: 19.71
 End Time: 21.59
-Agent: Do you have the device's serial number or SUD ID?
+Agent 1: Do you have the device's serial number or SUD ID?
 Start Time: 21.73
 End Time: 24.55
 Customer: Yes, one moment. Its 3x045D as in Delta 4891.
 Start Time: 24.73
 End Time: 31.73
-Agent: Got it. A Sonoview 6 ultrasound at SRI Diagnostics.
+Agent 1: Got it. A Sonoview 6 ultrasound at SRI Diagnostics.
 Start Time: 32.12
 End Time: 35.72
 Customer: Yes, that's correct.
 Start Time: 35.90
 End Time: 37.48
-Agent: Thank you. Are you calling for technical or clinical support?
+Agent 1: Thank you. Are you calling for technical or clinical support?
 Start Time: 37.62
 End Time: 40.67
 Customer: I need technical support.
 Start Time: 40.81
 End Time: 42.38
-Agent: I have the address for your facility as 25 MG Road, Chennai. Is that right?
+Agent 1: I have the address for your facility as 25 MG Road, Chennai. Is that right?
 Start Time: 42.51
 End Time: 47.68
 Customer: Yes, that's correct.
 Start Time: 47.82
 End Time: 49.43
-Agent: Great. Will you be the point of contact for this case?
+Agent 1: Great. Will you be the point of contact for this case?
 Start Time: 49.57
 End Time: 52.49
 Customer: Yes, I'll be handling the case.
 Start Time: 52.65
 End Time: 54.75
-Agent: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Agent 1: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
 Start Time: 54.90
 End Time: 62.84
 Customer: It's operational.
 Start Time: 63.38
 End Time: 64.60
-Agent: What seems to be the issue with the unit?
+Agent 1: What seems to be the issue with the unit?
 Start Time: 64.77
 End Time: 66.82
 Customer: The problem is that when we try to print the images from the ultrasound. The printer shows an error message saying no paper in tray even though the paper tray is full.
 Start Time: 66.96
 End Time: 76.03
-Agent: I see. Was any patient or user harmed due to this issue?
+Agent 1: I see. Was any patient or user harmed due to this issue?
 Start Time: 76.33
 End Time: 79.89
 Customer: No, no one was harmed. But it's delaying the workflow.
 Start Time: 80.08
 End Time: 83.61
-Agent: Alright, I'll generate a case number for you. Is Your email address deepika.menon.com?
+Agent 1: Alright, I'll generate a case number for you. Is Your email address deepika.menon.com?
 Start Time: 83.91
 End Time: 91.09
 Customer: Yes, that's correct.
 Start Time: 91.14
 End Time: 92.62
-Agent: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
 Start Time: 92.76
 End Time: 99.58
 Customer: Yes, I'm ready.
 Start Time: 99.75
 End Time: 101.07
-Agent: Your case number is 01278-53490.
+Agent 1: Your case number is 01278-53490.
 Start Time: 101.17
 End Time: 105.53
 Customer: Got it.
 Start Time: 105.98
 End Time: 106.71
-Agent: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
 Start Time: 106.81
 End Time: 111.33
-Customer: Hello, this is Arti from Ultrasound Technical support. Am I speaking with Deepika?
+Agent 2: Hello, this is Arti from Ultrasound Technical support. Am I speaking with Deepika?
 Start Time: 111.50
 End Time: 116.97
-Agent: Yes, this is Deepika.
+Customer : Yes, this is Deepika.
 Start Time: 117.10
 End Time: 118.74
-Customer: Hi Deepika. I understand you're having trouble with the printer showing a no paper in tray error even though the tray is full. Can you tell me more about the issue?
+Agent 2: Hi Deepika. I understand you're having trouble with the printer showing a no paper in tray error even though the tray is full. Can you tell me more about the issue?
 Start Time: 118.88
 End Time: 128.86
-Agent: Yes. When we try to print the ultrasound images, the printer shows an error message saying there is no paper in the tray. But the tray is completely full.
+Customer : Yes. When we try to print the ultrasound images, the printer shows an error message saying there is no paper in the tray. But the tray is completely full.
 Start Time: 129.00
 End Time: 136.81
-Customer: Alright, let me check something on my end. One moment please.
+Agent 2: Alright, let me check something on my end. One moment please.
 Start Time: 137.19
 End Time: 141.51
-Agent: Okay, I'm waiting.
+Customer : Okay, I'm waiting.
 Start Time: 141.63
 End Time: 142.99
-Customer: Alright. Are you near the printer? Now let's check a few things.
+Agent 2: Alright. Are you near the printer? Now let's check a few things.
 Start Time: 143.13
 End Time: 147.06
-Agent: Yes, I'm by the printer.
+Customer : Yes, I'm by the printer.
 Start Time: 147.23
 End Time: 148.98
-Customer: Great. First let's make sure the paper is loaded properly. Can you remove the paper and reinsert it? Making sure it's aligned correctly.
+Agent 2: Great. First let's make sure the paper is loaded properly. Can you remove the paper and reinsert it? Making sure it's aligned correctly.
 Start Time: 149.15
 End Time: 157.41
-Agent: Alright. I've removed and reinserted the paper.
+Customer : Alright. I've removed and reinserted the paper.
 Start Time: 157.79
 End Time: 160.62
-Customer: Now check if the printer's paper sensor is clean. Sometimes dust or paper residue can cause the sensor to malfunction. Try wiping it gently with a soft cloth.
+Agent 2: Now check if the printer's paper sensor is clean. Sometimes dust or paper residue can cause the sensor to malfunction. Try wiping it gently with a soft cloth.
 Start Time: 160.81
 End Time: 170.72
-Agent: Okay, I've cleaned the sensor.
+Customer : Okay, I've cleaned the sensor.
 Start Time: 170.86
 End Time: 172.78
-Customer: Perfect. Now try printing again and see if the error message still appears.
+Agent 2: Perfect. Now try printing again and see if the error message still appears.
 Start Time: 172.93
 End Time: 177.71
-Agent: Yes, it's working. Now the printer is printing the images without any errors.
+Customer : Yes, it's working. Now the printer is printing the images without any errors.
 Start Time: 178.12
 End Time: 182.75
-Customer: Fantastic. I'm glad we were able to resolve that for you. Is there anything else I can assist you with?
+Agent 2: Fantastic. I'm glad we were able to resolve that for you. Is there anything else I can assist you with?
 Start Time: 182.92
 End Time: 188.87
-Agent: No, that was the only issue. Thanks for your help, Arti.
+Customer : No, that was the only issue. Thanks for your help, Arti.
 Start Time: 189.02
 End Time: 192.68
-Customer: You're very welcome, Deepika. Thank you for calling XYZ Support. Have a great day.
+Agent 2: You're very welcome, Deepika. Thank you for calling XYZ Support. Have a great day.
 Start Time: 192.81
 End Time: 198.69
-Agent: Thank you. You too.
+Customer : Thank you. You too.
 Start Time: 198.79
 End Time: 199.66

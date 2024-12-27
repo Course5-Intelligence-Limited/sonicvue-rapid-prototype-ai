@@ -1,0 +1,108 @@
+Agent 1: Hello, this is Arvind from XYZ support. May I have your name please?
+Start Time: 0.88
+End Time: 4.88
+Customer: My name is Anjali Desa.
+Start Time: 5.83
+End Time: 8.04
+Agent 1: Thank you. Anjali, in case if we disconnected, what is the best number to reach you?
+Start Time: 9.30
+End Time: 14.29
+Customer: You can reach me at 988-654-3321.
+Start Time: 15.38
+End Time: 20.73
+Agent 1: Thanks. Anjali, are you calling about a new or existing case?
+Start Time: 21.86
+End Time: 25.96
+Customer: This is regarding a new one.
+Start Time: 26.68
+End Time: 28.38
+Agent 1: Do you have the device serial number or SUD ID number?
+Start Time: 30.16
+End Time: 33.94
+Customer: Yes, one moment. It's 5x034A as in Alpha 4120.
+Start Time: 35.35
+End Time: 58.87
+Agent 1: Got it. A Sonoview 7 ultrasound at Medis. Can imagine.
+Start Time: 60.37
+End Time: 65.22
+Customer: Yes, that's correct.
+Start Time: 66.05
+End Time: 67.34
+Agent 1: Thank you. Are you calling for technical or clinical support?
+Start Time: 68.44
+End Time: 71.58
+Customer: I need technical support.
+Start Time: 72.08
+End Time: 73.70
+Agent 1: Okay. I have the address for your facility as 12lbs Road, Mumbai. Is that correct?
+Start Time: 75.36
+End Time: 81.12
+Customer: Yes, that's right.
+Start Time: 81.75
+End Time: 82.97
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 83.83
+End Time: 87.25
+Customer: Yes, I'll be the primary contact.
+Start Time: 88.03
+End Time: 89.97
+Agent 1: All right. Let me pull up the details. One moment. There you go. What seems to be the issue with the unit?
+Start Time: 91.39
+End Time: 118.09
+Customer: The issue is that there is one part that needed to be replaced. And we have already requested on the online portal.
+Start Time: 119.19
+End Time: 125.94
+Agent 1: I see. Was any patient or user harm due to this issue?
+Start Time: 130.12
+End Time: 134.46
+Customer: No. Thankfully no harm. But it has stopped a critical part of our examination.
+Start Time: 135.40
+End Time: 140.53
+Agent 1: All right, I'll generate a case number for you. Is Your email address anjali. Desirediscan.in yeah, that's correct. Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for this case number?
+Start Time: 143.59
+End Time: 162.07
+Customer: Yes, I'm ready.
+Start Time: 163.62
+End Time: 164.91
+Agent 1: Yeah. Your case number is 01529-84630.
+Start Time: 166.25
+End Time: 171.96
+Customer: Got it? Yeah.
+Start Time: 174.57
+End Time: 175.91
+Agent 1: So thank you for calling XYZ Support. I'll transfer. I'll now transfer you to technical support.
+Start Time: 181.34
+End Time: 186.24
+Agent 3: Hello, this is Neha from Ultrasound technical support. Am I speaking with Anjali? Hello, this is Neha from Ultrasound Technical support. Am I speaking with Anjali?
+Start Time: 200.78
+End Time: 214.28
+Customer: Yes, this is Anjali.
+Start Time: 215.56
+End Time: 216.97
+Agent 3: Hi Anjali. I understand you are experiencing issues with the touch screen on your ultrasound machine. You have reported that you issued a part request. But I don't see any. No worries. I'll do it myself. Just wait one moment please.
+Start Time: 220.47
+End Time: 235.29
+Customer: Okay.
+Start Time: 236.72
+End Time: 237.57
+Agent 3: There we go. Part request is placed. So we'll send our on site engineer as well as soon as possible. Please be patient and sorry for your issue.
+Start Time: 249.09
+End Time: 261.06
+Customer: Yeah, I understand. No worries. And try to hurry it up please.
+Start Time: 262.08
+End Time: 266.73
+Agent 3: Sure, ma'am. I'm glad we could resolve the issue for you. Anjali, is there anything else I can help you with?
+Start Time: 267.26
+End Time: 273.40
+Customer: No, that's all. Thank you so much for your help.
+Start Time: 274.99
+End Time: 277.13
+Agent 3: Neha you're very welcome, Anjali. Thank you for calling XYZ support. Have a great day.
+Start Time: 277.18
+End Time: 282.05
+Customer: Thank you.
+Start Time: 282.62
+End Time: 283.22
+Agent 1: You too.
+Start Time: 283.28
+End Time: 283.55

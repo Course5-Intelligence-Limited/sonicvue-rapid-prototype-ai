@@ -4,5 +4,13 @@ data/raw/
 # Ignore virtual environment directory (venv)
 venv/
 
-# Ignore env files (env)
-.env
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Notebooks files 
+*.ipynb_checkpoints
+
+# Ignore Excel Files
+*.xlxs
+*.odt

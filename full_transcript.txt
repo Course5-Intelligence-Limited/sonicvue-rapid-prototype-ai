@@ -1,0 +1,1833 @@
+audio__5
+
+Agent 1: Hello, this is Jonathan with Phillips. Can I have your name, please?
+Start Time: 6.20
+End Time: 9.24
+
+Customer: My name is Juliet West.
+Start Time: 10.03
+End Time: 12.40
+
+Agent 1: Thank you, Juliet. And in case we're disconnected, what's the best phone number?
+Start Time: 14.66
+End Time: 18.29
+
+Customer: 805-245-0028.
+Start Time: 19.07
+End Time: 23.57
+
+Agent 1: Thank you. And are you calling in regards to a new or an existing case?
+Start Time: 24.43
+End Time: 28.16
+
+Customer: A new case.
+Start Time: 29.23
+End Time: 30.57
+
+Agent 1: Do you have your device's serial number or the set ID number?
+Start Time: 31.95
+End Time: 35.45
+
+Customer: We do. One second. Okay. USO19C, my cat 2566 for an EPIC 5 ultrasound.
+Start Time: 36.10
+End Time: 59.08
+
+Agent 1: Coletta Valley Cottage Hospital.
+Start Time: 59.23
+End Time: 61.24
+
+Customer: Correct.
+Start Time: 62.10
+End Time: 62.92
+
+Agent 1: Okay, and are you calling for technical or clinical support?
+Start Time: 63.27
+End Time: 66.33
+
+Customer: Technical.
+Start Time: 68.86
+End Time: 69.81
+
+Agent 1: Okay, I'm showing the address for your facility at 5. I'm sorry. 351 South Patterson Avenue in Santa Barbara?
+Start Time: 70.58
+End Time: 77.69
+
+Customer: That's correct.
+Start Time: 78.22
+End Time: 79.41
+
+Agent 1: Okay, and are you going to be the point of contact for the case?
+Start Time: 79.59
+End Time: 83.44
+
+Customer: Yes.
+Start Time: 84.14
+End Time: 84.98
+
+Agent 1: Okay, let me pull you up in the system. One moment. There you are. Okay. And for the unit, would you list it as down, restricted, intermittent or operational?
+Start Time: 85.16
+End Time: 97.11
+
+Customer: It's operational.
+Start Time: 98.02
+End Time: 99.28
+
+Agent 1: Okay. The reported issue with the unit?
+Start Time: 99.94
+End Time: 102.39
+
+Customer: Yeah. When we end the exam, it's not sending our report pages. It sends the images, but not the report.
+Start Time: 104.14
+End Time: 114.48
+
+Agent 1: Okay, that's not good. Okay, so the device was in clinical use. Was any patient or user harmed?
+Start Time: 117.22
+End Time: 130.28
+
+Customer: No.
+Start Time: 131.16
+End Time: 131.97
+
+Agent 1: Okay, I'll provide you with the case number in just a moment and we'll get you routed to tech support to clear the issue. Email address for you j the number2westbch.org j2west.
+Start Time: 132.16
+End Time: 157.42
+
+Customer: Yes.
+Start Time: 157.49
+End Time: 158.15
+
+Agent 1: Okay. Now, is there anything else that I could assist you with before I transfer you? Well, I'm going to give you the case number. Do you have pen and paper?
+Start Time: 159.76
+End Time: 166.26
+
+Customer: I do. Go ahead.
+Start Time: 167.60
+End Time: 170.22
+
+Agent 1: Case number is 012-397-9956.
+Start Time: 170.41
+End Time: 178.75
+
+Customer: Okay.
+Start Time: 180.37
+End Time: 181.22
+
+Agent 1: Okay, thank you for calling Phillips. Hold the line. Routing you over now.
+Start Time: 181.85
+End Time: 185.96
+
+Agent 2: Hello, this is Rhonda with Ultrasound technical Support. Am I speaking with Juliet?
+Start Time: 191.06
+End Time: 194.84
+
+Customer: Yes.
+Start Time: 195.66
+End Time: 196.34
+
+Agent 2: Hi, Juliet. Pardon. Okay.
+Start Time: 196.46
+End Time: 201.40
+
+Customer: So for some reason here, I'm not hearing very well. Can you move over?
+Start Time: 204.34
+End Time: 209.99
+
+Agent 2: Hello?
+Start Time: 211.21
+End Time: 211.94
+
+Customer: I hear you sort of intermittently, so let's try.
+Start Time: 212.84
+End Time: 216.94
+
+Agent 2: Hold on just a second here. Let me switch to different headsets.
+Start Time: 217.81
+End Time: 221.04
+
+Customer: I can hear you now.
+Start Time: 221.21
+End Time: 222.75
+
+Agent 2: Oh, is this better? Yeah. Okay. Okay, so you've got it. You're sending. Did this issue all of a sudden start today? Like, had you done some work on your machine or had some work been done on your machine?
+Start Time: 223.12
+End Time: 236.38
+
+Customer: No work has been done on it, and it's been doing it for a few days.
+Start Time: 237.25
+End Time: 240.86
+
+Agent 2: Okay, and when you say it's not sending the reports, do you mean just your. What we call structured report data? Like all of your measurements in calcs are not transferring just the images.
+Start Time: 241.05
+End Time: 251.15
+
+Customer: That's the problem. So then I have to resend and I try to just select those pages and have that send, but it doesn't. It sends all the pictures again.
+Start Time: 251.88
+End Time: 261.35
+
+Agent 2: Okay, so are you near the machine right now, Juliet, that I can have you check something?
+Start Time: 261.69
+End Time: 268.75
+
+Customer: I am.
+Start Time: 269.81
+End Time: 270.76
+
+Agent 2: Okay, so let's go ahead. What screen are you currently looking at?
+Start Time: 270.93
+End Time: 274.51
+
+Customer: The patient work list.
+Start Time: 276.38
+End Time: 278.59
+
+Agent 2: Okay, let's go ahead and exit out of that. And I want to actually get into the support menu, which is that button with some gears on it over on the far right side, near your probe holders on the far right side of your user console. No, it's just to the right of your touch screen on your user console, like where all your buttons and stuff are. Do you see that?
+Start Time: 278.78
+End Time: 303.17
+
+Customer: Yeah, yeah, yeah.
+Start Time: 303.46
+End Time: 304.73
+
+Agent 2: Okay, so just go ahead and press support. It's going to actually bring up a completely new menu on your upper display and you're just going to use your trackball to navigate. So across the top there's a box that says dicom. I'm sorry, it says network dicom. Choose that. And then on the left hand side of the screen now there's a choice for DICOM settings. It's the third choice down. Okay, once you're DYCON settings, look over on the right, kind of in the middle of your screen you should see your PAC system listed. It should be a DICOM storage server. I'm not sure what it's called, but it should be listed there. But it's a DICOM storage. Okay, go ahead and click on it so that it's highlighted. And then do you have an.
+Start Time: 305.11
+End Time: 359.98
+
+Customer: It's under query and retrieve is what it says.
+Start Time: 360.00
+End Time: 365.44
+
+Agent 2: Do you have anything else listed on there?
+Start Time: 366.14
+End Time: 368.56
+
+Customer: Well, for the device name it says Query and retrieve and then it says AE title and it says the number of my catapults.
+Start Time: 369.38
+End Time: 376.64
+
+Agent 2: Do you have anything else in the list besides the query retrieve? Like do you have a modality work list?
+Start Time: 377.11
+End Time: 384.85
+
+Customer: Work list?
+Start Time: 386.02
+End Time: 387.10
+
+Agent 2: Yes. Okay. And then there's the only one that has Storage server. They actually called it query retrieve.
+Start Time: 387.28
+End Time: 395.52
+
+Customer: There's another storage. There's another one lower down that just says the name of the catapult.
+Start Time: 397.87
+End Time: 404.37
+
+Agent 2: Is that what you send to as catapult? Mm. Okay. Yeah, go ahead and click on that line so that it's highlighted.
+Start Time: 404.79
+End Time: 412.20
+
+Customer: Mm.
+Start Time: 413.26
+End Time: 414.05
+
+Agent 2: And then do you get an edit button down below? Okay, choose edit. That's going to bring up a new window. And then the bottom right corner of that new window there's an advanced button. Choose advanced. And then that's going to bring up a new window. The first section is all of your compression settings, but the next section down is your export structure report. Is that, is there a checkmark in that box or no.
+Start Time: 414.75
+End Time: 448.02
+
+Customer: When on this, this window there are three drop down categories, right.
+Start Time: 455.49
+End Time: 465.08
+
+Agent 2: For like your compression, like JPEG or still.
+Start Time: 465.17
+End Time: 469.46
+
+Customer: Okay, below there there's one that says structured reporting, correct?
+Start Time: 470.20
+End Time: 476.43
+
+Agent 2: Yes, please. If you can expand that section just by clicking on the header line, it should expand it. Do you have a check mark in the box for export structure reports? Yes, you do? Okay, so go ahead and close out of this window. You can just say cancel or save and then just say it probably told you it was going to go ahead and cancel out of the next one or save the next one and it's going to tell you it'll do a verify. Okay. What kinds of studies are you doing there with your system? Like is it, are you doing cardiac, are you doing general imaging? Pediatric?
+Start Time: 476.88
+End Time: 518.89
+
+Customer: No. Well, there's some pediatric, but it's general, it's emergency room. You know, anything that comes in arterial, abdominal, pelvic, all that.
+Start Time: 520.08
+End Time: 531.71
+
+Agent 2: Okay. And you said that sometimes you have to go into your review screen and push the study across again and then your measurements will transfer or are you having to manually do your end measurements over on your packs on catapult.
+Start Time: 532.04
+End Time: 546.50
+
+Customer: So I go to my catapult and I dycom. Well, I end my exam, then I go put it online. So I hit the icon over there and I see that it sent let's say 88 images. So I open it up expecting to. We have to write paper worksheets here. So I get to the very end and then the report pages are not there. So then I go, that's weird. I know. I saved those. So I go and I go to review and I see, I open it up again and I see yep, my report pages are there.
+Start Time: 548.97
+End Time: 582.88
+
+Agent 2: Yep.
+Start Time: 583.01
+End Time: 583.40
+
+Customer: So then I have to resend it all.
+Start Time: 583.45
+End Time: 585.81
+
+Agent 2: Okay, okay, okay. I think I know. Okay, so let's actually go ahead and close out of the support menu. So click the X in the top right corner next to the word phillips and say yes to exit the application. So this time, once we're back at your regular imaging screen, on your touch display, look for the word utility which is along the right edge on your lower display, your touch display utilities. Then make sure the system tab is selected. And then I'm looking for the setups choice. Do you see that? Okay, choose setups. And then that's going to bring, that's going to bring up a new Menu up on your upper display. Once there, I want you to choose Acquisition Capture along the left side.
+Start Time: 585.95
+End Time: 636.43
+
+Customer: And.
+Start Time: 638.77
+End Time: 639.11
+
+Agent 2: Up at the top, choose the tab that says Archive Printer. Is that the one that was selected?
+Start Time: 639.14
+End Time: 647.36
+
+Customer: I don't know if it was selected, but I selected it.
+Start Time: 650.01
+End Time: 653.67
+
+Agent 2: Okay. Okay, perfect. Because now do you see your Acquire button? Assignments like Acquire one and Acquire two. Okay. Down at the bottom you've got a grid, and one of the choices down at the bottom is Acquire Report. Can you select that for me? It should be in the bottom right corner. Once you select that, is your catapult listed there? Is it checked? It is checked.
+Start Time: 653.74
+End Time: 682.09
+
+Customer: It is, Yep.
+Start Time: 682.12
+End Time: 684.27
+
+Agent 2: Okay. All right. Well, so all of your setups are configured correctly to information over. And when you're acquiring your report, are you using the Acquire button on your touch on your touchscreen and you hear like, multiple beeps, like you hear a beep for every page that there is.
+Start Time: 684.32
+End Time: 702.99
+
+Customer: Sure do.
+Start Time: 703.73
+End Time: 704.75
+
+Agent 2: Okay. Yeah. Your system set up correctly for it. So at this point, that's pretty much all. Yeah.
+Start Time: 705.52
+End Time: 713.84
+
+Customer: Let me just ask one more thing. Looking at that same page with the Acquire report thing.
+Start Time: 713.90
+End Time: 718.74
+
+Agent 2: Yep.
+Start Time: 718.88
+End Time: 719.22
+
+Customer: On the bottom right, the box says destinations for the button, and it lists VetMed, which is our night reading service. And then my catapult plus a different one, that's our catapult backup.
+Start Time: 719.25
+End Time: 733.32
+
+Agent 2: Okay.
+Start Time: 733.45
+End Time: 734.15
+
+Customer: None of those are checked. Should one of them be checked?
+Start Time: 735.01
+End Time: 740.26
+
+Agent 2: Yeah, they need to be checked. That's why. Because basically, because you're acquiring your report page through your touchscreen button, the system needs to know where to send those images. And this is how we tell the system where to send it. So you have to put a checkmark in one of those destinations. You can put a checkmark in all three if you want. It's up to you. That's why. That's why you can send it from review. But. And that's why it's not going automatically, because it doesn't know where to send it.
+Start Time: 740.36
+End Time: 775.83
+
+Customer: Well, up above in box 2, the catapult is selected or was selected, but down in the bottom right one it wasn't.
+Start Time: 776.41
+End Time: 786.39
+
+Agent 2: Okay. That's because the top ones are your Acquire one and your Acquire two buttons that are next to your track ball. So those are what you use to acquire your actual images, you know, your 2D and color images. When you're acquiring your reports, most people will just hit the one button on the touchscreen and get all. Capture all of the report pages at one time. And that's why you hear beep, beep, beep for however many pages there are. It's Rare that someone will actually go into review and then pull up the report page and hit, you know, hit acquire the acquire button, the physical button. To acquire a report page, almost everyone uses the touchscreen button. And that's why it's. That button also has to be set up to send a catapult. And it sounds like it wasn't. So that's why you can manually send from review because at that point you are selecting catapult of where to send it by setting it up where I have you right now with your touchscreen button when you choose end exam. Now the system knows where to send those report images.
+Start Time: 786.89
+End Time: 855.45
+
+Customer: Right?
+Start Time: 855.63
+End Time: 856.00
+
+Agent 2: Does that make sense?
+Start Time: 856.05
+End Time: 857.15
+
+Customer: Yep.
+Start Time: 857.99
+End Time: 858.78
+
+Agent 2: Okay, so yeah. So then that should. Yeah, that should fix it for you.
+Start Time: 858.95
+End Time: 864.57
+
+Customer: So I wonder why it was not nothing. Because it's been sending them.
+Start Time: 864.95
+End Time: 870.86
+
+Agent 2: Yeah, it's hard to say if. I don't know if. Did you guys have to switch to your backup at one point and maybe someone forgot to put it back or. Yeah, sometimes that's bad. Or you have like a. An overnight person or a fill in person or even a doctor that come and kind of mess around and try to figure things out and then they don't put it back to where they found it.
+Start Time: 870.96
+End Time: 894.83
+
+Customer: Okay, well, hopefully that works. And if not, I'll call back.
+Start Time: 895.85
+End Time: 899.54
+
+Agent 2: Yeah, I'll keep your case open for like I'll just. I'll keep it open till tomorrow afternoon and if you call back, it's here. If I don't hear back from you, Juliet, then we'll just assume you're good to go, so.
+Start Time: 899.65
+End Time: 910.83
+
+Customer: Sounds good. I'm about to do a pelvic exam.
+Start Time: 911.21
+End Time: 914.84
+
+Agent 2: Perfect.
+Start Time: 914.94
+End Time: 915.44
+
+Customer: Use that report page. So we'll check it out.
+Start Time: 915.54
+End Time: 918.05
+
+Agent 2: Perfect. Anything else I can help you with right now, Juliet?
+Start Time: 918.18
+End Time: 920.98
+
+Customer: That'll do it. Thank you.
+Start Time: 921.63
+End Time: 923.12
+
+Agent 2: You're welcome. Have a great afternoon. Thanks for calling Phillips today.
+Start Time: 923.24
+End Time: 925.96
+
+
+audio1
+
+Agent 1: Hello, this is Rajesh with xyz. Can I have your name please?
+Start Time: 0.36
+End Time: 4.08
+Customer: My name is Priya Sharma.
+Start Time: 4.46
+End Time: 6.22
+Agent 1: Thank you, Priya. And in case we are disconnected, what's the best phone number?
+Start Time: 6.38
+End Time: 10.56
+Customer: 987-654-3210.
+Start Time: 11.03
+End Time: 14.19
+Agent 1: Thank you. And are you calling in regards to a new or an existing case?
+Start Time: 14.33
+End Time: 18.00
+Customer: A new case.
+Start Time: 18.34
+End Time: 19.46
+Agent 1: Do you have your device's serial number or the SUD ID number?
+Start Time: 19.59
+End Time: 22.84
+Customer: Yes, one moment. It's 2S019C as in cat 2566. Got it.
+Start Time: 23.23
+End Time: 30.64
+Agent 1: An EPIC5 ultrasound. ABC Hospital.
+Start Time: 30.80
+End Time: 34.33
+Customer: Correct.
+Start Time: 34.95
+End Time: 35.62
+Agent 1: Okay. And are you calling for technical or clinical support?
+Start Time: 35.74
+End Time: 38.97
+Customer: Technical.
+Start Time: 39.14
+End Time: 39.86
+Customer : Yes, technical support.
+Start Time: 40.00
+End Time: 41.47
+Agent 1: I am showing the address for your facility at 123 MG Road, Bengaluru, Karnataka.
+Start Time: 41.57
+End Time: 47.20
+Customer: That's correct.
+Start Time: 47.55
+End Time: 48.44
+Agent 1 : Okay. And are you going to be the point of contact for the case?
+Start Time: 48.55
+End Time: 52.09
+Customer: Yes.
+Start Time: 52.55
+End Time: 53.24
+Agent 1: Alright, let me pull you up in the system. One moment. Therehere you are. OK. And for the unit which you listed, is it down, restricted, intermittent or operational?
+Start Time: 53.38
+End Time: 63.81
+Customer: It's operational.
+Start Time: 64.39
+End Time: 65.54
+Agent 1: And the reported issue with the unit?
+Start Time: 65.71
+End Time: 67.76
+Customer: When we end the exam, it's not sending our report pages. It sends the images but not the report.
+Start Time: 67.90
+End Time: 73.02
+Agent 1: Ok, so the device was in clinical use. Was any patient or user harmed?
+Start Time: 73.44
+End Time: 78.67
+Customer: No.
+Start Time: 78.83
+End Time: 79.34
+Agent 1: I'll provide you with the case number in just a moment. And we'll get you routed to tech support to resolve the issue. Email address for you psharmabc.org Is that correct?
+Start Time: 79.44
+End Time: 91.71
+Customer: Yes. Psharmabc.org?
+Start Time: 91.93
+End Time: 94.04
+Agent 1: Alright Priya. Was there anything else that I could assist you with before I transfer you? Let me give you the case number. Do you have a pen and paper?
+Start Time: 94.07
+End Time: 102.97
+Customer: I do. Go ahead.
+Start Time: 103.10
+End Time: 104.71
+Agent 1: Case number is 01233-97-9956.
+Start Time: 104.85
+End Time: 109.44
+Customer: Got it.
+Start Time: 109.86
+End Time: 110.59
+Agent 1: Okay. Thank you for calling XYZ. Hold the line. I'm rooting you over now.
+Start Time: 110.70
+End Time: 116.22
+Agent 2: Hello, this is Kavita from Ultrasound Technical support. Am I speaking with Priya?
+Start Time: 116.36
+End Time: 121.27
+Customer: Yes.
+Start Time: 121.42
+End Time: 122.02
+Agent 2: Hi Priya. Pardon? Alright.
+Start Time: 122.16
+End Time: 124.50
+Customer: So sorry. I'm having trouble hearing you clearly.
+Start Time: 124.58
+End Time: 127.91
+Agent 2: Let me adjust my headset. One moment.
+Start Time: 128.06
+End Time: 130.52
+Customer: Yes, I can hear you better now.
+Start Time: 130.69
+End Time: 132.90
+Agent 2: Alright. Is this clearer? Great. So you're saying it's not sending the structured report data. Like all measurements and calculations aren't transferring only the images.
+Start Time: 133.04
+End Time: 142.35
+Customer: Exactly. That's the issue. When I try to send just the report pages it ends up sending all the images again.
+Start Time: 142.90
+End Time: 149.91
+Agent 2: Are you near the machine right now, Priya? So I can guide you through a few steps?
+Start Time: 150.10
+End Time: 154.28
+Customer: Yes, I am.
+Start Time: 154.69
+End Time: 156.01
+Agent 2: Alright. What screen are you currently on?
+Start Time: 156.13
+End Time: 158.57
+Customer: The patient's work list.
+Start Time: 158.71
+End Time: 160.28
+Agent 2: Perfect. Let's start by checking a few settings. Could you go to the setup menu and look for data transfer.
+Start Time: 160.41
+End Time: 166.72
+Customer: Alright, I see Data transfer. What should I do next?
+Start Time: 167.22
+End Time: 171.40
+Agent 2: Make sure structured report is selected under transfer options. Sometimes if this isn't checked, only images get sent, not the report data.
+Start Time: 171.57
+End Time: 179.88
+Customer: Got it. It wasn't checked. I have selected it now.
+Start Time: 180.34
+End Time: 183.83
+Agent 2: Great. Now try to end the exam again. And check if it sends both images and report pages this time.
+Start Time: 183.94
+End Time: 189.44
+Customer: One moment. Yes, it worked. The report is now being sent along with the images.
+Start Time: 189.91
+End Time: 195.25
+Agent 2: Fantastic. Glad we could resolve that for you, Priya. Is there anything else I can help you with?
+Start Time: 195.44
+End Time: 200.79
+Customer: No, that was all. Thank you so much, Kavita.
+Start Time: 200.96
+End Time: 204.45
+Agent 2: You're very welcome. Thank you for calling XYZ support line. Have a great day.
+Start Time: 204.56
+End Time: 209.56
+Customer: Thank you. You too.
+Start Time: 209.68
+End Time: 210.75
+
+
+recording_3
+
+Agent 1: This is Arjun from XYZ Support. May I have your name please?
+Start Time: 0.08
+End Time: 4.00
+Customer: My name is Anjali Rao.
+Start Time: 4.95
+End Time: 6.84
+Agent 1: Thank you. Anjali, in case we get disconnected, what's the best number to reach you?
+Start Time: 7.22
+End Time: 11.61
+Customer: You can reach me at 981-234-5678.
+Start Time: 12.62
+End Time: 18.64
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 19.34
+End Time: 22.52
+Customer: This is regarding a new case.
+Start Time: 23.14
+End Time: 25.09
+Agent 1: Do you have the device serial number or SUD ID?
+Start Time: 25.48
+End Time: 29.98
+Customer: Yeah, let me check. It's 6T031 and B as in Bravo 7632.
+Start Time: 31.48
+End Time: 42.73
+Agent 1: Got it. A zone scan four ultrasound at Krishna Hospital.
+Start Time: 43.31
+End Time: 47.30
+Customer: Yes, that's correct.
+Start Time: 48.03
+End Time: 49.30
+Agent 1: Thank you. Are you calling for technical or clinical support?
+Start Time: 49.72
+End Time: 52.77
+Customer: I need technical support.
+Start Time: 54.27
+End Time: 55.81
+Agent 1: Okay. I have the address for your facility as 45 Patel Nagar, Mumbai. Is that right?
+Start Time: 56.52
+End Time: 61.98
+Customer: Yes, that's correct.
+Start Time: 62.67
+End Time: 63.94
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 64.47
+End Time: 67.73
+Customer: Yes, I'll handle this case.
+Start Time: 68.64
+End Time: 70.38
+Agent 1: All right. Let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 71.16
+End Time: 83.23
+Customer: It's operational.
+Start Time: 84.09
+End Time: 85.52
+Agent 1: What seems to be the issue with the unit?
+Start Time: 86.45
+End Time: 89.03
+Customer: The problem is when we are trying to adjust the settings during the exam that touch screen becomes unresponsive. It freezes and it doesn't allow us to make any changes.
+Start Time: 90.14
+End Time: 101.28
+Agent 1: I understand. Was any patient or user harmed due to this issue?
+Start Time: 102.09
+End Time: 106.56
+Customer: No. Thankfully no one was harmed.
+Start Time: 107.34
+End Time: 109.44
+Agent 1: All right. I'll generate a case number for you. Is Your email address anjali.raohospital.com?
+Start Time: 110.11
+End Time: 117.25
+Customer: Yes, that's my email.
+Start Time: 117.94
+End Time: 119.28
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Start Time: 120.03
+End Time: 126.56
+Customer: Yes, I'm ready.
+Start Time: 127.27
+End Time: 128.53
+Agent 1: Your case number is 012 465. 8792.
+Start Time: 129.15
+End Time: 134.37
+Customer: Got it.
+Start Time: 135.75
+End Time: 136.72
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 137.22
+End Time: 142.00
+Agent 2: Hello, this is Lana from Ultrasound Technical support. Am I speaking with Anjali?
+Start Time: 152.78
+End Time: 158.12
+Customer: Yes, this is Anjali.
+Start Time: 158.90
+End Time: 160.44
+Agent 2: Hi, Anjali. I understand you're having trouble with the touchscreen freezing during an exam. Can you tell me more about the issue?
+Start Time: 161.46
+End Time: 168.56
+Customer: Yes. The touch screen becomes unresponsive when I try to adjust the settings during the exam. It freezes and I can't make any changes.
+Start Time: 169.69
+End Time: 178.63
+Agent 2: Got it. Let me check my connection one by one, please. All right. Are you standing by the machine? I'll guide you through some troubleshooting steps.
+Start Time: 180.13
+End Time: 192.34
+Customer: Yes, I am at the machine.
+Start Time: 193.09
+End Time: 194.66
+Agent 2: Great. Let's first check the touchscreen calibration settings. Can you go to the settings menu and look for touchscreen calibration option?
+Start Time: 195.88
+End Time: 204.62
+Customer: Okay. Yeah, I see the touchscreen calibration what should I do next?
+Start Time: 206.09
+End Time: 211.82
+Agent 2: Try recalibrating the touchscreen. Sometimes it's not calibrated properly. It can cause the unresponsiveness you are describing.
+Start Time: 212.79
+End Time: 220.41
+Customer: All right, I have done that. Now what?
+Start Time: 222.03
+End Time: 224.90
+Agent 2: Now try adjusting the settings again during the exam to see if the touchscreen responds.
+Start Time: 226.68
+End Time: 232.74
+Customer: All right. Yes, it's working. That touchscreen is responsive again.
+Start Time: 233.84
+End Time: 241.71
+Agent 2: Fantastic. I'm glad we were able to resolve that. Is there anything else I can assist you with?
+Start Time: 242.44
+End Time: 247.94
+Customer: No, that's everything. Thank you for your help, Leena.
+Start Time: 248.53
+End Time: 251.62
+Agent 2: You're welcome, Anjali. Thank you for calling XYZ Support. Have a wonderful day.
+Start Time: 252.44
+End Time: 257.11
+Customer: Thank you. You too.
+Start Time: 258.05
+End Time: 258.96
+
+
+audio__3
+
+Agent 1: Thank you for calling Internet Services. This is Shalene. How may I help you today?
+Start Time: 9.72
+End Time: 13.88
+Customer: This is Linda. Our Internet stopped since 9, and I have an online class too, so I need this Internet fix right now.
+Start Time: 14.46
+End Time: 22.29
+Agent 1: Well, thank you for letting us know about this immediately, Linda, so I can help you get back online asap. May have the phone number associated with your Internet service.
+Start Time: 23.55
+End Time: 33.16
+Customer: The phone number is 855-3232. Thank you.
+Start Time: 33.74
+End Time: 39.0
+Agent 1: So that's 855-3232.
+Start Time: 39.29
+End Time: 43.45
+Customer: Correct.
+Start Time: 44.02
+End Time: 44.8
+Agent 1: And can you confirm the name of the account, please?
+Start Time: 45.7
+End Time: 48.48
+Customer: It's Linda Bloom. That's me.
+Start Time: 49.06
+End Time: 51.41
+Agent 1: Thanks so much.
+Start Time: 52.34
+End Time: 53.32
+Customer: You're welcome.
+Start Time: 53.43
+End Time: 54.41
+Agent 1: Linda, are you near to your modem right now?
+Start Time: 55.12
+End Time: 57.9
+Customer: Yes, I'm sitting next to it. What do you want me to do?
+Start Time: 58.31
+End Time: 61.34
+Agent 1: Okay, great. First we'll go ahead and check the lights on your modem. Can you please tell me which lights are on right now?
+Start Time: 64.03
+End Time: 71.09
+Customer: The lights look normal, as if the service is working.
+Start Time: 71.67
+End Time: 74.73
+Agent 1: Mm. Thank you. That sounds interesting. Let me run a quick line check to confirm the modem's connectivity. Okay.
+Start Time: 76.39
+End Time: 84.98
+Customer: Okay.
+Start Time: 85.44
+End Time: 86.27
+Agent 1: Linda, any chance that you guys experience any power fluctuation sort of thing?
+Start Time: 88.64
+End Time: 93.91
+Customer: No.
+Start Time: 94.69
+End Time: 95.42
+Agent 1: Any power outage just recently?
+Start Time: 96.12
+End Time: 98.5
+Customer: No.
+Start Time: 99.41
+End Time: 100.14
+Agent 1: All right, thank you for confirming that. I just got the results here. And the modem shows it has connection from our end going into that modem. That's why it has the normal lights, as if it's working. Now let's try to check and make sure that this modem indeed is getting the Internet service.
+Start Time: 101.72
+End Time: 122.64
+Customer: Okay, what do you want me to do, Linda?
+Start Time: 123.3
+End Time: 126.35
+Agent 1: Let me just confirm this. The computer that you're using to access the Internet, is it connected through WI Fi or. It's wired directly to the back of your modem or router.
+Start Time: 126.38
+End Time: 136.81
+Customer: It's a desktop computer, so it's wired.
+Start Time: 136.97
+End Time: 139.75
+Agent 1: I see. Thank you, Linda. I also want to know if you have other devices in your house right now that's connected to your home Internet.
+Start Time: 140.5
+End Time: 148.12
+Customer: I do. I have two phones and a laptop.
+Start Time: 148.25
+End Time: 151.19
+Agent 1: Are they not getting online, too?
+Start Time: 152.5
+End Time: 154.38
+Customer: Yeah, all of them can't go online. There's no Internet service.
+Start Time: 154.52
+End Time: 158.19
+Agent 1: I see. Have you tried to reboot your modem router earlier?
+Start Time: 159.38
+End Time: 163.0
+Customer: No. I want to give you guys a call first. I don't want to cause any trouble.
+Start Time: 163.31
+End Time: 167.22
+Agent 1: Okay, cool. At this time, Linda, I'll be needing your help to check the physical connection, like the cable from the back of a modem router going to the computer that you're using just to make sure that both ends are snug fit and not loose. Okay.
+Start Time: 167.56
+End Time: 182.29
+Customer: All right, hold on, let me check. Yeah, both ends are properly connected. Not loose.
+Start Time: 183.31
+End Time: 190.82
+Agent 1: Great. Thank you, Linda. We're almost done. Now we'll go ahead and reboot your modem router. You just need to unplug it from power. And once unplugged, we'll just need to wait for 20 or 30 seconds and then plug it back in. Okay.
+Start Time: 190.91
+End Time: 205.13
+Customer: All right, it's off now.
+Start Time: 205.51
+End Time: 209.25
+Agent 1: Okay, good. We'll just wait for 30 seconds.
+Start Time: 209.63
+End Time: 213.01
+Customer: Okay. It's a tough job though.
+Start Time: 213.4
+End Time: 219.38
+Agent 1: Yeah, sometimes it's challenging. I enjoy doing it though.
+Start Time: 220.24
+End Time: 224.41
+Customer: That's nice.
+Start Time: 224.88
+End Time: 225.94
+Agent 1: All right, I guess 30 seconds have passed, so you can turn it back on now. Then we'll wait until the normal lights come back, then after that we'll check if we have Internet connectivity. Okay, sure.
+Start Time: 228.79
+End Time: 241.57
+Customer: Well, the lights are coming on now and I think the Internet is back. I'm getting a bunch of emails now.
+Start Time: 245.32
+End Time: 261.06
+Agent 1: Great.
+Start Time: 261.64
+End Time: 262.41
+Customer: Wait, hold on. Let me check my PC.
+Start Time: 262.59
+End Time: 265.55
+Agent 1: Yeah, sure.
+Start Time: 266.76
+End Time: 267.87
+Customer: All right. My computer is also working great, so I think we're good. Thanks so much for your help, Julene. By the way, is it necessary to do this once in a while?
+Start Time: 269.56
+End Time: 289.8
+Agent 1: Yes, you can do it every once in a while anyways. Electronic devices are not built to constantly be running at all times. And power cycle really helps because when you leave your modem on for too long, it will tend to stop performing at its best after a while. So rebooting your modem can fix the Internet connection problems, improve slow moving connections, and resolve wireless issues too, which also affect your digital TV service or video streaming services like Netflix or Amazon TV or Apple TV that's being transmitted over the Internet connection. So by unplugging the power cord from the back of the modem or your router, you're giving it the breather it needs.
+Start Time: 289.94
+End Time: 336.13
+Customer: Oh, I see. Well, thanks for letting me know. I never thought of that.
+Start Time: 336.68
+End Time: 341.81
+Agent 1: You're most welcome. Linda. I'm so glad that I was able to help you get back online and remove this off your word list today so you can just focus on your online class later too.
+Start Time: 341.84
+End Time: 351.97
+Customer: Absolutely. Oh dear. You saved my day.
+Start Time: 352.12
+End Time: 356.74
+Agent 1: And you made my day, Linda. Thanks for partnering with me. Is there anything else I could further assist you with?
+Start Time: 356.79
+End Time: 363.23
+Customer: No, you've covered everything I need.
+Start Time: 363.38
+End Time: 365.46
+Agent 1: All right then. Thanks so much for choosing Internet services. Bye.
+Start Time: 365.52
+End Time: 369.95
+
+
+recording_2
+
+Agent 1: Hello, this is Arvind from XYZ Corporation. May I have your name please?
+Start Time: 0.36
+End Time: 4.21
+Customer: My. Hi, my name is Ritu Desai.
+Start Time: 5.03
+End Time: 8.16
+Agent 1: Thank you, Ritu. And in case we get disconnected, what's the best number to reach you?
+Start Time: 10.19
+End Time: 14.77
+Customer: Oh, you can reach me at 987-654-1234.
+Start Time: 15.51
+End Time: 21.84
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 25.11
+End Time: 29.25
+Customer: A new case.
+Start Time: 30.39
+End Time: 31.64
+Agent 1: Do you have the device's serial number or SUD ID?
+Start Time: 33.55
+End Time: 37.45
+Customer: Yes, give me a moment. It's 4D042J as in Juliet 1882.
+Start Time: 39.02
+End Time: 50.12
+Agent 1: Got it. Sonic 7 ultrasound at Lotus Hospital.
+Start Time: 54.91
+End Time: 59.17
+Customer: Correct.
+Start Time: 59.84
+End Time: 60.62
+Agent 1: Thank you. Are you requesting technical or clinical support?
+Start Time: 62.27
+End Time: 66.33
+Customer: Any technical support.
+Start Time: 67.59
+End Time: 69.22
+Agent 1: I have the address for your facility as 78 Green Avenue, Ahmedabad, Gujarat. Is that correct?
+Start Time: 71.08
+End Time: 78.55
+Customer: Yes, that's right.
+Start Time: 79.33
+End Time: 80.58
+Agent 1: Great. Will you be with a point of contact for this case?
+Start Time: 82.33
+End Time: 85.58
+Customer: Yeah, I'll be handling the case.
+Start Time: 86.61
+End Time: 88.83
+Agent 1: All right. Let me pull up your information. One moment. There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
+Start Time: 89.02
+End Time: 117.52
+Customer: It's operational.
+Start Time: 118.25
+End Time: 119.75
+Agent 1: What issues are you expect experiencing with this unit?
+Start Time: 121.02
+End Time: 124.59
+Customer: The issue is that when I try to save the patient's data after an exam it's not saving to the local storage. It's only saving the images but not the full exam data.
+Start Time: 125.89
+End Time: 136.09
+Agent 1: I see. Was there any harm to the patient or user due to this issue?
+Start Time: 137.75
+End Time: 142.77
+Customer: No. No harm at all.
+Start Time: 143.47
+End Time: 145.21
+Agent 1: All right. Generator case number for you. Is your email address ritu.there@lotus hospital.com?
+Start Time: 146.83
+End Time: 155.05
+Customer: Yes, that's correct.
+Start Time: 155.47
+End Time: 156.85
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen, paper to note down the case number?
+Start Time: 158.88
+End Time: 166.97
+Customer: Yeah, I do. Please go ahead.
+Start Time: 167.59
+End Time: 169.41
+Agent 1: Your case number is 03-455-71123.
+Start Time: 170.68
+End Time: 176.94
+Customer: Got it.
+Start Time: 178.12
+End Time: 179.09
+Agent 1: Thank you for calling XYZ Corporation. I will now transfer your call to technical support. 
+Start Time: 180.56
+End Time: 192.49
+Agent 2 : Hi, this is Meena from Ultrasound Technical support. Am I speaking with Ritu?
+Start Time: 210.56
+End Time: 214.49
+Customer: Yes, this is Ritu.
+Start Time: 215.50
+End Time: 216.97
+Agent 2: Hi, Ritu. I understand you're having an issue with saving patient data. Could you explain the problem in more detail?
+Start Time: 218.06
+End Time: 225.09
+Customer: Yeah. Yes. When we are trying to save the exam it only saves the images. Not the entire exam data. The measurements, notes and other data are not getting saved.
+Start Time: 226.10
+End Time: 237.37
+Agent 2: Got it. One moment please. All right. Are you at the machine right now? I can walk you through a few steps to resolve the issue.
+Start Time: 239.16
+End Time: 258.54
+Customer: Yes, I am standing by the machine.
+Start Time: 259.27
+End Time: 261.38
+Agent 2: Perfect. Let's start by checking the data storage sessions. Can you go to the settings menu and look for storage configuration?
+Start Time: 262.81
+End Time: 270.62
+Customer: Okay, I see storage configuration. What do I do next?
+Start Time: 273.29
+End Time: 277.94
+Agent 2: Check a fleet. Local storage is selected as the destination for saving the exam data. If it's not selected, the data won't save properly.
+Start Time: 278.69
+End Time: 287.99
+Customer: Oh, it wasn't selected. I have changed it now.
+Start Time: 289.89
+End Time: 293.63
+Agent 2: Great. Now try saving the exam data again and let me know if it saves everything.
+Start Time: 294.45
+End Time: 300.15
+Customer: All right? Yes. It's saving both the images and the full exam data now.
+Start Time: 304.10
+End Time: 308.36
+Agent 2: Wonderful. I'm glad we could resolve that. Is there anything else I can assist you with?
+Start Time: 309.30
+End Time: 314.63
+Customer: No, that's everything. Thank you so much, Meena.
+Start Time: 316.75
+End Time: 319.33
+Agent 2: You're welcome, Ritu. Thank you for calling XYZ Operation. Have a great day.
+Start Time: 320.00
+End Time: 325.38
+Customer: You too. Thanks.
+Start Time: 325.71
+End Time: 326.51
+
+
+audio4
+
+Agent 1: Hello, this is Ravi from XYZ support. May I have your name please?
+Start Time: 0.36
+End Time: 4.56
+Customer: My name is Deepika Menon.
+Start Time: 4.71
+End Time: 6.57
+Agent 1: Thank you. Deepika. In case we get disconnected, what's the best number to reach you?
+Start Time: 6.74
+End Time: 11.52
+Customer: You can reach me at 995-601-2345.
+Start Time: 11.71
+End Time: 15.93
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 16.39
+End Time: 19.56
+Customer: This is regarding a new case.
+Start Time: 19.71
+End Time: 21.59
+Agent 1: Do you have the device's serial number or SUD ID?
+Start Time: 21.73
+End Time: 24.55
+Customer: Yes, one moment. Its 3x045D as in Delta 4891.
+Start Time: 24.73
+End Time: 31.73
+Agent 1: Got it. A Sonoview 6 ultrasound at SRI Diagnostics.
+Start Time: 32.12
+End Time: 35.72
+Customer: Yes, that's correct.
+Start Time: 35.90
+End Time: 37.48
+Agent 1: Thank you. Are you calling for technical or clinical support?
+Start Time: 37.62
+End Time: 40.67
+Customer: I need technical support.
+Start Time: 40.81
+End Time: 42.38
+Agent 1: I have the address for your facility as 25 MG Road, Chennai. Is that right?
+Start Time: 42.51
+End Time: 47.68
+Customer: Yes, that's correct.
+Start Time: 47.82
+End Time: 49.43
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 49.57
+End Time: 52.49
+Customer: Yes, I'll be handling the case.
+Start Time: 52.65
+End Time: 54.75
+Agent 1: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 54.90
+End Time: 62.84
+Customer: It's operational.
+Start Time: 63.38
+End Time: 64.60
+Agent 1: What seems to be the issue with the unit?
+Start Time: 64.77
+End Time: 66.82
+Customer: The problem is that when we try to print the images from the ultrasound. The printer shows an error message saying no paper in tray even though the paper tray is full.
+Start Time: 66.96
+End Time: 76.03
+Agent 1: I see. Was any patient or user harmed due to this issue?
+Start Time: 76.33
+End Time: 79.89
+Customer: No, no one was harmed. But it's delaying the workflow.
+Start Time: 80.08
+End Time: 83.61
+Agent 1: Alright, I'll generate a case number for you. Is Your email address deepika.menon.com?
+Start Time: 83.91
+End Time: 91.09
+Customer: Yes, that's correct.
+Start Time: 91.14
+End Time: 92.62
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Start Time: 92.76
+End Time: 99.58
+Customer: Yes, I'm ready.
+Start Time: 99.75
+End Time: 101.07
+Agent 1: Your case number is 01278-53490.
+Start Time: 101.17
+End Time: 105.53
+Customer: Got it.
+Start Time: 105.98
+End Time: 106.71
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 106.81
+End Time: 111.33
+Agent 2: Hello, this is Arti from Ultrasound Technical support. Am I speaking with Deepika?
+Start Time: 111.50
+End Time: 116.97
+Customer : Yes, this is Deepika.
+Start Time: 117.10
+End Time: 118.74
+Agent 2: Hi Deepika. I understand you're having trouble with the printer showing a no paper in tray error even though the tray is full. Can you tell me more about the issue?
+Start Time: 118.88
+End Time: 128.86
+Customer : Yes. When we try to print the ultrasound images, the printer shows an error message saying there is no paper in the tray. But the tray is completely full.
+Start Time: 129.00
+End Time: 136.81
+Agent 2: Alright, let me check something on my end. One moment please.
+Start Time: 137.19
+End Time: 141.51
+Customer : Okay, I'm waiting.
+Start Time: 141.63
+End Time: 142.99
+Agent 2: Alright. Are you near the printer? Now let's check a few things.
+Start Time: 143.13
+End Time: 147.06
+Customer : Yes, I'm by the printer.
+Start Time: 147.23
+End Time: 148.98
+Agent 2: Great. First let's make sure the paper is loaded properly. Can you remove the paper and reinsert it? Making sure it's aligned correctly.
+Start Time: 149.15
+End Time: 157.41
+Customer : Alright. I've removed and reinserted the paper.
+Start Time: 157.79
+End Time: 160.62
+Agent 2: Now check if the printer's paper sensor is clean. Sometimes dust or paper residue can cause the sensor to malfunction. Try wiping it gently with a soft cloth.
+Start Time: 160.81
+End Time: 170.72
+Customer : Okay, I've cleaned the sensor.
+Start Time: 170.86
+End Time: 172.78
+Agent 2: Perfect. Now try printing again and see if the error message still appears.
+Start Time: 172.93
+End Time: 177.71
+Customer : Yes, it's working. Now the printer is printing the images without any errors.
+Start Time: 178.12
+End Time: 182.75
+Agent 2: Fantastic. I'm glad we were able to resolve that for you. Is there anything else I can assist you with?
+Start Time: 182.92
+End Time: 188.87
+Customer : No, that was the only issue. Thanks for your help, Arti.
+Start Time: 189.02
+End Time: 192.68
+Agent 2: You're very welcome, Deepika. Thank you for calling XYZ Support. Have a great day.
+Start Time: 192.81
+End Time: 198.69
+Customer : Thank you. You too.
+Start Time: 198.79
+End Time: 199.66
+
+
+audio5
+
+Agent 1: Hello, this is Arvind from XYZ support. May I have your name please?
+Start Time: 0.36
+End Time: 4.66
+Customer: My name is Anjali Desai.
+Start Time: 4.80
+End Time: 6.58
+Agent 3: Thank you.
+Start Time: 6.75
+End Time: 7.25
+Agent 1: Anjali, in case we get disconnected, what's the best number to reach you?
+Start Time: 7.30
+End Time: 11.48
+Customer: You can reach me at 988-665-4321.
+Start Time: 11.67
+End Time: 15.85
+Agent 3: Thanks.
+Start Time: 16.30
+End Time: 16.73
+Agent 1: Anjali. Are you calling about a new or existing case?
+Start Time: 16.78
+End Time: 19.92
+Customer: This is regarding a new case.
+Start Time: 20.07
+End Time: 21.95
+Agent 1: Do you have the device's serial number or.
+Start Time: 22.09
+End Time: 24.45
+Customer: Yes, one moment. It's 5x034A as in Alpha 4120.
+Start Time: 25.71
+End Time: 32.49
+Agent 1: Got it. A Sonoview 7 ultrasound at Meduscan Imaging.
+Start Time: 32.95
+End Time: 36.58
+Customer: Yes, that's correct.
+Start Time: 36.75
+End Time: 38.36
+Agent 3: Thank you.
+Start Time: 38.50
+End Time: 39.08
+Agent 1: Are you calling for technical or clinical support?
+Start Time: 39.16
+End Time: 41.53
+Customer: I need technical support.
+Start Time: 41.68
+End Time: 43.26
+Agent 1: I have the address for your facility as £12 Road, Mumbai. Is that correct?
+Start Time: 43.39
+End Time: 48.46
+Customer: Yes, that's right.
+Start Time: 48.59
+End Time: 50.15
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 50.29
+End Time: 53.19
+Customer: Yes, I'll be the primary contact.
+Start Time: 53.35
+End Time: 55.66
+Agent 1: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 55.84
+End Time: 63.80
+Customer: It's operational.
+Start Time: 64.34
+End Time: 65.57
+Agent 1: What seems to be the issue with the unit?
+Start Time: 65.74
+End Time: 67.79
+Customer: The issue is that the touchscreen of the ultrasound machine is unresponsive in certain areas. We can't select options or navigate through the settings properly.
+Start Time: 67.93
+End Time: 77.00
+Agent 1: I see. Was any patient or user harmed due to this issue?
+Start Time: 77.15
+End Time: 80.63
+Customer: No. Thankfully no harm. But it is affecting the efficiency of the exams.
+Start Time: 80.80
+End Time: 85.44
+Agent 1: Alright, I'll generate a case number for you. Is Your email address anjali. Desirediscan.in yes, that's correct.
+Start Time: 85.81
+End Time: 94.30
+Agent 3: Thank you.
+Start Time: 94.44
+End Time: 95.10
+Agent 1: Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Start Time: 95.20
+End Time: 101.30
+Customer: Yes, I'm ready.
+Start Time: 101.45
+End Time: 102.78
+Agent 1: Your case number is 01529-84630.
+Start Time: 102.88
+End Time: 107.08
+Customer: Got it.
+Start Time: 107.50
+End Time: 108.26
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 108.36
+End Time: 112.85
+Customer: Hello, this is Neha from Ultrasound Technical support. Am I speaking with Anjali?
+Start Time: 113.02
+End Time: 118.35
+Agent 1: Yes, this is Anjali.
+Start Time: 118.49
+End Time: 120.04
+Customer: Hi Anjali. I understand you are experiencing issues with the touchscreen on your ultrasound machine. Can you tell me more about what's happening?
+Start Time: 120.19
+End Time: 128.96
+Agent 1: Yes. The touchscreen isn't responsive in some areas. It makes it difficult to select settings or navigate through options.
+Start Time: 129.11
+End Time: 135.64
+Customer: I see. Let me guide you through some troubleshooting steps. Are you near the ultrasound machine?
+Start Time: 135.82
+End Time: 141.35
+Agent 1: Yes, I am.
+Start Time: 141.51
+End Time: 142.76
+Customer: Great. First try rebooting the system. Turn the machine off and wait for about 10 seconds before turning it back on. Let me know what happens.
+Start Time: 142.90
+End Time: 152.21
+Agent 3: Okay.
+Start Time: 152.36
+End Time: 152.80
+Agent 1: I've rebooted the machine. Still no change. The touchscreen is still unresponsive.
+Start Time: 152.86
+End Time: 157.51
+Customer: Thank you for trying that. Now let's check the calibration settings. Can you go to the settings menu and look for touchscreen calibration?
+Start Time: 157.65
+End Time: 166.31
+Agent 1: I found it. What should I do next?
+Start Time: 166.84
+End Time: 169.25
+Customer: Select calibrate and follow the on screen instructions. This should help realign the touchscreen.
+Start Time: 169.41
+End Time: 175.30
+Agent 1: Alright, I'm doing that now.
+Start Time: 175.45
+End Time: 177.32
+Customer: Perfect. Once the calibration is complete, try using the touchscreen again to see if it's responsive.
+Start Time: 177.46
+End Time: 183.32
+Agent 1: Now it's working. Now the touchscreen is responsive again and I can select options normally.
+Start Time: 183.38
+End Time: 189.22
+Customer: That's fantastic. I'm glad we could resolve the issue for you, Anjali. Is there anything else I can help you with?
+Start Time: 189.66
+End Time: 196.49
+Agent 1: No, that's all. Thank you so much for your help, Neha.
+Start Time: 196.63
+End Time: 199.97
+Customer: You're very welcome, Anjali. Thank you for calling XYZ support. Have a great day.
+Start Time: 200.09
+End Time: 205.89
+Agent 3: Thank you.
+Start Time: 205.99
+End Time: 206.53
+Agent 1: You too.
+Start Time: 206.59
+End Time: 206.94
+
+
+audio3
+
+Agent 1: Hello, this is Arjun from XYZ support. May I have your name please?
+Start Time: 0.36
+End Time: 4.58
+Customer: My name is Anjali Rao.
+Start Time: 4.75
+End Time: 6.38
+Agent 1: Thank you. Anjali, in case we get disconnected, what's the best number to reach you?
+Start Time: 6.52
+End Time: 11.24
+Customer: You can reach me at 981-234-5678.
+Start Time: 11.43
+End Time: 15.72
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 16.14
+End Time: 19.32
+Customer: This is regarding a new case.
+Start Time: 19.47
+End Time: 21.35
+Agent 1: Do you have the device's serial number or SUD ID?
+Start Time: 21.49
+End Time: 24.31
+Customer: Yes, let me check. Its 6T031B as in Bravo 7632. Got it.
+Start Time: 24.49
+End Time: 31.36
+Agent 1: A Sonoscan 4 ultrasound at Krishna Hospital.
+Start Time: 31.50
+End Time: 35.44
+Customer: Yes, that's correct.
+Start Time: 35.63
+End Time: 37.27
+Agent 1: Thank you. Are you calling for technical or clinical support?
+Start Time: 37.41
+End Time: 40.46
+Customer: I need technical support.
+Start Time: 40.60
+End Time: 42.17
+Agent 1: I have the address for your facility as 45 Patel Nagar, Mumbai. Is that right?
+Start Time: 42.30
+End Time: 47.43
+Customer: Yes, that's correct.
+Start Time: 47.57
+End Time: 49.18
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 49.32
+End Time: 52.24
+Customer: Yes, I'll handle the case.
+Start Time: 52.41
+End Time: 54.35
+Agent 1: Alright, let me pull up your details. One moment. There you go. For the unit, is it down, restricted, intermittent or operational?
+Start Time: 54.50
+End Time: 62.40
+Customer: It's operational.
+Start Time: 62.94
+End Time: 64.20
+Agent 1: What seems to be the issue with the unit?
+Start Time: 64.37
+End Time: 66.38
+Customer: The problem is when we try to adjust the settings during the exam the touchscreen becomes unresponsive. It freezes and doesn't allow us to make any changes.
+Start Time: 66.52
+End Time: 75.70
+Agent 1: I understand. Was any patient or user harmed due to this issue?
+Start Time: 75.84
+End Time: 79.66
+Customer: No. Thankfully no one was harmed.
+Start Time: 79.84
+End Time: 82.47
+Agent 1: Alright, I'll generate a case number for you. Is Your email address anjali.raohospital.com?
+Start Time: 82.62
+End Time: 89.00
+Customer: Yes, that's my email.
+Start Time: 89.38
+End Time: 91.27
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper for the case number?
+Start Time: 91.46
+End Time: 98.33
+Customer: Yes, I'm ready.
+Start Time: 98.50
+End Time: 99.82
+Agent 1: Your case number is 01246-58792.
+Start Time: 99.92
+End Time: 104.11
+Customer: Got it.
+Start Time: 104.61
+End Time: 105.36
+Agent 1: Thank you for calling XYZ Support. I'll now transfer you to technical support.
+Start Time: 105.48
+End Time: 109.98
+Agent 2: Hello, this is Leena from Ultrasound Technical support. Am I speaking with Anjali?
+Start Time: 110.15
+End Time: 115.44
+Customer: Yes, this is Anjali.
+Start Time: 115.58
+End Time: 117.13
+Agent 2: Hi Anjali. I understand you're having trouble with the touchscreen freezing during an exam. Can you tell me more about the issue?
+Start Time: 117.28
+End Time: 125.11
+Customer: Yes. The touchscreen becomes unresponsive when I try to adjust settings during the exam. It freezes and I can't make any changes.
+Start Time: 125.28
+End Time: 133.13
+Agent 2: Got it. Let me check my connection. One moment please.
+Start Time: 133.31
+End Time: 137.28
+Customer: Okay, I can hear you clearly now.
+Start Time: 137.41
+End Time: 139.56
+Agent 2: Alright. Are you standing by the machine? I'll guide you through some troubleshooting steps.
+Start Time: 139.70
+End Time: 144.80
+Customer: Yes, I'm at the machine.
+Start Time: 144.94
+End Time: 146.68
+Agent 2: Great. Let's first check the touchscreen calibration settings. Can you go to the settings menu and look for the touchscreen calibration option?
+Start Time: 146.86
+End Time: 155.71
+Customer: Okay, I see. Touchscreen calibration. What should I do.
+Start Time: 156.04
+End Time: 159.54
+Agent 2: Next, try recalibrating the touchscreen. Sometimes if it's not calibrated properly, it can cause the unresponsiveness you are describing.
+Start Time: 159.57
+End Time: 168.34
+Customer: Alright, I've done that. Now what?
+Start Time: 168.76
+End Time: 171.32
+Agent 2: Now try adjusting the settings again during the exam to see if the touchscreen responds.
+Start Time: 171.46
+End Time: 176.59
+Customer: Alright. Yes, it's working. The touchscreen is responsive again.
+Start Time: 176.97
+End Time: 181.24
+Agent 2: Fantastic. I am glad we were able to resolve that. Is there anything else I can assist you with?
+Start Time: 181.42
+End Time: 187.18
+Customer: No, that's everything. Thank you for your help, Leena.
+Start Time: 187.32
+End Time: 190.50
+Agent 2: You're very welcome, Anjali. Thank you for calling XYZ Support. Have a wonderful day.
+Start Time: 190.62
+End Time: 196.58
+Customer: Thank you. You too.
+Start Time: 196.68
+End Time: 197.54
+
+
+audio2
+
+Agent 1: Hello, this is Arvind from XYZ Corporation. May I have your name please?
+Start Time: 0.36
+End Time: 4.92
+Customer: My name is Ritu Desai.
+Start Time: 5.07
+End Time: 6.79
+Agent 1: Thank you. Ritu, in case we get disconnected, what's the best number to reach you?
+Start Time: 6.95
+End Time: 11.56
+Customer: You can reach me at 987-654-1234.
+Start Time: 11.87
+End Time: 16.16
+Agent 1: Thank you. Are you calling about a new or existing case?
+Start Time: 16.62
+End Time: 19.75
+Customer: A new case.
+Start Time: 19.89
+End Time: 20.95
+Agent 1: Do you have the device's serial number or SUD ID?
+Start Time: 21.07
+End Time: 23.89
+Customer: Yes, give me a moment. Its 4D042J as in Juliet 1882. Got it.
+Start Time: 24.06
+End Time: 30.30
+Agent 1: A Sonic 7 ultrasound at Lotus Hospital.
+Start Time: 30.42
+End Time: 34.01
+Customer: Correct.
+Start Time: 34.20
+End Time: 34.88
+Agent 1: Thank you. Are you requesting technical or clinical support?
+Start Time: 35.02
+End Time: 38.11
+Customer: I need technical support.
+Start Time: 38.25
+End Time: 39.86
+Agent 1: I have. The address for Your facility is 78 Green Avenue, Ahmedabad, Gujarat. Is that correct?
+Start Time: 39.99
+End Time: 46.06
+Customer: Yes, that's right.
+Start Time: 46.19
+End Time: 47.72
+Agent 1: Great. Will you be the point of contact for this case?
+Start Time: 47.86
+End Time: 50.77
+Customer: Yes, I'll be handling the case. Alright, let me pull up your information. Hold for a moment. 
+Start Time: 50.92
+End Time: 60.2
+Agent 1 : There we go. Now for the unit you mentioned. Is it down, restricted, intermittent or operational?
+Start Time: 60.22
+End Time: 62.35
+Customer: It's operational.
+Start Time: 62.90
+End Time: 64.14
+Agent 1: What issue are you experiencing with the unit?
+Start Time: 64.32
+End Time: 66.70
+Customer: The issue is that when I try to save the patient's data after an exam, it's not saving to the local storage. It's only saving the images but not the full exam data.
+Start Time: 66.84
+End Time: 76.92
+Agent 1: I see. Was there any harm to the patient or user due to this issue?
+Start Time: 77.31
+End Time: 81.25
+Customer: No, no harm at all.
+Start Time: 81.70
+End Time: 83.50
+Agent 1: All right, I'll generate a case number for you. Is Your email address ritu.desaitishospital.com?
+Start Time: 83.64
+End Time: 90.05
+Customer: Yes, that's correct.
+Start Time: 90.42
+End Time: 92.03
+Agent 1: Thank you. Before I transfer you, is there anything else I can assist you with? Do you have a pen and paper to note down the case number?
+Start Time: 92.17
+End Time: 99.44
+Customer: Yes, I do. Please go ahead.
+Start Time: 99.91
+End Time: 102.40
+Agent 1: Your case number is 03-455-71123.
+Start Time: 102.51
+End Time: 106.84
+Customer: Got it.
+Start Time: 107.36
+End Time: 108.12
+Agent 1: Thank you for calling XYZ Corporation. I'll now transfer you to technical support.
+Start Time: 108.22
+End Time: 112.95
+Agent 2: Hello, this is Meena from Ultrasound Technical support. Am I speaking with Ritu?
+Start Time: 113.12
+End Time: 118.32
+Customer : Yes, this is Ritu.
+Start Time: 118.46
+End Time: 120.00
+Agent 2: Hi Ritu. I understand you're having an issue with saving patient data. Could you explain the problem in more detail?
+Start Time: 120.17
+End Time: 127.31
+Customer : Yes. When we try to save the exam, it only saves the images, not the entire exam data. The measurements, notes and other data are not getting saved.
+Start Time: 127.48
+End Time: 136.53
+Agent 2: Got it. Let me adjust my microphone. One moment please.
+Start Time: 136.99
+End Time: 141.31
+Customer : I can hear you clearly now.
+Start Time: 141.43
+End Time: 143.06
+Agent 2: Alright. Are you at the machine right now? I can walk you through a few steps to resolve the issue.
+Start Time: 143.20
+End Time: 148.84
+Customer : Yes, I'm standing by the machine.
+Start Time: 149.26
+End Time: 151.43
+Agent 2: Perfect. Let's start by checking the data storage settings. Can you go to the settings menu and look for storage configuration?
+Start Time: 151.61
+End Time: 159.60
+Customer : Okay, I see. Storage configuration. What should I do next?
+Start Time: 160.10
+End Time: 164.12
+Agent 2: Check if local storage is selected as the destination for saving the exam data. If it's not selected, the data won't save properly.
+Start Time: 164.27
+End Time: 172.91
+Customer : It wasn't selected. I've changed it now.
+Start Time: 173.05
+End Time: 175.63
+Agent 2: Great. Now try saving the exam data again and let me know if it saves everything.
+Start Time: 175.77
+End Time: 180.76
+Customer : Alright? Yes. It's saving both the images and the full exam data now.
+Start Time: 181.31
+End Time: 185.69
+Agent 2: Wonderful. I'm glad we could resolve that. Is there anything else I can assist you with?
+Start Time: 186.09
+End Time: 191.38
+Customer : No, that's everything. Thank you so much, Meena.
+Start Time: 191.53
+End Time: 194.60
+Agent 2: You're welcome, Ritu. Thank you for calling XYZ Corporation. Have a great day.
+Start Time: 194.72
+End Time: 200.23
+Customer : You too. Thanks.
+Start Time: 200.32
+End Time: 201.12
+
+
+audio__1
+
+Agent 1: Thank you for calling Coats and Gowns. My name is Sam, how can I help you?
+Start Time: 6.36
+End Time: 9.64
+Customer: Oh yes, I bought a coat from you guys but I need to return it because it was the wrong size and my size is not available. I haven't received any email from you and I wonder if my payment has been refunded. Seems like it does not reflect on my account yet.
+Start Time: 13.27
+End Time: 33.05
+Agent 1 2: I do apologize for the inconvenience, but let me go ahead and check if there are some notes in the order details. May ask, May I ask for the original online order number?
+Start Time: 33.18
+End Time: 42.83
+Customer: Okay, let me see. All right, please wait for a moment. Okay, hold on. Okay, I believe it's 0171-1425 793. Thank you.
+Start Time: 42.98
+End Time: 56.13
+Agent 1: Just to verify that's 0171-425-793, correct?
+Start Time: 56.41
+End Time: 63.69
+Customer: Yes, that's right.
+Start Time: 63.76
+End Time: 65.0
+Agent 1: I do apologize, but the one that you provided is actually not accepting towards our database. Do you actually have a number that starts with triple zero seven or seven or can I ask for your first and last name so I can manually check it in our database?
+Start Time: 65.16
+End Time: 83.42
+Customer: Yeah, I'm not sure about a triple zero something. Anyway, it's Adam Wilson.
+Start Time: 83.89
+End Time: 89.98
+Agent 1: All right, thank you. So Wilson is spelled as W for whiskey, I for India, L for Lima, S for Sierra, O for Oscar, N for November. Is that correct, Adam?
+Start Time: 90.28
+End Time: 103.7
+Customer: Yes.
+Start Time: 103.89
+End Time: 104.65
+Agent 1: Alright, thank you for that information. Okay, let me just quickly log into a portal and check any notes in your order. Do you still have the return tracking from the courier company when you return the item?
+Start Time: 104.81
+End Time: 115.8
+Customer: Not sure. Is it the 74391?
+Start Time: 118.14
+End Time: 123.11
+Agent 1: That's actually the return authorization from coats and gowns. When you return the item to the query your company for shipping, they should have provided you with the return tracking. Do you still have that? It's actually printed in the upper right part of the receipt.
+Start Time: 123.53
+End Time: 138.76
+Customer: Okay, I probably have to dig it up. Okay, I imagine I have it somewhere, but it might take some time to look for that.
+Start Time: 140.38
+End Time: 150.93
+Agent 1: Oh, I see. Anyway, I tried to search for your name and nothing is coming up. Can I ask for for the order under your name originally?
+Start Time: 151.78
+End Time: 160.0
+Customer: Yeah, yeah, it's under my name.
+Start Time: 161.15
+End Time: 162.97
+Agent 1: So it's not under Andy or something. It's Adam.
+Start Time: 163.14
+End Time: 166.67
+Customer: Yeah, exactly.
+Start Time: 166.85
+End Time: 168.09
+Agent 1: Thank you. Now what's the phone number that you put in the order before?
+Start Time: 168.66
+End Time: 172.37
+Customer: Okay, probably it's 411345037 7. Thank you.
+Start Time: 172.66
+End Time: 178.54
+Agent 1: Just to make sure there's 41 1, is that correct?
+Start Time: 178.69
+End Time: 185.7
+Customer: Oh, 037 7.
+Start Time: 185.84
+End Time: 187.91
+Agent 1: Okay. And what's the email address that you gave when you fill out the order form?
+Start Time: 188.03
+End Time: 191.78
+Customer: Okay, that should be adam_wilsonail fence.com thank you.
+Start Time: 192.16
+End Time: 199.64
+Agent 1: So again, it's adam_wilsonailfence.com Is that correct?
+Start Time: 199.96
+End Time: 206.96
+Customer: Yes, it is.
+Start Time: 207.06
+End Time: 208.54
+Agent 1: Thank you. So, Adam, Adam_wilsonailfans.com okay, thank you. Now, I just want to make sure that I have the correct details. Please hold on for a moment. We'll check on the details here in my end, okay?
+Start Time: 208.69
+End Time: 224.99
+Customer: Oh, sure. No problem. All right.
+Start Time: 225.12
+End Time: 228.22
+Agent 1: Okay. Thank you for patiently waiting, Adam. Now, I actually, or I can actually see here that you have called to inform us that you'd like to return the item on the 15th of November. Is that correct?
+Start Time: 231.44
+End Time: 246.96
+Customer: Yes.
+Start Time: 247.41
+End Time: 248.19
+Agent 1: Now, did you return the item to declare your company on the same day that you called?
+Start Time: 248.97
+End Time: 253.0
+Customer: Probably close to it. I'm not really sure if it's on the same day, though, but probably just close to that day.
+Start Time: 253.41
+End Time: 261.85
+Agent 1: I understand. However, upon checking the date that you actually called in for the return, it's already beyond the timeframe that we asked for refunds. So what we'll do is I'll go ahead and forward this information to our corporate office and I'll have them check and update you directly about the refund. So please expect an email within two to four business days. Is that okay with you?
+Start Time: 262.67
+End Time: 286.69
+Customer: Do it for business days?
+Start Time: 286.83
+End Time: 288.69
+Agent 1: Yes, no worries. I will send it to them right now.
+Start Time: 288.83
+End Time: 292.94
+Customer: Oh, really? Okay. All right.
+Start Time: 293.08
+End Time: 294.29
+Agent 1: All right. At first I thought that it will.
+Start Time: 294.31
+End Time: 296.17
+Customer: Probably be like three to five weeks to process.
+Start Time: 296.23
+End Time: 299.31
+Agent 1: Oh, no, don't worry, Adam. It's only two to four business days. So you already checked your account and nothing has been credited yet on the card ending in 753, is that right?
+Start Time: 299.98
+End Time: 311.23
+Customer: Nothing yet.
+Start Time: 311.3
+End Time: 312.28
+Agent 1: Okay, I understand. And I'll go ahead and forward them the details that I have here. So I'll send the email to adam underscore wilsonailfence.com correct?
+Start Time: 312.47
+End Time: 325.62
+Customer: Yes, that's right.
+Start Time: 325.68
+End Time: 326.67
+Agent 1: All right, thank you so much for that information, Adam. I will be forwarding this over to our corporate office now. And thank you again for calling Coats and Gowns. Is there anything else I can help you with today?
+Start Time: 326.82
+End Time: 338.62
+Customer: Oh, no, that's all.
+Start Time: 338.75
+End Time: 340.3
+Agent 1: Thank you. You're welcome. And my pleasure. Have a nice day. Bye.
+Start Time: 340.4
+End Time: 344.48
+
+
+audio__2
+
+Agent 1: Thank you for calling Questan. This is Candace. How may I help you?
+Start Time: 2.32
+End Time: 5.14
+Customer: I still have not received my order. You said I would receive it on the 20th. It's on the 22nd. Still nothing. I don't know what's going on, but if it's not too much of a bother to you, I would really, really now love to get what I paid for. You know what I mean?
+Start Time: 5.32
+End Time: 20.76
+Agent 1: Oh, if it's beyond the promised delivery date, we definitely need to look into that. May have your order number and your full name so I can check for you.
+Start Time: 20.95
+End Time: 28.18
+Customer: That's exactly what I'm thinking. Like, I don't understand what's taking so long. Anyway, the order number is 498-4977, and my name is Tabitha Ratched.
+Start Time: 28.33
+End Time: 39.81
+Agent 1: Thank you, Tabitha. I will now go ahead and pull up your order, and hopefully I can give you an immediate answer. One moment, please.
+Start Time: 40.0
+End Time: 47.22
+Customer: Go ahead. Thank you.
+Start Time: 47.88
+End Time: 49.45
+Agent 1: Okay, like what? She said the estimated delivery date is on the 20th. Now 20 seconds. So it's two days late. Normally, when a parcel is late like this, we send an email informing you of the delay. So let me visit the FedEx website and track it.
+Start Time: 53.35
+End Time: 69.06
+Customer: Thank you, Candace. That would be appreciated. I actually haven't tried tracking it on the FedEx website since you already gave me the delivery date through email. So, yes, please go ahead.
+Start Time: 69.64
+End Time: 80.03
+Agent 1: According to the FedEx note here, your parcel was delivered on the 20th at 10am it said that it was left on the front porch. Have you tried checking your front porch?
+Start Time: 83.81
+End Time: 92.87
+Customer: What? What? What? You're kidding, right? Okay. Okay. First of all, my apartment has no front porch. Second, the only way to deliver parcels in a residence is by leaving them to the concierge. Third, I was at home the whole day on the 20th, and no one, literally no one knocked on my door or called my number to notify me of a parcel. So whatever this FedEx guy is saying, he's lying. Okay? He's lying.
+Start Time: 92.98
+End Time: 122.38
+Agent 1: That's definitely odd. Have you tried checking with your building's concierge to see if they have kept a package for you?
+Start Time: 122.53
+End Time: 128.15
+Customer: I just checked this morning, and the answer is no. Otherwise, I wouldn't be calling you.
+Start Time: 128.24
+End Time: 132.06
+Agent 1: Yeah. Your neighbors also wouldn't happen to receive it, right? Since, as you said, all parcels go to the concierge.
+Start Time: 133.04
+End Time: 140.09
+Customer: Correct. And if the note says he left it on my doorstep, again, that's impossible. No one can access our doorsteps here except us tenants. So there's clearly a mistake here.
+Start Time: 140.23
+End Time: 150.15
+Agent 1: Yes, that makes sense. So here's what we're going to do, Tabitha, it is likely that FedEx delivered the order to the wrong address. So I will file a PDNR claim on your behalf. It means parcel delivered, not received. What this does is to let FedEx investigate to find your missing parcel. And after the investigation, we will either refund, replace, or find your missing parcel.
+Start Time: 150.84
+End Time: 177.61
+Customer: Okay.
+Start Time: 177.7
+End Time: 178.46
+Agent 1: Yeah. And for me to initiate the claim, I will send you an email right now. Please reply to that email confirming that you have not received your parcel. Your response to that email is very important because that will serve as the documentation proving to FedEx that you are requesting for us to file a claim on your behalf.
+Start Time: 178.64
+End Time: 198.46
+Customer: Okay. Whatever happens, I'm gonna get my refund though, right?
+Start Time: 198.6
+End Time: 201.14
+Agent 1: You're right, of course. And the sooner they find your parcel, the better. By the way, in the event that the parcel isn't recovered, would you prefer a replacement or a refund?
+Start Time: 201.2
+End Time: 212.06
+Customer: I need a replacement for that. I don't want a refund.
+Start Time: 212.15
+End Time: 214.53
+Agent 1: Okay, I will make note of that. And after the investigation, which usually takes five to seven business days, I will check with the supplier for its availability. Availability. And then they can process the replacement for you.
+Start Time: 215.78
+End Time: 229.5
+Customer: Okay. It's disappointing that this has to happen, but okay, whatever. At least I don't have to file a dispute. To be honest, I was. I was already thinking of calling my bank this morning and filing a dispute.
+Start Time: 230.84
+End Time: 242.84
+Agent 1: Yes. This is definitely not the experience that we want you to have, but we will try our best to make this as easy as possible for you, considering the situation. I will also keep this case in progress. So whatever questions you might have during the investigation, you just reply to the same email thread and I will be there to answer your questions.
+Start Time: 243.02
+End Time: 265.39
+Customer: So let me get this straight. Seven business days for the investigation, and if it isn't found, you're going to check with the team if it's available. And if it's available, another seven days to deliver the replacement?
+Start Time: 266.21
+End Time: 276.51
+Agent 1: Yes, Tabitha, that's correct. But, of course, if they find the parcel during the investigation, then you don't need to wait that long. That's already the maximum time frame.
+Start Time: 277.1
+End Time: 287.19
+Customer: Yeah, well, I hope they do, but I honestly don't have much hope for it.
+Start Time: 287.89
+End Time: 291.62
+Agent 1: But.
+Start Time: 291.72
+End Time: 292.02
+Customer: Okay. Replacement's fine, I guess.
+Start Time: 292.08
+End Time: 294.6
+Agent 1: Okay. Yeah. I cannot guarantee that 100% that they would find your missing parcel, but there have been cases in the past when they did find the missing parcel. And I will, of course, update you throughout the process.
+Start Time: 296.33
+End Time: 310.71
+Customer: Okay, so I guess that's my best option. What do you need me to do? Just reply to your email saying that I didn't receive the parcel.
+Start Time: 311.45
+End Time: 317.97
+Agent 1: That's correct. I have just sent you the email.
+Start Time: 318.15
+End Time: 320.51
+Customer: All right, I will reply in five minutes. I'm going to have my lunch break. What's your name again?
+Start Time: 320.86
+End Time: 324.94
+Agent 1: Candice.
+Start Time: 325.04
+End Time: 325.88
+Customer: All right, Candace, thank you so much. That's all I need for now. I have to go. Bye.
+Start Time: 326.3
+End Time: 330.77
+Agent 1: Enjoy your lunch. Tabitha. Thank you for calling with Sean. Bye.
+Start Time: 330.87
+End Time: 333.54
+
+

@@ -1,12 +1,12 @@
 {
-    "call_time": "1834",
+    "call_time": "879",
     "hold": "No",
-    "hold_satisfaction": "N/A",
+    "hold_satisfaction": "Yes",
     "hold_time": "0",
     "multiple_agents": "No",
-    "route_time": "34",
-    "resolution_time": "810",
-    "resolution_time_start": "157",
+    "route_time": "44.95",
+    "resolution_time": "621",
+    "resolution_time_start": "191",
     "greeting": "Yes",
     "phone_number": "Yes",
     "email_address": "Yes",
@@ -15,7 +15,7 @@
     "resolution_confirmation": "Yes",
     "escalation": "No",
     "call_tone": "Positive",
-    "issue_discussed": "Device issue",
+    "issue_discussed": "Technical issue with ultrasound",
     "complexity": "Intermediate",
     "issue_type": "Technical",
     "status_query": "No",
@@ -24,5 +24,6 @@
     "part_request": "No",
     "parts_dispatch": "No",
     "field_service": "No",
-    "digital_service": "No"
+    "digital_service": "No",
+    "csat": 3
 }

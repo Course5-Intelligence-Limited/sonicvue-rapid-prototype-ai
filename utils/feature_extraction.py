@@ -128,7 +128,7 @@ def format_instructions_creator():
 
     hold_satisfaction = ResponseSchema(
     name="hold_satisfaction",
-    description="If the customer was placed on hold, indicates their satisfaction with the hold time. Default is 'Yes' unless they complain about the hold, in which case respond 'No'."
+    description="If the customer explicitly complains about the hold time being too long or expresses dissatisfaction for any reason, respond 'No'; otherwise, respond 'Yes'."
     )
 
     hold_time = ResponseSchema(
@@ -147,11 +147,11 @@ def format_instructions_creator():
     )
     resolution_time = ResponseSchema(
         name="resolution_time",
-        description="The time taken by the final routed agent between when he starts solving the issue or trying out solutions and when the resolution is done, calculated based on the transcript. Return only time in secs."
+        description="The total time taken by the final agent to resolve the issue during a call center interaction. The resolution time is calculated by measuring the duration between the moment the final agent starts working on a solution and when the resolution is confirmed by the customer. This time span should only include the agent's active involvement in solving the issue, based on the agent's statements in the transcript. The final agent's role in the resolution should be clearly identified, and the calculation should end when the agent confirms the resolution is completed. Return the time in seconds."
     )
     resolution_time_start = ResponseSchema(
         name="resolution_time_start",
-        description="The time when final routed agent starts solving the issue or trying out solutions, calculated based on the transcript. Return only time in secs."
+        description="The moment when the final agent begins their efforts to solve the issue in a call center interaction. This is identified by the agent’s first action or statement directed towards resolving the issue, as recorded in the transcript. The start time should reflect the agent's first attempt to solve the issue, marking the initiation of their resolution process. Only the time when the final agent directly begins addressing the issue should be included, in seconds."
     )
     greeting = ResponseSchema(
         name="greeting",
@@ -186,9 +186,15 @@ def format_instructions_creator():
         description="Indicates whether an escalation was raised during the call ('Yes' or 'No')."
     )
     call_tone = ResponseSchema(
-        name="call_tone",
-        description="The tone of the conversation, either 'Positive' or 'Negative'."
+    name="call_tone",
+    description="Categorize the customer's tone as 'Positive' (calm or cooperative) or 'Negative' (frustrated or dissatisfied)."
     )
+
+    agent_tone = ResponseSchema(
+        name="agent_tone",
+        description="Categorize the agent's tone as 'Positive' (empathetic or polite) or 'Negative' (impatient or unhelpful)."
+    )
+
     issue_discussed = ResponseSchema(
         name="issue_discussed",
         description="Brief description of the issue discussed in the call (5 words or fewer)."
@@ -287,17 +293,22 @@ def generate_response_call_center(llm, transcript_text):
         
     out['csat'] = csat_points
 
-    ## code for hold time 
-    transcript = read_transcript_from_text(transcript_text)
-    average_wps = calculate_average_wps(transcript)
-    hold_time = calculate_hold_time(transcript, average_wps)
-    out['hold_time'] = str(round(hold_time, 2))
-    print('hold_time : ', hold_time)
-    
-    ## code for route time
-    route_time = calculate_route_time(transcript)
-    out['route_time'] = str(round(route_time, 2))
-    print('route_time : ', route_time)
+    try : 
+        ## code for hold time 
+        transcript = read_transcript_from_text(transcript_text)
+        average_wps = calculate_average_wps(transcript)
+        hold_time = calculate_hold_time(transcript, average_wps)
+        out['hold_time'] = str(round(hold_time, 2))
+        out['hold'] = 'Yes' if (hold_time > 0) else 'No'
+        # print('hold_time : ', hold_time)
+        
+        ## code for route time
+        route_time = calculate_route_time(transcript)
+        out['route_time'] = str(round(route_time, 2))
+        # print('route_time : ', route_time)
+
+    except : 
+        print('route_time and hold_time logic failed. check issue later')
 
     return out
     # Convert the result to JSON format and return it
@@ -316,12 +327,14 @@ def extract_features(file_path) :
          json.dump(json_response, json_file, indent=4)
       print(f"Features saved to {json_file_path}")
    else : 
-    print("this metadata is extracted don't worry") 
+      print("this metadata is extracted don't worry") 
+    
 
-# input_folder = './data/extracted'
-# for file in os.listdir(input_folder) : 
-#     file_path = os.path.join(input_folder, file)
-#     extract_features(file_path)
+input_folder = './data/extracted'
+for file in os.listdir(input_folder) : 
+    print(file)
+    file_path = os.path.join(input_folder, file)
+    extract_features(file_path)
     
 
 #       while True:

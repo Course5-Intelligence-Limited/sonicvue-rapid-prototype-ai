@@ -399,30 +399,6 @@ async def generate_transcripts(files: str, background_tasks: BackgroundTasks = B
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-class ChatInput(BaseModel):
-    message: str
-
-@router.post("/chat")
-async def chat(chat_input: ChatInput):
-    """
-    Endpoint to handle chat interactions.
-    
-    Args:
-        chat_input (ChatInput): User's chat message
-        
-    Returns:
-        Dict: Chatbot response
-        
-    Raises:
-        HTTPException: If there are errors processing the chat request
-    """
-    try:
-        results = chatbot.ask_question(chat_input.message)
-        response_content = results['result'] if results else "No results found."
-        return {"response": response_content}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
 @router.get("/latest-uploads")
 async def get_latest_uploads():
     """Get list of recently uploaded files."""
@@ -442,3 +418,93 @@ async def get_table_data():
 
 class TranscriptRequest(BaseModel):
     files: List[str]
+
+class ChatInput(BaseModel):
+    message: str
+
+def load_vector():
+    embedding_model = HuggingFaceBgeEmbeddings(
+    model_name="BAAI/bge-small-en-v1.5",
+    model_kwargs={"device": DEVICE},
+    encode_kwargs={"normalize_embeddings": True}
+)
+#loading embeddings from local
+    vectorstore = FAISS.load_local('embeddings/faiss_index_each_doc',embedding_model,allow_dangerous_deserialization= True)
+    return vectorstore
+
+vectorstore = load_vector()
+
+def chatbot_response(input_prompt):
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={'k': 18})
+    retriever_prompt = ChatPromptTemplate.from_messages([
+        MessagesPlaceholder(variable_name="chat_history"),
+        ("human",'{input}'),
+        ("human", "Given the above conversation, generate a search query to look up in order to get information relevant to the conversation")
+    ])
+
+
+    history_aware_retriever = create_history_aware_retriever(
+        llm,
+        retriever,
+        prompt = retriever_prompt
+    )
+
+    custom_rag_prompt = ChatPromptTemplate.from_messages([
+        ("system","""You are an assistant for question-answering tasks. Use the following pieces of retrieved context: {context} to answer the question. If you don't know the answer, just say that you don't know. Keep the answer concise
+        
+        {format_instructions}
+        """),
+        MessagesPlaceholder(variable_name="chat_history"),
+        ('human',"{input}")
+    ]
+    )
+
+    document_prompt = PromptTemplate(
+        input_variables=["page_content", "source"],
+        template="source: {source}\n\n{page_content}"
+    )
+
+    chain = create_stuff_documents_chain(
+        llm=llm,
+        prompt=custom_rag_prompt,
+        document_prompt = document_prompt
+    )
+
+    retrieval_chain = create_retrieval_chain(
+        history_aware_retriever,
+        chain
+    )
+
+    format_instructions = """Strictly Provide the Output Response in the below given format only otherwise you will be penalized.
+    Answer: (This is the Place holder for your Response) \n
+
+    Source: (Here I want you to output only the base file name from the file path) \n
+    
+    Citation: (Here I want you to output the "Refferred Paragraph & Referred section" from the context document)
+    """
+    out = retrieval_chain.invoke({"input":input_prompt,"chat_history":chat_history,"format_instructions":format_instructions})
+    chat_history.append(HumanMessage(content=input_prompt))
+    chat_history.append(AIMessage(content=str(out['answer'])))
+    return out['answer']
+
+
+@router.post("/chat")
+async def chat(chat_input: ChatInput):
+    """
+    Endpoint to handle chat interactions.
+    
+    Args:
+        chat_input (ChatInput): User's chat message
+        
+    Returns:
+        Dict: Chatbot response
+        
+    Raises:
+        HTTPException: If there are errors processing the chat request
+    """
+    try:
+        results = chatbot_response(chat_input.message)
+        # response_content = results['result'] if results else "No results found."
+        return {"response": results}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

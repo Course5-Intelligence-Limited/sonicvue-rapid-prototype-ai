@@ -41,7 +41,7 @@ for dir_path in [local_data_dir, local_metadata_dir, local_transcripts_dir] :
 
 # chatbot = Chatbot()
 
-latest_uploaded_files: List[str] = ['audio__1.wav', 'audio__2.wav', 'audio__3.wav']
+latest_uploaded_files: List[str] = ['final_record_1.mp3', 'final_record_2.mp3', 'final_record_3.mp3', 'final_record_4.mp3', 'final_record_5.mp3']
 call_type_analysis = []
 
 from fastapi import APIRouter, Query

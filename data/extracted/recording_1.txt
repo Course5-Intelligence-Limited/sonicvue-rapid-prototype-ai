@@ -1,0 +1,147 @@
+Agent: Hello, this is Rajesh with xyz. Can I have your name please?
+Start Time: 0.24
+End Time: 3.69
+Customer: My name is Priya Sharma.
+Start Time: 4.58
+End Time: 6.33
+Agent: Thank you, Priya. And in case we are disconnected, what's the best phone number?
+Start Time: 7.30
+End Time: 11.88
+Customer: 9876-544-3210.
+Start Time: 13.54
+End Time: 17.89
+Agent: All right. Thank you. And are you calling in regards to a new case or an existing one?
+Start Time: 19.14
+End Time: 24.68
+Customer: New case.
+Start Time: 25.52
+End Time: 26.54
+Agent: Do you have your device's serial number or the SUD ID number?
+Start Time: 28.00
+End Time: 33.22
+Customer: Yes, one moment. It's 2S019C as in cat 2566.
+Start Time: 34.03
+End Time: 46.62
+Agent: Got it. And EPIC5 ultrasound. ABC Hospital.
+Start Time: 49.52
+End Time: 54.30
+Customer: Yeah. Correct.
+Start Time: 55.02
+End Time: 56.16
+Agent: Okay. And you are calling for technical or clinical support.
+Start Time: 57.51
+End Time: 61.37
+Customer: Technical.
+Start Time: 62.23
+End Time: 63.05
+Agent: Yes, technical support. I'm showing the address of your facility at 123 MG Road, Bengaluru, Karnataka.
+Start Time: 66.34
+End Time: 75.56
+Customer: That's correct. Yeah.
+Start Time: 76.50
+End Time: 78.00
+Agent: Okay. And are you going to be the point of contact for this case?
+Start Time: 80.00
+End Time: 84.06
+Customer: Yes.
+Start Time: 84.56
+End Time: 85.33
+Agent: All right. Let me pull you up in the system. One moment. There you are. Okay. And for the unit which you listed, is it down, restricted, intermittent or operational?
+Start Time: 88.36
+End Time: 109.69
+Customer: It's operational.
+Start Time: 110.36
+End Time: 111.55
+Agent: And the reported issue with the unit?
+Start Time: 113.72
+End Time: 115.86
+Customer: When we end the exam, it's not sending our report pages. It sends the images but not the report.
+Start Time: 117.33
+End Time: 123.27
+Agent: Okay. So the device was in clinical use. Was any patient or user harmed?
+Start Time: 125.33
+End Time: 130.75
+Customer: No.
+Start Time: 131.69
+End Time: 132.43
+Agent: I'll provide you with the case number in just a moment. And we'll get you routed to tech support to resolve the issue. Email address for you. P. Sharma at the Rate abc.org. is that correct?
+Start Time: 135.22
+End Time: 149.63
+Customer: Yes, sir. P. Sharma at the Rate abc.org Yes.
+Start Time: 150.06
+End Time: 154.59
+Agent: All right. Priya, was there anything I can assist you with? Before I transfer you, let me give you the case number. Do you have pen and paper?
+Start Time: 156.66
+End Time: 165.49
+Customer: I do. Go ahead.
+Start Time: 166.34
+End Time: 167.76
+Agent: So, case number is 01239-799-956.
+Start Time: 169.54
+End Time: 176.53
+Customer: Got it.
+Start Time: 178.31
+End Time: 179.25
+Agent: Okay. Thank you for calling XYZ. Hold the line. I am routing you over now. Hello, this is Kavitha from Ultra Down Technical support. Am I speaking with Priya?
+Start Time: 180.50
+End Time: 197.85
+Customer: Yes.
+Start Time: 198.59
+End Time: 199.38
+Agent: Hi, Priya. Pardon? All right. So.
+Start Time: 200.47
+End Time: 204.66
+Customer: Sorry. I'm having trouble hearing you clearly.
+Start Time: 206.40
+End Time: 209.38
+Agent: Okay, let me adjust my headset. One moment.
+Start Time: 212.28
+End Time: 215.22
+Customer: Yes, I can hear you better now.
+Start Time: 217.28
+End Time: 219.34
+Agent: All right. Is this clearer? Great. So you are saying it's not sending the structure report data. Like all measurements and calculations aren't transferring only the images.
+Start Time: 220.65
+End Time: 232.47
+Customer: Exactly. That's the issue. When I try to send just the report pages it ends up sending all the images again.
+Start Time: 234.25
+End Time: 241.26
+Agent: Are you reading a machine right now, Priya? So I can guide you through a few steps?
+Start Time: 242.72
+End Time: 247.87
+Customer: Yeah, I am.
+Start Time: 248.53
+End Time: 249.54
+Agent: All right. What screen are you currently on?
+Start Time: 251.28
+End Time: 254.19
+Customer: The patient's work list.
+Start Time: 255.56
+End Time: 257.55
+Agent: Perfect. Let's start by checking a few settings. Could you go to the setup menu and look for data transfer?
+Start Time: 259.93
+End Time: 268.11
+Customer: Yeah. All right. I see data transfer. What should I do next?
+Start Time: 269.77
+End Time: 276.04
+Agent: Make sure structured report is selected under transfer options. Sometimes if this isn't checked, only images get sent, not the report data.
+Start Time: 277.42
+End Time: 285.68
+Customer: Got it. It wasn't checked. I have selected it now.
+Start Time: 289.01
+End Time: 292.68
+Agent: Great. Now try sending the exam again. And check if both images and report pages this time.
+Start Time: 293.99
+End Time: 302.88
+Customer: One moment. Yes, it worked. The report is now being sent along with the images.
+Start Time: 304.38
+End Time: 310.25
+Agent: Fantastic. Glad we could resolve that for you, Priya. Is there anything I can assist you with?
+Start Time: 311.26
+End Time: 317.25
+Customer: No, that was all. Thank you so much, Kavita.
+Start Time: 319.15
+End Time: 321.81
+Agent: You're welcome. Thank you for calling XYZ support line. Have a great day.
+Start Time: 322.36
+End Time: 326.51

@@ -270,27 +270,17 @@ def get_table_dataframe() -> pd.DataFrame:
                 filtered_data = {k: data.get(k, '') for k in kpi_columns}
                 filtered_data['filename'] = filename
                 data_list.append(filtered_data)
-                data_list.append({
-                    'call_type': data.get('call_type', 'Other'),
-                    'issue_discussed': data.get('issue_discussed', '')
-                })
-    
+                
     if not data_list:
         return pd.DataFrame()
         
     df = pd.DataFrame(data_list)
-
-    for call_type, group in df.groupby('call_type'):
-        call_type_analysis.append({
-            'call_type': call_type,
-            'total_calls': len(group),
-            'issues': group['issue_discussed'].tolist()
-        })
     
     time_columns = ['call_time', 'hold_time', 'route_time', 'resolution_time']
     for col in time_columns:
         if col in df.columns:
             df[col] = pd.to_numeric(df[col], errors='coerce')
+    
     return df
 
 task_status = {}  # Store task status as {filename: status}
@@ -443,6 +433,44 @@ async def get_table_data():
     df = get_table_dataframe()
     return df.to_dict(orient='records')
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
+def get_call_type_analysis() -> Dict:
+    """
+    Analyze call types and their associated issues from metadata files.
+    
+    Returns:
+        Dict: Contains call type statistics and associated issues
+    """
+    data_list = []
+    
+    # Read metadata from JSON files
+    for filename in latest_uploaded_files:
+        json_path = os.path.join(local_metadata_dir, f"{filename[:-4]}.json")
+        if os.path.exists(json_path):
+            with open(json_path, 'r') as f:
+                data = json.load(f)
+                data_list.append({
+                    'call_type': data.get('call_type', 'Other'),
+                    'issue_discussed': data.get('issue_discussed', '')
+                })
+    
+    if not data_list:
+        return {'call_types': []}
+    
+    # Convert to DataFrame for easier processing
+    df = pd.DataFrame(data_list)
+    
+    # Group by call_type and aggregate issues
+    call_type_analysis = []
+    for call_type, group in df.groupby('call_type'):
+        call_type_analysis.append({
+            'call_type': call_type,
+            'total_calls': len(group),
+            'issues': group['issue_discussed'].tolist()
+        })
+    
+    return {'call_types': call_type_analysis}
+
 @router.get("/call-type-analysis")
 async def get_call_analysis():
     """
@@ -455,7 +483,7 @@ async def get_call_analysis():
         HTTPException: If there are errors processing the request
     """
     try:
-        analysis_data = {'call_types' : call_type_analysis}
+        analysis_data = get_call_type_analysis()
         return analysis_data
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
